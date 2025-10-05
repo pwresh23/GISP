@@ -1,0 +1,83 @@
+[
+    {
+        "question": "What framework, also known as a coordinate reference system, is used to precisely measure locations on or near the surface of the earth?",
+        "answers": [
+            { "text": "Spatial Reference System", "correct": true },
+            { "text": "Geoid", "correct": false },
+            { "text": "Spheroid", "correct": false },
+            { "text": "Geodetic System", "correct": false }
+        ]
+    },
+    {
+        "question": "Which term describes the shape that the ocean's surface would take under the influence of gravity and rotation alone?",
+        "answers": [
+            { "text": "Geoid", "correct": true },
+            { "text": "Ellipsoid", "correct": false },
+            { "text": "Spheroid", "correct": false },
+            { "text": "Datum", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the name for the measured, interpolated, equipotential surface (not mathematically defined) that is used to reference heights in GIS?",
+        "answers": [
+            { "text": "Geoid", "correct": true },
+            { "text": "Reference Frame", "correct": false },
+            { "text": "Ellipsoid", "correct": false },
+            { "text": "Clarke 1866", "correct": false }
+        ]
+    },
+    {
+        "question": "What is a sphere-like but not perfectly spherical object that is mathematically defined?",
+        "answers": [
+            { "text": "Spheroid", "correct": true },
+            { "text": "Geoid", "correct": false },
+            { "text": "Geocentric", "correct": false },
+            { "text": "Isoline", "correct": false }
+        ]
+    },
+    {
+        "question": "What term means to be centered on the earth's center of mass?",
+        "answers": [
+            { "text": "Geocentric", "correct": true },
+            { "text": "Geodetic", "correct": false },
+            { "text": "Equipotential", "correct": false },
+            { "text": "Ellipsoidal", "correct": false }
+        ]
+    },
+    {
+        "question": "Which term relates to the science of geodesy or the practice of surveying?",
+        "answers": [
+            { "text": "Geodetic", "correct": true },
+            { "text": "Geocentric", "correct": false },
+            { "text": "Geospatial", "correct": false },
+            { "text": "Geographic", "correct": false }
+        ]
+    },
+    {
+        "question": "What type of spheroid has a semi-minor axis in the polar direction and a semi-major axis in the equatorial direction, where the equatorial radius is always greater?",
+        "answers": [
+            { "text": "Ellipsoid", "correct": true },
+            { "text": "Geoid", "correct": false },
+            { "text": "Oblate Spheroid", "correct": false },
+            { "text": "Datum", "correct": false }
+        ]
+    },
+    {
+        "question": "Which common spheroid (Geodetic Reference System) is preferred globally and is used for NAD83 and ITRF?",
+        "answers": [
+            { "text": "GRS 1980", "correct": true },
+            { "text": "WGS 1984", "correct": false },
+            { "text": "Clarke 1866", "correct": false },
+            { "text": "GEOID 2012", "correct": false }
+        ]
+    },
+    {
+        "question": "Which common spheroid (World Geodetic System) is used for the WGS 1984 reference frame, most commonly associated with GPS?",
+        "answers": [
+            { "text": "WGS 1984", "correct": true },
+            { "text": "GRS 1980", "correct": false },
+            { "text": "Clarke 1866", "correct": false },
+            { "text": "NAD 83", "correct": false }
+        ]
+    }
+]
