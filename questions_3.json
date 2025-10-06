@@ -1,1 +1,417 @@
-
+[
+    {
+        "question": "What is the art and technique of making maps?",
+        "answers": [
+            { "text": "Cartography", "correct": true },
+            { "text": "Geography", "correct": false },
+            { "text": "Geomatics", "correct": false },
+            { "text": "Topography", "correct": false }
+        ]
+    },
+    {
+        "question": "Which additive color system uses three primary colors where a value of 0 for each creates black, and a value of 255 for each creates white?",
+        "answers": [
+            { "text": "Red, Green, Blue (RGB)", "correct": true },
+            { "text": "Cyan, Magenta, Yellow, Black (CMYK)", "correct": false },
+            { "text": "Hue, Saturation, Value (HSV)", "correct": false },
+            { "text": "Grayscale", "correct": false }
+        ]
+    },
+    {
+        "question": "In the RGBA color model, what does the 'A' or alpha value represent?",
+        "answers": [
+            { "text": "Transparency", "correct": true },
+            { "text": "Hue", "correct": false },
+            { "text": "Brightness", "correct": false },
+            { "text": "Contrast", "correct": false }
+        ]
+    },
+    {
+        "question": "Which subtractive color system, used for printing on paper, creates colors by absorbing parts of the light spectrum?",
+        "answers": [
+            { "text": "Cyan, Magenta, Yellow, Black (CMYK)", "correct": true },
+            { "text": "Red, Green, Blue (RGB)", "correct": false },
+            { "text": "Hue, Saturation, Value (HSV)", "correct": false },
+            { "text": "Pantone Matching System (PMS)", "correct": false }
+        ]
+    },
+    {
+        "question": "In the HSV color model, what property represents the intensity of a color, where less intensity creates a lighter, whiter color?",
+        "answers": [
+            { "text": "Saturation", "correct": true },
+            { "text": "Hue", "correct": false },
+            { "text": "Value", "correct": false },
+            { "text": "Alpha", "correct": false }
+        ]
+    },
+    {
+        "question": "What type of map, also called a reference map, shows real-world features and is used for navigation?",
+        "answers": [
+            { "text": "Feature map", "correct": true },
+            { "text": "Thematic map", "correct": false },
+            { "text": "Choropleth map", "correct": false },
+            { "text": "Planimetric map", "correct": false }
+        ]
+    },
+    {
+        "question": "What type of map visualizes a particular subject or theme, such as temperature, language, or population?",
+        "answers": [
+            { "text": "Thematic map", "correct": true },
+            { "text": "Reference map", "correct": false },
+            { "text": "Topographic map", "correct": false },
+            { "text": "Cadastral map", "correct": false }
+        ]
+    },
+    {
+        "question": "Which thematic map uses shading, colors, or patterns within predefined areas to show quantitative data?",
+        "answers": [
+            { "text": "Choropleth map", "correct": true },
+            { "text": "Dasymetric map", "correct": false },
+            { "text": "Isopleth map", "correct": false },
+            { "text": "Dot density map", "correct": false }
+        ]
+    },
+    {
+        "question": "What type of thematic map uses ancillary information to model the internal distribution of a phenomenon, refining the boundaries of a choropleth map?",
+        "answers": [
+            { "text": "Dasymetric map", "correct": true },
+            { "text": "Proportional symbol map", "correct": false },
+            { "text": "Graduated symbol map", "correct": false },
+            { "text": "Cartogram", "correct": false }
+        ]
+    },
+    {
+        "question": "Which type of map represents a continuous surface using lines of equal value (isolines) or ranges of similar values filled with color?",
+        "answers": [
+            { "text": "Isopleth map", "correct": true },
+            { "text": "Choropleth map", "correct": false },
+            { "text": "Dot density map", "correct": false },
+            { "text": "Feature map", "correct": false }
+        ]
+    },
+    {
+        "question": "In cartography, what type of map uses symbols whose size corresponds directly to the magnitude of the mapped variable?",
+        "answers": [
+            { "text": "Proportional symbol map", "correct": true },
+            { "text": "Graduated symbol map", "correct": false },
+            { "text": "Dot density map", "correct": false },
+            { "text": "Choropleth map", "correct": false }
+        ]
+    },
+    {
+        "question": "What is a thematic set of colors called that is used to represent variation, order, or different categories on a map?",
+        "answers": [
+            { "text": "Color ramp", "correct": true },
+            { "text": "Color scheme", "correct": false },
+            { "text": "Palette", "correct": false },
+            { "text": "Color wheel", "correct": false }
+        ]
+    },
+    {
+        "question": "Which type of color ramp is best for showing values that are above or below a central, critical value like sea level?",
+        "answers": [
+            { "text": "Divergent color ramp", "correct": true },
+            { "text": "Sequential color ramp", "correct": false },
+            { "text": "Qualitative color ramp", "correct": false },
+            { "text": "Monochromatic color ramp", "correct": false }
+        ]
+    },
+    {
+        "question": "What is a map that accurately represents the relative position of objects and can be used as a source of data, such as a USGS topographic map?",
+        "answers": [
+            { "text": "Cartometric map", "correct": true },
+            { "text": "Thematic map", "correct": false },
+            { "text": "Planimetric map", "correct": false },
+            { "text": "Schematic map", "correct": false }
+        ]
+    },
+    {
+        "question": "Which map purpose category describes a map with a specific message to convey?",
+        "answers": [
+            { "text": "Narrative map", "correct": true },
+            { "text": "Descriptive map", "correct": false },
+            { "text": "Exploratory map", "correct": false },
+            { "text": "Rhetorical map", "correct": false }
+        ]
+    },
+    {
+        "question": "A map that attempts to convince the reader to have a specific opinion falls into which purpose category?",
+        "answers": [
+            { "text": "Rhetorical or prescriptive map", "correct": true },
+            { "text": "Descriptive map", "correct": false },
+            { "text": "Narrative map", "correct": false },
+            { "text": "Exploratory map", "correct": false }
+        ]
+    },
+    {
+        "question": "Which of the following is NOT a standard map layout element?",
+        "answers": [
+            { "text": "Data table", "correct": true },
+            { "text": "Title", "correct": false },
+            { "text": "Legend", "correct": false },
+            { "text": "Scale bar", "correct": false }
+        ]
+    },
+    {
+        "question": "Which type of map covers a small area, causing features to appear large?",
+        "answers": [
+            { "text": "Large scale map", "correct": true },
+            { "text": "Small scale map", "correct": false },
+            { "text": "Medium scale map", "correct": false },
+            { "text": "Global scale map", "correct": false }
+        ]
+    },
+    {
+        "question": "Which type of map covers a large area, causing features to appear small?",
+        "answers": [
+            { "text": "Small scale map", "correct": true },
+            { "text": "Large scale map", "correct": false },
+            { "text": "Local scale map", "correct": false },
+            { "text": "Regional scale map", "correct": false }
+        ]
+    },
+    {
+        "question": "In map symbolization, which characteristics are best for representing quantitative information?",
+        "answers": [
+            { "text": "Size and value", "correct": true },
+            { "text": "Shape and pattern", "correct": false },
+            { "text": "Hue and orientation", "correct": false },
+            { "text": "Texture and color", "correct": false }
+        ]
+    },
+    {
+        "question": "In map symbolization, which characteristics are best for representing qualitative information?",
+        "answers": [
+            { "text": "Shape, pattern, and hue", "correct": true },
+            { "text": "Size, value, and intensity", "correct": false },
+            { "text": "Area and volume", "correct": false },
+            { "text": "Length and width", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the proper ordering of GIS layers from top to bottom for effective visualization?",
+        "answers": [
+            { "text": "Points, lines, polygons", "correct": true },
+            { "text": "Polygons, lines, points", "correct": false },
+            { "text": "Lines, points, polygons", "correct": false },
+            { "text": "Points, polygons, lines", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the term for a line frame placed around all the elements of a map?",
+        "answers": [
+            { "text": "Neatline", "correct": true },
+            { "text": "Border", "correct": false },
+            { "text": "Graticule", "correct": false },
+            { "text": "Margin", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the network of lines representing constant latitude and longitude on a map?",
+        "answers": [
+            { "text": "Graticule", "correct": true },
+            { "text": "Grid", "correct": false },
+            { "text": "Neatline", "correct": false },
+            { "text": "Coordinate system", "correct": false }
+        ]
+    },
+    {
+        "question": "What is a map that does not include relief or elevation data called?",
+        "answers": [
+            { "text": "Planimetric map", "correct": true },
+            { "text": "Topographic map", "correct": false },
+            { "text": "Thematic map", "correct": false },
+            { "text": "Hypsometric map", "correct": false }
+        ]
+    },
+    {
+        "question": "What design principle involves the visual separation of the main features (figure) from the contextual information (ground)?",
+        "answers": [
+            { "text": "Figure-ground", "correct": true },
+            { "text": "Balance", "correct": false },
+            { "text": "Visual contrast", "correct": false },
+            { "text": "Legibility", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the style, arrangement, and appearance of text on a map, including point size, line length, and typefaces?",
+        "answers": [
+            { "text": "Typography", "correct": true },
+            { "text": "Cartography", "correct": false },
+            { "text": "Symbolization", "correct": false },
+            { "text": "Annotation", "correct": false }
+        ]
+    },
+    {
+        "question": "Which font type, often used for labeling water features, is a cursive font based on calligraphic handwriting?",
+        "answers": [
+            { "text": "Italicized", "correct": true },
+            { "text": "Serif", "correct": false },
+            { "text": "Sans-serif", "correct": false },
+            { "text": "Monospaced", "correct": false }
+        ]
+    },
+    {
+        "question": "What typographic adjustment modifies the spacing uniformly between all characters in a block of text?",
+        "answers": [
+            { "text": "Tracking", "correct": true },
+            { "text": "Kerning", "correct": false },
+            { "text": "Leading", "correct": false },
+            { "text": "Justification", "correct": false }
+        ]
+    },
+    {
+        "question": "What is a two-axis grid where each grid cell or vertex has one and only one Z value?",
+        "answers": [
+            { "text": "2.5D Grid Representation", "correct": true },
+            { "text": "3D Grid Representation", "correct": false },
+            { "text": "2D Grid Representation", "correct": false },
+            { "text": "Vector Grid", "correct": false }
+        ]
+    },
+    {
+        "question": "What are lines of equal height above or below sea level on a map called?",
+        "answers": [
+            { "text": "Contour Lines", "correct": true },
+            { "text": "Isolines", "correct": false },
+            { "text": "Isobaths", "correct": false },
+            { "text": "Isobars", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the general term for lines on a map that connect points of equal value?",
+        "answers": [
+            { "text": "Isoline", "correct": true },
+            { "text": "Contour Line", "correct": false },
+            { "text": "Isochrone", "correct": false },
+            { "text": "Isotherm", "correct": false }
+        ]
+    },
+    {
+        "question": "What type of isoline connects points of equal water depth?",
+        "answers": [
+            { "text": "Isobath", "correct": true },
+            { "text": "Isobar", "correct": false },
+            { "text": "Isopach", "correct": false },
+            { "text": "Isohyet", "correct": false }
+        ]
+    },
+    {
+        "question": "What type of isoline connects points of equal time distance from a specific location?",
+        "answers": [
+            { "text": "Isochrone", "correct": true },
+            { "text": "Isotach", "correct": false },
+            { "text": "Isobar", "correct": false },
+            { "text": "Isotherm", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the difference in elevation between adjacent contour lines on a topographic map?",
+        "answers": [
+            { "text": "Contour interval", "correct": true },
+            { "text": "Index contour", "correct": false },
+            { "text": "Supplemental contour", "correct": false },
+            { "text": "Vertical exaggeration", "correct": false }
+        ]
+    },
+    {
+        "question": "What 3D technique creates three-dimensional shapes by extending 2D shapes vertically?",
+        "answers": [
+            { "text": "Extrusion", "correct": true },
+            { "text": "Hillshading", "correct": false },
+            { "text": "Hypsometry", "correct": false },
+            { "text": "Draping", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the technique of showing the topographical shape of hills and mountains using shading based on a light source?",
+        "answers": [
+            { "text": "Hillshading", "correct": true },
+            { "text": "Hypsometric tinting", "correct": false },
+      
+            { "text": "Contouring", "correct": false },
+            { "text": "Extrusion", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the practice of coloring elevation intervals between contour lines to represent height relative to sea level?",
+        "answers": [
+            { "text": "Hypsometric color", "correct": true },
+            { "text": "Relief shading", "correct": false },
+            { "text": "Hillshading", "correct": false },
+            { "text": "Divergent color ramp", "correct": false }
+        ]
+    },
+    {
+        "question": "What occurs where the shape of a surface abruptly changes in a Triangulated Irregular Network (TIN)?",
+        "answers": [
+            { "text": "Breaklines", "correct": true },
+            { "text": "Fault lines", "correct": false },
+            { "text": "Edges", "correct": false },
+            { "text": "Nodes", "correct": false }
+        ]
+    },
+    {
+        "question": "What is a set of data points in a 3D coordinate system, often generated by LiDAR?",
+        "answers": [
+            { "text": "Point cloud", "correct": true },
+            { "text": "Multipatch dataset", "correct": false },
+            { "text": "Wireframe model", "correct": false },
+            { "text": "TIN", "correct": false }
+        ]
+    },
+    {
+        "question": "What remote sensing method uses light in the form of a pulsed laser to measure ranges on Earth?",
+        "answers": [
+            { "text": "Light Detection and Ranging (LiDAR)", "correct": true },
+            { "text": "Radio Detection and Ranging (Radar)", "correct": false },
+            { "text": "Sound Navigation and Ranging (Sonar)", "correct": false },
+            { "text": "Photogrammetry", "correct": false }
+        ]
+    },
+    {
+        "question": "In relief shading, what is the angle between the incoming light ray and the surface normal?",
+        "answers": [
+            { "text": "Local incidence angle", "correct": true },
+            { "text": "Solar zenith angle", "correct": false },
+            { "text": "Solar azimuth angle", "correct": false },
+            { "text": "Aspect", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the angle between a vertical line (zenith) and the sun's location?",
+        "answers": [
+            { "text": "Solar zenith angle", "correct": true },
+            { "text": "Solar azimuth angle", "correct": false },
+            { "text": "Local incidence angle", "correct": false },
+            { "text": "Declination", "correct": false }
+        ]
+    },
+    {
+        "question": "What cartographic style combines relief shading, contouring, and rock drawing to create a three-dimensional impression, famously practiced by Swiss cartographers?",
+        "answers": [
+            { "text": "Swiss style maps", "correct": true },
+            { "text": "Planimetric style maps", "correct": false },
+            { "text": "Minimalist style maps", "correct": false },
+            { "text": "Antique style maps", "correct": false }
+        ]
+    },
+    {
+        "question": "What USGS program, which replaced the National Elevation Dataset (NED), is managed by the USGS to produce high-quality 3D topographic data using LiDAR?",
+        "answers": [
+            { "text": "National 3D Elevation Project (3DEP)", "correct": true },
+            { "text": "The National Map", "correct": false },
+            { "text": "Landsat Program", "correct": false },
+            { "text": "Geospatial Platform", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the standard map scale for a modern USGS topographic map?",
+        "answers": [
+            { "text": "1:24,000", "correct": true },
+            { "text": "1:50,000", "correct": false },
+            { "text": "1:100,000", "correct": false },
+            { "text": "1:250,000", "correct": false }
+        ]
+    }
+]
