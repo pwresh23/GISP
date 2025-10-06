@@ -15,7 +15,8 @@ const questionFiles = [
     'questions_7.json',
     'questions_8.json',
     'questions_9.json',
-    'questions_10.json'
+    'questions_10.json',
+    'questions_11.json'
 ];
 
 let allQuestions = []; // This will hold questions from all files
