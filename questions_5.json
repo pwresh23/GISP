@@ -1,1 +1,327 @@
-
+[
+    {
+        "question": "What is the process of associating a map or image without spatial information with a known coordinate system?",
+        "answers": [
+            { "text": "Georeferencing", "correct": true },
+            { "text": "Digitizing", "correct": false },
+            { "text": "Coordinate transformation", "correct": false },
+            { "text": "Projection", "correct": false }
+        ]
+    },
+    {
+        "question": "What type of first-order polynomial transformation can translate, rotate, scale, and skew data, and is the most commonly applied?",
+        "answers": [
+            { "text": "Affine transformation", "correct": true },
+            { "text": "Similarity transformation", "correct": false },
+            { "text": "Conformal transformation", "correct": false },
+            { "text": "Helmert transformation", "correct": false }
+        ]
+    },
+    {
+        "question": "Which subtype of affine transformation can scale, rotate, and translate but does not skew, thus keeping the original aspect ratio?",
+        "answers": [
+            { "text": "Similarity transformation", "correct": true },
+            { "text": "Conformal transformation", "correct": false },
+            { "text": "Projective transformation", "correct": false },
+            { "text": "Polynomial transformation", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the term for a coordinate transformation that warps a vector dataset to match a known geographic space, often used for historic maps?",
+        "answers": [
+            { "text": "Rubbersheeting", "correct": true },
+            { "text": "Georeferencing", "correct": false },
+            { "text": "Rectification", "correct": false },
+            { "text": "Edge matching", "correct": false }
+        ]
+    },
+    {
+        "question": "What process transforms coordinate locations between different geographic coordinate systems, such as NAD27 and NAD83?",
+        "answers": [
+            { "text": "Geographic transformation", "correct": true },
+            { "text": "Projection transformation", "correct": false },
+            { "text": "Affine transformation", "correct": false },
+            { "text": "Coordinate conversion", "correct": false }
+        ]
+    },
+    {
+        "question": "Which datum transformation method uses three linear shifts along each axis of a 3D Cartesian coordinate system?",
+        "answers": [
+            { "text": "Three-parameter method", "correct": true },
+            { "text": "Seven-parameter method", "correct": false },
+            { "text": "Molodensky method", "correct": false },
+            { "text": "Helmert transformation", "correct": false }
+        ]
+    },
+    {
+        "question": "Which datum transformation method uses three linear shifts, three angular rotations, and a scale factor?",
+        "answers": [
+            { "text": "Seven-parameter method", "correct": true },
+            { "text": "Three-parameter method", "correct": false },
+            { "text": "NADCON method", "correct": false },
+            { "text": "Molodensky method", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the term for points with known coordinates that are used to register unregistered datasets and estimate transformation errors?",
+        "answers": [
+            { "text": "Control points", "correct": true },
+            { "text": "Benchmarks", "correct": false },
+            { "text": "Tie points", "correct": false },
+            { "text": "Ground truth points", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the process of transforming data from a raw, unstructured form into an organized form suitable for analysis?",
+        "answers": [
+            { "text": "Data munging", "correct": true },
+            { "text": "Data integration", "correct": false },
+            { "text": "Data warehousing", "correct": false },
+            { "text": "Data mining", "correct": false }
+        ]
+    },
+    {
+        "question": "What is a central repository of integrated, organized, and structured data from one or more disparate sources, designed for analysis and reporting?",
+        "answers": [
+            { "text": "Data warehouse", "correct": true },
+            { "text": "Data lake", "correct": false },
+            { "text": "Database", "correct": false },
+            { "text": "Data mart", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the process of reducing detail in data to declutter maps, increase draw speed, or for use on smaller-scale maps?",
+        "answers": [
+            { "text": "Generalization", "correct": true },
+            { "text": "Simplification", "correct": false },
+            { "text": "Aggregation", "correct": false },
+            { "text": "Classification", "correct": false }
+        ]
+    },
+    {
+        "question": "Which vector generalization technique, also known as dissolve or combine, merges adjacent features with the same attributes?",
+        "answers": [
+            { "text": "Merge", "correct": true },
+            { "text": "Aggregate", "correct": false },
+            { "text": "Simplify", "correct": false },
+            { "text": "Smooth", "correct": false }
+        ]
+    },
+    {
+        "question": "Which vector generalization technique merges multiple features into a new composite feature, often increasing its dimension (e.g., points to a polygon)?",
+        "answers": [
+            { "text": "Aggregate", "correct": true },
+            { "text": "Merge", "correct": false },
+            { "text": "Typify", "correct": false },
+            { "text": "Collapse", "correct": false }
+        ]
+    },
+    {
+        "question": "Which vector generalization technique reduces the dimension of a feature, such as representing a city area with a single point?",
+        "answers": [
+            { "text": "Collapse", "correct": true },
+            { "text": "Simplify", "correct": false },
+            { "text": "Typify", "correct": false },
+            { "text": "Displace", "correct": false }
+        ]
+    },
+    {
+        "question": "Which vector generalization technique moves the location of features that are too close together to be distinguished?",
+        "answers": [
+            { "text": "Displace", "correct": true },
+            { "text": "Exaggerate", "correct": false },
+            { "text": "Enhance", "correct": false },
+            { "text": "Aggregate", "correct": false }
+        ]
+    },
+    {
+        "question": "What feature of rasters improves display performance by storing multiple downsampled versions of the original dataset at different scales?",
+        "answers": [
+            { "text": "Raster pyramids", "correct": true },
+            { "text": "Raster catalogs", "correct": false },
+            { "text": "Mosaic datasets", "correct": false },
+            { "text": "Resolution reduction", "correct": false }
+        ]
+    },
+    {
+        "question": "What industry-standard vector file format consists of multiple files, with .shp, .shx, and .dbf being the mandatory components?",
+        "answers": [
+            { "text": "Shapefile", "correct": true },
+            { "text": "Geodatabase", "correct": false },
+            { "text": "GeoJSON", "correct": false },
+            { "text": "Coverage", "correct": false }
+        ]
+    },
+    {
+        "question": "Which type of geodatabase is typically used by a single user or small group and has a .gdb file extension?",
+        "answers": [
+            { "text": "File geodatabase", "correct": true },
+            { "text": "Personal geodatabase", "correct": false },
+            { "text": "Enterprise geodatabase", "correct": false },
+            { "text": "Mobile geodatabase", "correct": false }
+        ]
+    },
+    {
+        "question": "Which type of geodatabase is based on a relational database like Oracle or SQL Server and supports versioning for many users?",
+        "answers": [
+            { "text": "Enterprise geodatabase", "correct": true },
+            { "text": "File geodatabase", "correct": false },
+            { "text": "Personal geodatabase", "correct": false },
+            { "text": "SQLite geodatabase", "correct": false }
+        ]
+    },
+    {
+        "question": "What open standard format encodes geographic structures using JavaScript Object Notation and is widely used for web mapping applications?",
+        "answers": [
+            { "text": "GeoJSON", "correct": true },
+            { "text": "TopoJSON", "correct": false },
+            { "text": "GML", "correct": false },
+            { "text": "KML", "correct": false }
+        ]
+    },
+    {
+        "question": "What topologically structured vector files, developed by the USGS from topographic maps, were last made in the 1990s?",
+        "answers": [
+            { "text": "Digital Line Graph (DLG)", "correct": true },
+            { "text": "Shapefile", "correct": false },
+            { "text": "TIGER file", "correct": false },
+            { "text": "ArcInfo Coverage", "correct": false }
+        ]
+    },
+    {
+        "question": "What files are used by the U.S. Census Bureau to describe land attributes like roads, rivers, and census tracts for mapping purposes?",
+        "answers": [
+            { "text": "TIGER files", "correct": true },
+            { "text": "DLG files", "correct": false },
+            { "text": "Shapefiles", "correct": false },
+            { "text": "Geodatabases", "correct": false }
+        ]
+    },
+    {
+        "question": "What XML-based language, developed by the OGC, is an open interchange format for expressing geographic features and their attributes?",
+        "answers": [
+            { "text": "Geography Markup Language (GML)", "correct": true },
+            { "text": "Keyhole Markup Language (KML)", "correct": false },
+            { "text": "Scalable Vector Graphics (SVG)", "correct": false },
+            { "text": "Extensible Markup Language (XML)", "correct": false }
+        ]
+    },
+    {
+        "question": "What OGC standard, originally developed for Google Earth, uses a tag-based structure to store information about how data is visualized?",
+        "answers": [
+            { "text": "Keyhole Markup Language (KML)", "correct": true },
+            { "text": "Geography Markup Language (GML)", "correct": false },
+            { "text": "Well-Known Text (WKT)", "correct": false },
+            { "text": "GeoJSON", "correct": false }
+        ]
+    },
+    {
+        "question": "What is a public domain metadata standard that allows georeferencing information to be embedded within a TIFF raster file?",
+        "answers": [
+            { "text": "GeoTIFF", "correct": true },
+            { "text": "World file", "correct": false },
+            { "text": "Auxiliary file", "correct": false },
+            { "text": "Header file", "correct": false }
+        ]
+    },
+    {
+        "question": "What proprietary Esri format is used for raster datasets and comes in both binary and ASCII versions?",
+        "answers": [
+            { "text": "ArcGIS Grid", "correct": true },
+            { "text": "IMG", "correct": false },
+            { "text": "GeoTIFF", "correct": false },
+      
+            { "text": "MrSID", "correct": false }
+        ]
+    },
+    {
+        "question": "What self-describing, machine-independent data format is commonly used for multidimensional scientific data such as climate models?",
+        "answers": [
+            { "text": "Network Common Data Form (NetCDF)", "correct": true },
+            { "text": "Hierarchical Data Format (HDF)", "correct": false },
+            { "text": "Geodatabase", "correct": false },
+            { "text": "GeoPackage", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the standard binary format for storing 3D point cloud data collected by LiDAR systems?",
+        "answers": [
+            { "text": "LAS", "correct": true },
+            { "text": "LAZ", "correct": false },
+            { "text": "ASCII", "correct": false },
+            { "text": "Point Shapefile", "correct": false }
+        ]
+    },
+    {
+        "question": "What is a six-line plain text sidecar file used by GIS to georeference raster map images?",
+        "answers": [
+            { "text": "World file", "correct": true },
+            { "text": "Auxiliary file", "correct": false },
+            { "text": "Projection file", "correct": false },
+            { "text": "Header file", "correct": false }
+        ]
+    },
+    {
+        "question": "What Esri tool manages and displays a collection of raster datasets without needing to mosaic them into one large file?",
+        "answers": [
+            { "text": "Mosaic dataset", "correct": true },
+            { "text": "Raster catalog", "correct": false },
+            { "text": "Image service", "correct": false },
+            { "text": "Raster pyramid", "correct": false }
+        ]
+    },
+    {
+        "question": "What open, universal format, defined by the OGC and based on SQLite, can store both vector and raster data in a single file?",
+        "answers": [
+            { "text": "GeoPackage", "correct": true },
+            { "text": "File Geodatabase", "correct": false },
+            { "text": "Shapefile", "correct": false },
+            { "text": "GeoJSON", "correct": false }
+        ]
+    },
+    {
+        "question": "Which primary method for encoding multi-band raster images stores all bands for the first pixel, then all bands for the second pixel, and so on?",
+        "answers": [
+            { "text": "Band Interleaved by Pixel (BIP)", "correct": true },
+            { "text": "Band Interleaved by Line (BIL)", "correct": false },
+            { "text": "Band Sequential (BSQ)", "correct": false },
+            { "text": "Run-length encoding", "correct": false }
+        ]
+    },
+    {
+        "question": "Which primary method for encoding multi-band raster images stores all bands for the first row, then all bands for the second row, and so on?",
+        "answers": [
+            { "text": "Band Interleaved by Line (BIL)", "correct": true },
+            { "text": "Band Interleaved by Pixel (BIP)", "correct": false },
+            { "text": "Band Sequential (BSQ)", "correct": false },
+            { "text": "Tiling", "correct": false }
+        ]
+    },
+    {
+        "question": "Which primary method for encoding multi-band raster images stores all pixel data for the first band, then all pixel data for the second band, and so on?",
+        "answers": [
+            { "text": "Band Sequential (BSQ)", "correct": true },
+            { "text": "Band Interleaved by Line (BIL)", "correct": false },
+            { "text": "Band Interleaved by Pixel (BIP)", "correct": false },
+            { "text": "Interlacing", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the term for a lossless compression method where sequences of redundant data are stored as a single data value and a count?",
+        "answers": [
+            { "text": "Run-length encoding", "correct": true },
+            { "text": "Huffman coding", "correct": false },
+            { "text": "LZW compression", "correct": false },
+            { "text": "JPEG compression", "correct": false }
+        ]
+    },
+    {
+        "question": "What standard methodology for integrating data involves extracting data from a source, transforming it into a target format, and loading it to its final storage point?",
+        "answers": [
+            { "text": "Extract, Transform, Load (ETL)", "correct": true },
+            { "text": "Data Pipeline", "correct": false },
+            { "text": "Data Warehousing", "correct": false },
+            { "text": "Data Integration", "correct": false }
+        ]
+    }
+]
