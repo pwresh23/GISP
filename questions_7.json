@@ -1,0 +1,182 @@
+[
+    {
+        "question": "What is the structure or design of a database, including tables, fields, relationships, and constraints?",
+        "answers": [
+            { "text": "Schema", "correct": true },
+            { "text": "Data Dictionary", "correct": false },
+            { "text": "Domain", "correct": false },
+            { "text": "Index", "correct": false }
+        ]
+    },
+    {
+        "question": "What is a catalog or table containing information about the datasets stored in a database, essentially 'data about the data'?",
+        "answers": [
+            { "text": "Data Dictionary", "correct": true },
+            { "text": "Schema", "correct": false },
+            { "text": "Domain", "correct": false },
+            { "text": "Metadata", "correct": false }
+        ]
+    },
+    {
+        "question": "What type of attribute domain identifies a set of permissible values for an attribute, such as a list of valid street types (e.g., St, Ave, Blvd)?",
+        "answers": [
+            { "text": "Coded Value Domain", "correct": true },
+            { "text": "Range Domain", "correct": false },
+            { "text": "Spatial Domain", "correct": false },
+            { "text": "Attribute Domain", "correct": false }
+        ]
+    },
+    {
+        "question": "What type of attribute domain identifies the range of permissible values for a numeric attribute, such as pipe diameter must be between 4 and 24 inches?",
+        "answers": [
+            { "text": "Range Domain", "correct": true },
+            { "text": "Coded Value Domain", "correct": false },
+            { "text": "Spatial Domain", "correct": false },
+            { "text": "Numeric Domain", "correct": false }
+        ]
+    },
+    {
+        "question": "What is a data structure that improves the speed of data retrieval operations on a database table at the cost of increased storage space?",
+        "answers": [
+            { "text": "Index", "correct": true },
+            { "text": "View", "correct": false },
+            { "text": "Trigger", "correct": false },
+            { "text": "Snapshot", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the state of a system at a particular point in time, often used as a backup?",
+        "answers": [
+            { "text": "Snapshot", "correct": true },
+            { "text": "Version", "correct": false },
+            { "text": "Replica", "correct": false },
+            { "text": "Archive", "correct": false }
+        ]
+    },
+    {
+        "question": "What is procedural code that is automatically executed in response to certain events (e.g., insert, update, delete) on a particular table?",
+        "answers": [
+            { "text": "Trigger", "correct": true },
+            { "text": "Procedure", "correct": false },
+            { "text": "Function", "correct": false },
+            { "text": "Constraint", "correct": false }
+        ]
+    },
+    {
+        "question": "What type of database, proposed by E.F. Codd, organizes data into one or more tables of columns and rows with a unique key for each row?",
+        "answers": [
+            { "text": "Relational Database", "correct": true },
+            { "text": "Object-Oriented Database", "correct": false },
+            { "text": "Hierarchical Database", "correct": false },
+            { "text": "NoSQL Database", "correct": false }
+        ]
+    },
+    {
+        "question": "In a relational database, what uniquely specifies a tuple (row) within a table?",
+        "answers": [
+            { "text": "Primary Key", "correct": true },
+            { "text": "Foreign Key", "correct": false },
+            { "text": "Index", "correct": false },
+            { "text": "Attribute", "correct": false }
+        ]
+    },
+    {
+        "question": "What is a field in a relational table that matches the primary key of another table, used to link the two tables?",
+        "answers": [
+            { "text": "Foreign Key", "correct": true },
+            { "text": "Primary Key", "correct": false },
+            { "text": "Candidate Key", "correct": false },
+            { "text": "Superkey", "correct": false }
+        ]
+    },
+    {
+        "question": "In relational algebra, which operator combines the tuples of two relations and removes all duplicates from the result?",
+        "answers": [
+            { "text": "Union Operator", "correct": true },
+            { "text": "Intersection Operator", "correct": false },
+            { "text": "Set Difference Operator", "correct": false },
+            { "text": "Cartesian Product", "correct": false }
+        ]
+    },
+    {
+        "question": "In relational algebra, which operator is an unrestricted join that results in every tuple of the first relation being matched with every tuple of the second?",
+        "answers": [
+            { "text": "Cartesian Product", "correct": true },
+            { "text": "Union Operator", "correct": false },
+            { "text": "Intersection Operator", "correct": false },
+            { "text": "Join Operator", "correct": false }
+        ]
+    },
+    {
+        "question": "What are the three main stages of the database design process?",
+        "answers": [
+            { "text": "Conceptual Schema, Logical Data Model, Physical Database Design", "correct": true },
+            { "text": "Requirements, Implementation, Maintenance", "correct": false },
+            { "text": "Planning, Execution, Review", "correct": false },
+            { "text": "Data Modeling, Database Creation, Query Optimization", "correct": false }
+        ]
+    },
+    {
+        "question": "Which numeric field type is a single-precision floating-point number?",
+        "answers": [
+            { "text": "Float", "correct": true },
+            { "text": "Double", "correct": false },
+            { "text": "Short Integer", "correct": false },
+            { "text": "Long Integer", "correct": false }
+        ]
+    },
+    {
+        "question": "What field type stores data as a long sequence of binary numbers, often used for annotation and dimensions in ArcGIS?",
+        "answers": [
+            { "text": "Blob (Binary Large Object)", "correct": true },
+            { "text": "Raster", "correct": false },
+            { "text": "Text", "correct": false },
+            { "text": "Global ID", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the term for a collection of preprocessed tiled map images stored at multiple scales for rapid dissemination?",
+        "answers": [
+            { "text": "Map Cache", "correct": true },
+            { "text": "Publication Database", "correct": false },
+            { "text": "Production Database", "correct": false },
+            { "text": "Data Store", "correct": false }
+        ]
+    },
+    {
+        "question": "What enterprise geodatabase functionality allows multiple users to edit the same data without applying locks or duplicating data, by creating different views of the database?",
+        "answers": [
+            { "text": "Versioning", "correct": true },
+            { "text": "Archiving", "correct": false },
+            { "text": "Replication", "correct": false },
+            { "text": "Check-out/Check-in", "correct": false }
+        ]
+    },
+    {
+        "question": "Which type of versioning facilitates the Web GIS model by allowing multi-user editing and long transactions via feature services?",
+        "answers": [
+            { "text": "Branch Versioning", "correct": true },
+            { "text": "Traditional Versioning", "correct": false },
+            { "text": "Asynchronous Versioning", "correct": false },
+            { "text": "Synchronous Versioning", "correct": false }
+        ]
+    },
+    {
+        "question": "In database security, what is the process of checking a list of users to ensure a user is allowed to make a connection?",
+        "answers": [
+            { "text": "Authentication", "correct": true },
+            { "text": "Authorization", "correct": false },
+            { "text": "Auditing", "correct": false },
+            { "text": "Encryption", "correct": false }
+        ]
+    },
+    {
+        "question": "Which user access level in a database can only view data but cannot create, update, or delete it?",
+        "answers": [
+            { "text": "Reader", "correct": true },
+            { "text": "Editor", "correct": false },
+            { "text": "Creator", "correct": false },
+            { "text": "Administrator", "correct": false }
+        ]
+    }
+]
