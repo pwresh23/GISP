@@ -1,0 +1,227 @@
+[
+    {
+        "question": "The GISCI Code of Ethics outlines professional obligations to four main groups: employers/funders, colleagues, society, and...?",
+        "answers": [
+            { "text": "The Profession", "correct": true },
+            { "text": "Software Vendors", "correct": false },
+            { "text": "Government Agencies", "correct": false },
+            { "text": "Academic Institutions", "correct": false }
+        ]
+    },
+    {
+        "question": "Which project management phase involves developing a project charter, defining scope, and identifying stakeholders?",
+        "answers": [
+            { "text": "Initiation", "correct": true },
+            { "text": "Planning", "correct": false },
+            { "text": "Execution", "correct": false },
+            { "text": "Closing", "correct": false }
+        ]
+    },
+    {
+        "question": "Which interpolation method uses a semivariogram to model the spatial autocorrelation of the data, providing a statistically optimal estimate?",
+        "answers": [
+            { "text": "Kriging", "correct": true },
+            { "text": "Inverse Distance Weighting (IDW)", "correct": false },
+            { "text": "Spline", "correct": false },
+            { "text": "Nearest Neighbor", "correct": false }
+        ]
+    },
+    {
+        "question": "A map projection that preserves local shape and angles is known as what type of projection?",
+        "answers": [
+            { "text": "Conformal", "correct": true },
+            { "text": "Equal-Area", "correct": false },
+            { "text": "Equidistant", "correct": false },
+            { "text": "Azimuthal", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the primary purpose of creating a topological data structure?",
+        "answers": [
+            { "text": "To enforce data integrity and enable advanced spatial analysis like network tracing", "correct": true },
+            { "text": "To improve the cartographic appearance of map features", "correct": false },
+            { "text": "To store raster data more efficiently", "correct": false },
+            { "text": "To link features to external multimedia files", "correct": false }
+        ]
+    },
+    {
+        "question": "The process of combining a high-resolution panchromatic band with lower-resolution multispectral bands to create a colorized, high-resolution image is called what?",
+        "answers": [
+            { "text": "Pan-sharpening", "correct": true },
+            { "text": "Image classification", "correct": false },
+            { "text": "Georectification", "correct": false },
+            { "text": "Radiometric correction", "correct": false }
+        ]
+    },
+    {
+        "question": "In relational database design, what is the process of organizing columns and tables to minimize data redundancy?",
+        "answers": [
+            { "text": "Normalization", "correct": true },
+            { "text": "Aggregation", "correct": false },
+            { "text": "Indexing", "correct": false },
+            { "text": "Querying", "correct": false }
+        ]
+    },
+    {
+        "question": "What does SQL, the standard language for managing data in relational databases, stand for?",
+        "answers": [
+            { "text": "Structured Query Language", "correct": true },
+            { "text": "Standard Query Language", "correct": false },
+            { "text": "Spatial Query Logic", "correct": false },
+            { "text": "System Query Linguistics", "correct": false }
+        ]
+    },
+    {
+        "question": "The analysis of geographic patterns to identify statistically significant hot spots and cold spots is best performed using which statistic?",
+        "answers": [
+            { "text": "Getis-Ord Gi*", "correct": true },
+            { "text": "Moran's I", "correct": false },
+            { "text": "Standard Deviation", "correct": false },
+            { "text": "Linear Regression", "correct": false }
+        ]
+    },
+    {
+        "question": "Which of the following is an example of a Geographic Coordinate System (GCS)?",
+        "answers": [
+            { "text": "WGS 1984", "correct": true },
+            { "text": "Universal Transverse Mercator (UTM)", "correct": false },
+            { "text": "State Plane Coordinate System (SPCS)", "correct": false },
+            { "text": "Lambert Conformal Conic", "correct": false }
+        ]
+    },
+    {
+        "question": "In remote sensing, what is the key difference between supervised and unsupervised classification?",
+        "answers": [
+            { "text": "Supervised classification requires user-defined training samples.", "correct": true },
+            { "text": "Unsupervised classification is always more accurate.", "correct": false },
+            { "text": "Supervised classification can only be used on satellite imagery.", "correct": false },
+            { "text": "Unsupervised classification uses machine learning, while supervised does not.", "correct": false }
+        ]
+    },
+    {
+        "question": "A raster that represents the cumulative cost of travel from each cell to the nearest source cell is known as a what?",
+        "answers": [
+            { "text": "Cost surface (or cost distance raster)", "correct": true },
+            { "text": "Friction surface", "correct": false },
+            { "text": "Viewshed", "correct": false },
+            { "text": "Digital Elevation Model (DEM)", "correct": false }
+        ]
+    },
+    {
+        "question": "In the context of the GISP application, what is the primary purpose of the portfolio?",
+        "answers": [
+            { "text": "To document one's education, experience, and contributions to the profession", "correct": true },
+            { "text": "To showcase a collection of one's best cartographic work", "correct": false },
+            { "text": "To provide a list of software skills and certifications", "correct": false },
+            { "text": "To submit a research paper on a geospatial topic", "correct": false }
+        ]
+    },
+    {
+        "question": "What does the acronym REST, commonly used in the context of web services and APIs, stand for?",
+        "answers": [
+            { "text": "Representational State Transfer", "correct": true },
+            { "text": "Remote Execution and System Technology", "correct": false },
+            { "text": "Resource Exchange Standard Template", "correct": false },
+            { "text": "Relational Entity State Transition", "correct": false }
+        ]
+    },
+    {
+        "question": "Which open-source Python library is widely used for working with vector data, extending the capabilities of pandas to allow spatial operations?",
+        "answers": [
+            { "text": "GeoPandas", "correct": true },
+            { "text": "NumPy", "correct": false },
+            { "text": "Matplotlib", "correct": false },
+            { "text": "Scikit-learn", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the term for a legal issue in GIS that concerns the liability of a map maker for damages resulting from errors on a map?",
+        "answers": [
+            { "text": "Cartographic liability", "correct": true },
+            { "text": "Intellectual property", "correct": false },
+            { "text": "Data privacy", "correct": false },
+            { "text": "Fitness for use", "correct": false }
+        ]
+    },
+    {
+        "question": "A viewshed analysis is used to determine what?",
+        "answers": [
+            { "text": "The areas visible from one or more specified observation points", "correct": true },
+            { "text": "The optimal path between two points", "correct": false },
+            { "text": "The density of features within a given area", "correct": false },
+            { "text": "The slope and aspect of a terrain surface", "correct": false }
+        ]
+    },
+    {
+        "question": "Which of the following data models is most efficient for representing a surface with variable levels of detail, such as terrain?",
+        "answers": [
+            { "text": "Triangulated Irregular Network (TIN)", "correct": true },
+            { "text": "Raster Grid", "correct": false },
+            { "text": "Polygon Feature Class", "correct": false },
+            { "text": "Point Cloud", "correct": false }
+        ]
+    },
+    {
+        "question": "The 'oblique' angle in aerial photography is best for what purpose?",
+        "answers": [
+            { "text": "Visualizing the sides of buildings and other vertical features", "correct": true },
+            { "text": "Creating geometrically precise orthophotos", "correct": false },
+            { "text": "Measuring true distances directly from the photo", "correct": false },
+            { "text": "Maximizing the area covered in a single image", "correct": false }
+        ]
+    },
+    {
+        "question": "A watershed delineation analysis is primarily used to determine what?",
+        "answers": [
+            { "text": "The contributing area upstream from a given point on a surface", "correct": true },
+            { "text": "The flood inundation zone for a 100-year storm event", "correct": false },
+            { "text": "The locations of stream gauges and other hydrographic features", "correct": false },
+            { "text": "The shortest water flow path from a point to an outlet", "correct": false }
+        ]
+    },
+    {
+        "question": "What cartographic principle involves arranging map elements to establish a visual path and emphasize the most important information?",
+        "answers": [
+            { "text": "Visual hierarchy", "correct": true },
+            { "text": "Map scale", "correct": false },
+            { "text": "Projection", "correct": false },
+            { "text": "Generalization", "correct": false }
+        ]
+    },
+    {
+        "question": "The 'Traveling Salesperson Problem' is a classic optimization problem solved using what type of GIS analysis?",
+        "answers": [
+            { "text": "Network analysis", "correct": true },
+            { "text": "Overlay analysis", "correct": false },
+            { "text": "Suitability analysis", "correct": false },
+            { "text": "Density analysis", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the primary function of a Location-Allocation analysis?",
+        "answers": [
+            { "text": "To find the optimal locations for facilities to serve a set of demand points", "correct": true },
+            { "text": "To allocate budget resources to different geographic areas", "correct": false },
+            { "text": "To determine the location of a single central feature", "correct": false },
+            { "text": "To track the movement of assets between different locations", "correct": false }
+        ]
+    },
+    {
+        "question": "Which of the following best describes 'geofencing'?",
+        "answers": [
+            { "text": "Creating a virtual geographic boundary that triggers a response when a device enters or leaves it", "correct": true },
+            { "text": "A method for securing a GIS server from unauthorized access", "correct": false },
+            { "text": "The process of aligning a dataset to a known coordinate system", "correct": false },
+            { "text": "A type of buffer used in proximity analysis", "correct": false }
+        ]
+    },
+    {
+        "question": "The 'Modifiable Areal Unit Problem' (MAUP) is a source of statistical bias that occurs when...",
+        "answers": [
+            { "text": "...the results of a spatial analysis depend on the boundaries of the zones being used.", "correct": true },
+            { "text": "...data from different coordinate systems are combined without proper transformation.", "correct": false },
+            { "text": "...a map uses an inappropriate projection for thematic analysis.", "correct": false },
+            { "text": "...the sample size is too small to make a valid statistical inference.", "correct": false }
+        ]
+    }
+]
