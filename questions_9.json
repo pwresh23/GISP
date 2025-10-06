@@ -1,0 +1,156 @@
+[
+    {
+        "question": "What are the five main phases of the architecture design process?",
+        "answers": [
+            { "text": "Requirements, Design, Construction, Implementation, Capacity Planning", "correct": true },
+            { "text": "Planning, Analysis, Development, Testing, Deployment", "correct": false },
+            { "text": "Needs Assessment, Prototyping, Building, Training, Maintenance", "correct": false },
+            { "text": "Strategy, Procurement, Installation, Operation, Review", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the term for a GIS integrated throughout an entire organization, allowing many users to manage, share, and use spatial data?",
+        "answers": [
+            { "text": "Enterprise GIS", "correct": true },
+            { "text": "Desktop GIS", "correct": false },
+            { "text": "Cloud GIS", "correct": false },
+            { "text": "Server GIS", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the creation of a virtual machine that acts like a real computer with an operating system called?",
+        "answers": [
+            { "text": "Virtualization", "correct": true },
+            { "text": "Emulation", "correct": false },
+            { "text": "Simulation", "correct": false },
+            { "text": "Containerization", "correct": false }
+        ]
+    },
+    {
+        "question": "Which of the following is a popular open-source GIS software originally developed by the U.S. Army Corps of Engineers?",
+        "answers": [
+            { "text": "GRASS", "correct": true },
+            { "text": "ArcGIS Pro", "correct": false },
+            { "text": "QGIS", "correct": false },
+            { "text": "MapInfo", "correct": false }
+        ]
+    },
+    {
+        "question": "What Esri-developed process translates business needs into IT requirements to promote successful GIS enterprise operations?",
+        "answers": [
+            { "text": "System Architecture Design", "correct": true },
+            { "text": "Capacity Planning Tool", "correct": false },
+            { "text": "Needs Assessment", "correct": false },
+            { "text": "Agile Development", "correct": false }
+        ]
+    },
+    {
+        "question": "In system performance terminology, what is the measure of the transaction rate, or how much work is being done?",
+        "answers": [
+            { "text": "Throughput", "correct": true },
+            { "text": "Capacity", "correct": false },
+            { "text": "Utilization", "correct": false },
+            { "text": "Latency", "correct": false }
+        ]
+    },
+    {
+        "question": "In system performance terminology, what is the maximum rate at which a platform can do work?",
+        "answers": [
+            { "text": "Capacity", "correct": true },
+            { "text": "Throughput", "correct": false },
+            { "text": "Utilization", "correct": false },
+            { "text": "Benchmark", "correct": false }
+        ]
+    },
+    {
+        "question": "Which step in the system architecture design process translates peak user workflow loads to peak throughput transaction loads?",
+        "answers": [
+            { "text": "User Requirements Analysis", "correct": true },
+            { "text": "Workflow Loads Analysis", "correct": false },
+            { "text": "Network Suitability Analysis", "correct": false },
+            { "text": "Platform Architecture Selection", "correct": false }
+        ]
+    },
+    {
+        "question": "What type of software architecture, introduced by web technology, enables open and adaptive applications developed from multi-vendor components?",
+        "answers": [
+            { "text": "Service-Oriented Architecture (SOA)", "correct": true },
+            { "text": "Object-Relational Software", "correct": false },
+            { "text": "Tightly Scripted Software", "correct": false },
+            { "text": "Monolithic Architecture", "correct": false }
+        ]
+    },
+    {
+        "question": "In which type of GIS environment is data developed and maintained in a centralized geodatabase shared by all departments?",
+        "answers": [
+            { "text": "Centralized GIS", "correct": true },
+            { "text": "Traditional GIS", "correct": false },
+            { "text": "GIS online sharing", "correct": false },
+            { "text": "Desktop GIS", "correct": false }
+        ]
+
+    },
+    {
+        "question": "What type of GIS architecture uses REST-based, loosely coupled data services that can be consumed by desktop, web, or mobile applications?",
+        "answers": [
+            { "text": "Web GIS architecture", "correct": true },
+            { "text": "Traditional GIS", "correct": false },
+            { "text": "Centralized GIS", "correct": false },
+            { "text": "File-based GIS", "correct": false }
+        ]
+    },
+    {
+        "question": "What Esri tool, often an Excel workbook, was developed to automate the system design process by configuring business requirements to generate platform solutions?",
+        "answers": [
+            { "text": "Capacity Planning Tool (CPT)", "correct": true },
+            { "text": "ModelBuilder", "correct": false },
+            { "text": "System Design Engine", "correct": false },
+            { "text": "Performance Monitor", "correct": false }
+        ]
+    },
+    {
+        "question": "What are the three core principles of information security, often represented by the CIA Triad?",
+        "answers": [
+            { "text": "Confidentiality, Integrity, and Availability", "correct": true },
+            { "text": "Authentication, Authorization, and Auditing", "correct": false },
+            { "text": "Prevention, Detection, and Response", "correct": false },
+            { "text": "Hardware, Software, and Network", "correct": false }
+        ]
+    },
+    {
+        "question": "In the CIA Security Triad, what principle refers to the trustworthiness of business data resources over their entire lifecycle?",
+        "answers": [
+            { "text": "Integrity", "correct": true },
+            { "text": "Confidentiality", "correct": false },
+            { "text": "Availability", "correct": false },
+            { "text": "Authenticity", "correct": false }
+        ]
+    },
+    {
+        "question": "What type of application security testing analyzes running code and can simulate an attack on the application?",
+        "answers": [
+            { "text": "Dynamic testing", "correct": true },
+            { "text": "Static testing", "correct": false },
+            { "text": "Interactive testing", "correct": false },
+            { "text": "Mobile testing", "correct": false }
+        ]
+    },
+    {
+        "question": "What term describes devices with sensors, processing ability, and other technologies that connect and exchange data with other systems over the internet?",
+        "answers": [
+            { "text": "The Internet of Things (IoT)", "correct": true },
+            { "text": "Cloud Computing", "correct": false },
+            { "text": "Artificial Intelligence (AI)", "correct": false },
+            { "text": "Big Data", "correct": false }
+        ]
+    },
+    {
+        "question": "Which trend driving new geospatial development is characterized by the capacity to create small, inexpensive devices and sensors with wireless connectivity?",
+        "answers": [
+            { "text": "Miniaturization of technologies", "correct": true },
+            { "text": "The real-time revolution", "correct": false },
+            { "text": "Expanding wireless and web networks", "correct": false },
+            { "text": "Advances in computing capacity", "correct": false }
+        ]
+    }
+]
