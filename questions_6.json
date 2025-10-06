@@ -1,0 +1,308 @@
+[
+    {
+        "question": "What is the term for selecting features based on filters applied to their attribute data?",
+        "answers": [
+            { "text": "Attribute selection", "correct": true },
+            { "text": "Spatial selection", "correct": false },
+            { "text": "Location selection", "correct": false },
+            { "text": "Interactive selection", "correct": false }
+        ]
+    },
+    {
+        "question": "Which spatial selection method selects features that must be completely inside a selecting polygon, but not touching its boundary?",
+        "answers": [
+            { "text": "Contains Clementini", "correct": true },
+            { "text": "Completely contains", "correct": false },
+            { "text": "Completely within", "correct": false },
+            { "text": "Within", "correct": false }
+        ]
+    },
+    {
+        "question": "Which spatial selection method selects features if their center falls within a selecting feature?",
+        "answers": [
+            { "text": "Have their center in", "correct": true },
+            { "text": "Completely contains", "correct": false },
+            { "text": "Intersects", "correct": false },
+            { "text": "Within a distance", "correct": false }
+        ]
+    },
+    {
+        "question": "What function combines two attribute tables into one using a common key field?",
+        "answers": [
+            { "text": "Join", "correct": true },
+            { "text": "Merge", "correct": false },
+            { "text": "Append", "correct": false },
+            { "text": "Union", "correct": false }
+        ]
+    },
+    {
+        "question": "What tool combines multiple input datasets of the same data type into an existing dataset?",
+        "answers": [
+            { "text": "Append", "correct": true },
+            { "text": "Merge", "correct": false },
+            { "text": "Join", "correct": false },
+            { "text": "Union", "correct": false }
+        ]
+    },
+    {
+        "question": "Which geoprocessing tool extracts input features that overlay clip features, keeping only the attributes from the input layer?",
+        "answers": [
+            { "text": "Clip", "correct": true },
+            { "text": "Intersect", "correct": false },
+            { "text": "Union", "correct": false },
+            { "text": "Erase", "correct": false }
+        ]
+    },
+    {
+        "question": "Which geoprocessing tool extracts features that overlap in all layers and combines their attribute tables?",
+        "answers": [
+            { "text": "Intersect", "correct": true },
+            { "text": "Clip", "correct": false },
+            { "text": "Union", "correct": false },
+            { "text": "Identity", "correct": false }
+        ]
+    },
+    {
+        "question": "In data classification, what is a set of criteria used for deciding which individuals go into each class called?",
+        "answers": [
+            { "text": "Classification schema", "correct": true },
+            { "text": "Classification method", "correct": false },
+            { "text": "Classification break", "correct": false },
+            { "text": "Classification range", "correct": false }
+        ]
+    },
+    {
+        "question": "Which data classification method divides the range of attribute values into equally sized classes?",
+        "answers": [
+            { "text": "Equal Interval", "correct": true },
+            { "text": "Quantile Breaks", "correct": false },
+            { "text": "Natural Breaks (Jenks)", "correct": false },
+            { "text": "Standard Deviation", "correct": false }
+        ]
+    },
+    {
+        "question": "Which data classification method places an equal number of observations into each class and is best for evenly distributed data?",
+        "answers": [
+            { "text": "Quantile Breaks", "correct": true },
+            { "text": "Equal Interval", "correct": false },
+            { "text": "Natural Breaks (Jenks)", "correct": false },
+            { "text": "Geometric Interval", "correct": false }
+        ]
+    },
+    {
+        "question": "Which data classification method, also known as Jenks, utilizes an algorithm to group values into classes separated by distinct breakpoints in the data distribution?",
+        "answers": [
+            { "text": "Natural Breaks", "correct": true },
+            { "text": "Quantile Breaks", "correct": false },
+            { "text": "Standard Deviation", "correct": false },
+            { "text": "Equal Interval", "correct": false }
+        ]
+    },
+    {
+        "question": "Which data classification method is best suited for data that conforms to a normal distribution (bell curve)?",
+        "answers": [
+            { "text": "Standard Deviation", "correct": true },
+            { "text": "Natural Breaks (Jenks)", "correct": false },
+            { "text": "Quantile Breaks", "correct": false },
+            { "text": "Equal Interval", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the process of superimposing layers of geographic data that cover the same area to study the relationships between them?",
+        "answers": [
+            { "text": "Spatial Overlay", "correct": true },
+            { "text": "Spatial Join", "correct": false },
+            { "text": "Map Algebra", "correct": false },
+            { "text": "Buffering", "correct": false }
+        ]
+    },
+    {
+        "question": "Which vector overlay tool selects only features common to all input layers?",
+        "answers": [
+            { "text": "Intersect", "correct": true },
+            { "text": "Union", "correct": false },
+            { "text": "Identity", "correct": false },
+            { "text": "Symmetrical Difference", "correct": false }
+        ]
+    },
+    {
+        "question": "Which vector overlay tool selects all features from both the input and overlay layers?",
+        "answers": [
+            { "text": "Union", "correct": true },
+            { "text": "Intersect", "correct": false },
+            { "text": "Identity", "correct": false },
+            { "text": "Symmetrical Difference", "correct": false }
+        ]
+    },
+    {
+        "question": "Which vector overlay tool selects features common to either the input layer or the overlay layer, but not both?",
+        "answers": [
+            { "text": "Symmetrical Difference", "correct": true },
+            { "text": "Union", "correct": false },
+            { "text": "Intersect", "correct": false },
+            { "text": "Update", "correct": false }
+        ]
+    },
+    {
+        "question": "Which raster overlay tool summarizes values in a raster layer by zones or categories in another layer (e.g., mean elevation per land use zone)?",
+        "answers": [
+            { "text": "Zonal Statistics", "correct": true },
+            { "text": "Weighted Overlay", "correct": false },
+            { "text": "Combine", "correct": false },
+            { "text": "Weighted Sum", "correct": false }
+        ]
+    },
+    {
+        "question": "Which raster overlay tool automates the overlay process and lets you assign different levels of importance (weights) to each input layer?",
+        "answers": [
+            { "text": "Weighted Overlay", "correct": true },
+            { "text": "Zonal Statistics", "correct": false },
+            { "text": "Combine", "correct": false },
+            { "text": "Map Algebra", "correct": false }
+        ]
+    },
+    {
+        "question": "In suitability modeling, what method reclassifies input data to a 0 to 1 scale based on the possibility of being a member of a specified set?",
+        "answers": [
+            { "text": "Fuzzy Membership", "correct": true },
+            { "text": "Boolean Logic", "correct": false },
+            { "text": "Weighted Overlay", "correct": false },
+            { "text": "Binary Classification", "correct": false }
+        ]
+    },
+    {
+        "question": "In fuzzy overlay analysis, which method returns the minimum fuzzy membership value of all input criteria for each cell?",
+        "answers": [
+            { "text": "Fuzzy And", "correct": true },
+            { "text": "Fuzzy Or", "correct": false },
+            { "text": "Fuzzy Product", "correct": false },
+            { "text": "Fuzzy Sum", "correct": false }
+        ]
+    },
+    {
+        "question": "In fuzzy overlay analysis, which method returns the maximum fuzzy membership value of all input criteria for each cell?",
+        "answers": [
+            { "text": "Fuzzy Or", "correct": true },
+            { "text": "Fuzzy And", "correct": false },
+            { "text": "Fuzzy Product", "correct": false },
+            { "text": "Fuzzy Gamma", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the algebra for manipulating geographic data, primarily fields, often referred to as 'raster math'?",
+        "answers": [
+            { "text": "Map Algebra", "correct": true },
+            { "text": "Boolean Algebra", "correct": false },
+            { "text": "Linear Algebra", "correct": false },
+            { "text": "Relational Algebra", "correct": false }
+        ]
+    },
+    {
+        "question": "Which type of map algebra operation combines rasters on a cell-by-cell basis (e.g., adding two rasters together)?",
+        "answers": [
+            { "text": "Local Operations", "correct": true },
+            { "text": "Global Operations", "correct": false },
+            { "text": "Focal Operations", "correct": false },
+            { "text": "Zonal Operations", "correct": false }
+        ]
+    },
+    {
+        "question": "Which type of map algebra operation calculates a value for a cell based on all of its neighboring cells (e.g., finding the average of a 3x3 neighborhood)?",
+        "answers": [
+            { "text": "Focal Operations", "correct": true },
+            { "text": "Local Operations", "correct": false },
+            { "text": "Global Operations", "correct": false },
+            { "text": "Zonal Operations", "correct": false }
+        ]
+    },
+    {
+        "question": "Which type of map algebra operation applies a math function to a group of cells within a specified area or zone?",
+        "answers": [
+            { "text": "Zonal Operations", "correct": true },
+            { "text": "Local Operations", "correct": false },
+            { "text": "Global Operations", "correct": false },
+            { "text": "Focal Operations", "correct": false }
+        ]
+    },
+    {
+        "question": "What number, often called R-squared, indicates how well data fit in a statistical model, where 1 indicates a perfect fit?",
+        "answers": [
+            { "text": "Coefficient of Determination", "correct": true },
+            { "text": "Pearson Correlation Coefficient", "correct": false },
+            { "text": "Standard Deviation", "correct": false },
+            { "text": "Z-Score", "correct": false }
+        ]
+    },
+    {
+        "question": "What is a central or typical value for a probability distribution, such as the mean, median, or mode?",
+        "answers": [
+            { "text": "Central tendency", "correct": true },
+            { "text": "Dispersion", "correct": false },
+            { "text": "Skewness", "correct": false },
+            { "text": "Kurtosis", "correct": false }
+        ]
+    },
+    {
+        "question": "What is a measure of the 'tailedness' of a probability distribution?",
+        "answers": [
+            { "text": "Kurtosis", "correct": true },
+            { "text": "Skewness", "correct": false },
+            { "text": "Variance", "correct": false },
+            { "text": "Standard Deviation", "correct": false }
+        ]
+    },
+    {
+        "question": "What is a measure of the asymmetry of a probability distribution about its mean?",
+        "answers": [
+            { "text": "Skewness", "correct": true },
+            { "text": "Kurtosis", "correct": false },
+            { "text": "Dispersion", "correct": false },
+            { "text": "Central Tendency", "correct": false }
+        ]
+    },
+    {
+        "question": "What type of table, also known as a crosstab, displays the multivariate frequency distribution of variables in a matrix format?",
+        "answers": [
+            { "text": "Contingency Table", "correct": true },
+            { "text": "Frequency Table", "correct": false },
+            { "text": "Attribute Table", "correct": false },
+            { "text": "Lookup Table", "correct": false }
+        ]
+    },
+    {
+        "question": "What correlation coefficient measures the linear relationship between two sets of data, with a value always between -1 and 1?",
+        "answers": [
+            { "text": "Pearson Correlation Coefficient", "correct": true },
+            { "text": "Coefficient of Determination (R-squared)", "correct": false },
+            { "text": "Spearman's Rank Correlation", "correct": false },
+            { "text": "Kendall's Tau", "correct": false }
+        ]
+    },
+    {
+        "question": "What is a measure of the joint variability of two random variables, indicating if they tend to increase or decrease together?",
+        "answers": [
+            { "text": "Covariance", "correct": true },
+            { "text": "Correlation", "correct": false },
+            { "text": "Variance", "correct": false },
+            { "text": "Standard Deviation", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the term for the number of standard deviations by which the value of a raw score is above or below the mean?",
+        "answers": [
+            { "text": "Z-Score", "correct": true },
+            { "text": "P-Value", "correct": false },
+            { "text": "T-Score", "correct": false },
+            { "text": "F-Statistic", "correct": false }
+        ]
+    },
+    {
+        "question": "What type of linear regression model uses a single explanatory variable to predict a dependent variable?",
+        "answers": [
+            { "text": "Simple Linear Regression", "correct": true },
+            { "text": "Multiple Linear Regression", "correct": false },
+            { "text": "Polynomial Regression", "correct": false },
+            { "text": "Logistic Regression", "correct": false }
+        ]
+    }
+]
