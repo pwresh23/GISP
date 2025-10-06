@@ -4,35 +4,70 @@ const resultsBtn = document.getElementById('results-btn');
 const resultsContainer = document.getElementById('results-container');
 const wrongAnswersList = document.getElementById('wrong-answers-list');
 
-let questions = []; // This will be filled from our JSON file
+// List all of your JSON files here
+const questionFiles = [
+    'questions_1.json',
+    'questions_2.json',
+    'questions_3.json',
+    'questions_4.json',
+    'questions_5.json',
+    'questions_6.json',
+    'questions_7.json',
+    'questions_8.json',
+    'questions_9.json',
+    'questions_10.json'
+];
+
+let allQuestions = []; // This will hold questions from all files
+let currentQuizQuestions = []; // The 10 questions for the current quiz
 let currentQuestionIndex = 0;
 let wrongAnswers = [];
 
-// This function fetches the questions and then starts the quiz
+// This function fetches ALL question files, combines them, and starts the quiz
 async function initializeQuiz() {
     try {
-        const response = await fetch('questions.json');
-        if (!response.ok) {
-            throw new Error('Network response was not ok ' + response.statusText);
-        }
-        questions = await response.json();
+        // Create a list of fetch promises for each file
+        const fetchPromises = questionFiles.map(file => fetch(file).then(response => {
+            if (!response.ok) {
+                throw new Error(`Failed to load ${file}`);
+            }
+            return response.json();
+        }));
+
+        // Wait for all files to be fetched and parsed
+        const questionArrays = await Promise.all(fetchPromises);
+
+        // Combine the arrays of questions into one large pool
+        allQuestions = questionArrays.flat();
+        
         startQuiz();
+
     } catch (error) {
-        console.error('There has been a problem with your fetch operation:', error);
-        questionElement.innerText = "Failed to load questions. Please check the console for errors.";
+        console.error('Error loading question files:', error);
+        questionElement.innerText = "Failed to load questions. Make sure all JSON files exist and are named correctly.";
     }
 }
 
 function startQuiz() {
-    // Optional: Shuffle questions each time
-    questions.sort(() => Math.random() - 0.5); 
-    
+    // 1. Shuffle the entire pool of questions
+    const shuffled = allQuestions.sort(() => 0.5 - Math.random());
+
+    // 2. Select the first 10 questions for this session
+    currentQuizQuestions = shuffled.slice(0, 10);
+
+    // 3. Reset the quiz state
     currentQuestionIndex = 0;
     wrongAnswers = [];
     resultsContainer.classList.add('hide');
     resultsBtn.classList.add('hide');
     answerButtonsElement.classList.remove('hide');
-    showQuestion(questions[currentQuestionIndex]);
+    
+    // Check if we have any questions to show
+    if(currentQuizQuestions.length > 0) {
+        showQuestion(currentQuizQuestions[currentQuestionIndex]);
+    } else {
+        questionElement.innerText = "No questions were found. Check your JSON files.";
+    }
 }
 
 function showQuestion(question) {
@@ -52,7 +87,7 @@ function selectAnswer(answer, button) {
     if (!correct) {
         button.classList.add('wrong');
         wrongAnswers.push({ 
-            question: questions[currentQuestionIndex].question, 
+            question: currentQuizQuestions[currentQuestionIndex].question, 
             yourAnswer: answer.text 
         });
     } else {
@@ -65,8 +100,8 @@ function selectAnswer(answer, button) {
 
     setTimeout(() => {
         currentQuestionIndex++;
-        if (currentQuestionIndex < questions.length) {
-            showQuestion(questions[currentQuestionIndex]);
+        if (currentQuestionIndex < currentQuizQuestions.length) {
+            showQuestion(currentQuizQuestions[currentQuestionIndex]);
         } else {
             questionElement.innerText = "Quiz Finished!";
             answerButtonsElement.classList.add('hide');
@@ -89,5 +124,5 @@ resultsBtn.addEventListener('click', () => {
     }
 });
 
-// Start the process
+// Start the entire process
 initializeQuiz();
