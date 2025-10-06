@@ -1,0 +1,182 @@
+[
+    {
+        "question": "To accurately calculate the height of tree canopies and buildings, which calculation would you perform using common elevation datasets?",
+        "answers": [
+            { "text": "Digital Surface Model (DSM) - Digital Terrain Model (DTM)", "correct": true },
+            { "text": "Digital Terrain Model (DTM) - Digital Surface Model (DSM)", "correct": false },
+            { "text": "Digital Elevation Model (DEM) / Contour Interval", "correct": false },
+            { "text": "Hillshade + Digital Elevation Model (DEM)", "correct": false }
+        ]
+    },
+    {
+        "question": "In a standard ASPRS classified LAS file from a LiDAR survey, what does classification code 2 typically represent?",
+        "answers": [
+            { "text": "Ground", "correct": true },
+            { "text": "Unclassified", "correct": false },
+            { "text": "Low Vegetation", "correct": false },
+            { "text": "Building", "correct": false }
+        ]
+    },
+    {
+        "question": "What is a primary advantage of using Synthetic Aperture Radar (SAR) for Earth observation compared to passive optical sensors like Landsat?",
+        "answers": [
+            { "text": "It can penetrate clouds and collect data at night.", "correct": true },
+            { "text": "It has a higher spatial resolution than any optical sensor.", "correct": false },
+            { "text": "It is less expensive to acquire and process.", "correct": false },
+            { "text": "It directly measures the chemical composition of the atmosphere.", "correct": false }
+        ]
+    },
+    {
+        "question": "In terrain analysis, what does 'aspect' measure?",
+        "answers": [
+            { "text": "The downslope direction of the steepest slope (e.g., North, Southeast)", "correct": true },
+            { "text": "The rate of change in elevation (steepness)", "correct": false },
+            { "text": "The curvature of the slope (convex or concave)", "correct": false },
+            { "text": "The total change in elevation across a study area", "correct": false }
+        ]
+    },
+    {
+        "question": "The Shuttle Radar Topography Mission (SRTM) is a major source of global elevation data. What technology was used to create it?",
+        "answers": [
+            { "text": "InSAR (Interferometric Synthetic Aperture Radar)", "correct": true },
+            { "text": "LiDAR", "correct": false },
+            { "text": "Aerial Photogrammetry", "correct": false },
+            { "text": "Sonar", "correct": false }
+        ]
+    },
+    {
+        "question": "When creating a 'false-color infrared' composite image from Landsat data to highlight healthy vegetation in bright red, which bands are typically assigned to the Red, Green, and Blue channels, respectively?",
+        "answers": [
+            { "text": "Near-Infrared, Red, Green", "correct": true },
+            { "text": "Red, Green, Blue", "correct": false },
+            { "text": "Shortwave Infrared, Near-Infrared, Red", "correct": false },
+            { "text": "Blue, Green, Red", "correct": false }
+        ]
+    },
+    {
+        "question": "What are 'breaklines' primarily used for when creating a Triangulated Irregular Network (TIN)?",
+        "answers": [
+            { "text": "To enforce sharp changes in surface behavior, such as ridges, roads, or lake shorelines", "correct": true },
+            { "text": "To remove incorrect elevation points from the dataset", "correct": false },
+            { "text": "To define the outer boundary (extent) of the TIN", "correct": false },
+            { "text": "To smooth the surface by averaging nearby elevation points", "correct": false }
+        ]
+    },
+    {
+        "question": "A satellite sensor with very high temporal resolution (e.g., daily revisits) but low spatial resolution (e.g., 250m pixels) is most suitable for what type of application?",
+        "answers": [
+            { "text": "Monitoring global climate patterns or large-scale deforestation", "correct": true },
+            { "text": "Mapping individual property lines for a tax assessment", "correct": false },
+            { "text": "Planning urban infrastructure like roads and pipelines", "correct": false },
+            { "text": "Counting individual cars in a parking lot", "correct": false }
+        ]
+    },
+    {
+        "question": "Which remote sensing technology is generally superior for penetrating dense forest canopies to map the ground terrain below?",
+        "answers": [
+            { "text": "LiDAR", "correct": true },
+            { "text": "Photogrammetry", "correct": false },
+            { "text": "Multispectral Imagery", "correct": false },
+            { "text": "Hyperspectral Imagery", "correct": false }
+        ]
+    },
+    {
+        "question": "What is a common artifact found in DEMs that appears as small, single-cell depressions without any drainage outlet?",
+        "answers": [
+            { "text": "Sinks (or pits)", "correct": true },
+            { "text": "Peaks (or spikes)", "correct": false },
+            { "text": "Striping", "correct": false },
+            { "text": "Terracing", "correct": false }
+        ]
+    },
+    {
+        "question": "The process of using overlapping aerial photographs (a stereo pair) to derive 3D measurements and create elevation models is called what?",
+        "answers": [
+            { "text": "Photogrammetry", "correct": true },
+            { "text": "Orthorectification", "correct": false },
+            { "text": "Georeferencing", "correct": false },
+            { "text": "Pan-sharpening", "correct": false }
+        ]
+    },
+    {
+        "question": "Radiometric resolution in remote sensing refers to...",
+        "answers": [
+            { "text": "...the sensitivity of a sensor to discriminate small differences in electromagnetic energy (bit depth).", "correct": true },
+            { "text": "...the size of the ground area covered by a single pixel.", "correct": false },
+            { "text": "...the frequency at which a sensor revisits the same location.", "correct": false },
+            { "text": "...the number of different wavelength bands a sensor can record.", "correct": false }
+        ]
+    },
+    {
+        "question": "What does a 'first return' in a discrete-return LiDAR system typically represent?",
+        "answers": [
+            { "text": "The highest feature on the landscape, such as a treetop or rooftop", "correct": true },
+            { "text": "The bare-earth ground surface", "correct": false },
+            { "text": "The mid-canopy of a forested area", "correct": false },
+            { "text": "An error or noise in the data collection", "correct": false }
+        ]
+    },
+    {
+        "question": "A DEM is a fundamental input for generating which of the following derived products?",
+        "answers": [
+            { "text": "Slope, aspect, and hillshade", "correct": true },
+            { "text": "Land cover classification", "correct": false },
+            { "text": "Normalized Difference Vegetation Index (NDVI)", "correct": false },
+            { "text": "Building footprints", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the primary purpose of 'vertical exaggeration' when visualizing a 3D terrain model?",
+        "answers": [
+            { "text": "To emphasize subtle changes in elevation in areas of low relief", "correct": true },
+            { "text": "To correct for geometric distortions in the elevation data", "correct": false },
+            { "text": "To convert the vertical units to match the horizontal units", "correct": false },
+            { "text": "To reduce the file size of the 3D model", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the key difference between a Digital Elevation Model (DEM) and a Digital Terrain Model (DTM)?",
+        "answers": [
+            { "text": "A DTM represents the bare-earth surface, while a DEM is a more general term that can include surface features.", "correct": true },
+            { "text": "A DEM is always in raster format, while a DTM is always in vector (TIN) format.", "correct": false },
+            { "text": "A DTM has a higher spatial resolution than a DEM.", "correct": false },
+            { "text": "A DEM measures elevation, while a DTM measures slope.", "correct": false }
+        ]
+    },
+    {
+        "question": "Hyperspectral remote sensing is characterized by...",
+        "answers": [
+            { "text": "...collecting data in hundreds of very narrow, contiguous spectral bands.", "correct": true },
+            { "text": "...collecting data in a few broad spectral bands (e.g., Red, Green, Blue, NIR).", "correct": false },
+            { "text": "...using a laser to measure distance and create 3D point clouds.", "correct": false },
+            { "text": "...having a spatial resolution of less than one meter.", "correct": false }
+        ]
+    },
+    {
+        "question": "When creating a hillshade model, what two parameters must be specified?",
+        "answers": [
+            { "text": "Azimuth and altitude of the light source", "correct": true },
+            { "text": "Contour interval and index interval", "correct": false },
+            { "text": "Input DEM and desired output resolution", "correct": false },
+            { "text": "Slope and aspect rasters", "correct": false }
+        ]
+    },
+    {
+        "question": "What does a negative value in a Normalized Difference Vegetation Index (NDVI) raster typically represent?",
+        "answers": [
+            { "text": "Water, snow, or other non-vegetated surfaces", "correct": true },
+            { "text": "Extremely healthy, dense vegetation", "correct": false },
+            { "text": "Stressed or sparse vegetation", "correct": false },
+            { "text": "An error in the input satellite imagery", "correct": false }
+        ]
+    },
+    {
+        "question": "The ASTER Global Digital Elevation Model (GDEM) was created using what technology?",
+        "answers": [
+            { "text": "Stereo-pair optical imagery", "correct": true },
+            { "text": "Interferometric Synthetic Aperture Radar (InSAR)", "correct": false },
+            { "text": "Airborne LiDAR", "correct": false },
+            { "text": "Digitized topographic contours", "correct": false }
+        ]
+    }
+]
