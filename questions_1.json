@@ -18,7 +18,7 @@
         ]
     },
     {
-        "question": "What is the name for the measured, interpolated, equipotential surface (not mathematically defined) that is used to reference heights in GIS?",
+        "question": "What is the name for the measured, interpolated, equipotential surface that is used to reference heights in GIS?",
         "answers": [
             { "text": "Geoid", "correct": true },
             { "text": "Reference Frame", "correct": false },
@@ -27,7 +27,7 @@
         ]
     },
     {
-        "question": "What is a sphere-like but not perfectly spherical object that is mathematically defined?",
+        "question": "What is a mathematically defined, sphere-like but not perfectly spherical object?",
         "answers": [
             { "text": "Spheroid", "correct": true },
             { "text": "Geoid", "correct": false },
@@ -54,7 +54,7 @@
         ]
     },
     {
-        "question": "What type of spheroid has a semi-minor axis in the polar direction and a semi-major axis in the equatorial direction, where the equatorial radius is always greater?",
+        "question": "What type of spheroid has a semi-minor axis in the polar direction and a semi-major axis in the equatorial direction?",
         "answers": [
             { "text": "Ellipsoid", "correct": true },
             { "text": "Geoid", "correct": false },
@@ -72,12 +72,30 @@
         ]
     },
     {
-        "question": "Which common spheroid (World Geodetic System) is used for the WGS 1984 reference frame, most commonly associated with GPS?",
+        "question": "Which common spheroid (World Geodetic System) is used for the WGS 1984 reference frame?",
         "answers": [
             { "text": "WGS 1984", "correct": true },
             { "text": "GRS 1980", "correct": false },
             { "text": "Clarke 1866", "correct": false },
             { "text": "NAD 83", "correct": false }
+        ]
+    },
+    {
+        "question": "What is the reference surface that provides known locations to begin surveys and create maps?",
+        "answers": [
+            { "text": "Datum", "correct": true },
+            { "text": "Geoid", "correct": false },
+            { "text": "Projection", "correct": false },
+            { "text": "Spheroid", "correct": false }
+        ]
+    },
+    {
+        "question": "Which of the following is NOT considered a standard part of a geodetic datum?",
+        "answers": [
+            { "text": "A set of raster cells", "correct": true },
+            { "text": "An ellipsoid", "correct": false },
+            { "text": "An origin point", "correct": false },
+            { "text": "A set of control points", "correct": false }
         ]
     }
 ]
