@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #545454;
+    background-color: #343a40; /* Changed from a light gray to a dark gray */
     display: flex;
     justify-content: center;
     align-items: center;
