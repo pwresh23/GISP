@@ -13,7 +13,7 @@ const wrongAnswersList = document.getElementById('wrong-answers-list');
 const allQuestionFiles = [
     'questions_1.json', 'questions_2.json', 'questions_3.json', 'questions_4.json', 
     'questions_5.json', 'questions_6.json', 'questions_7.json', 'questions_8.json', 
-    'questions_9.json', 'questions_10.json', 'questions_11.json'
+    'questions_9.json', 'questions_10.json', 'questions_11.json', 'questions_12.json'
 ];
 
 let currentQuizQuestions = [];
