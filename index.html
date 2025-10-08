@@ -1,13 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-T-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flashcard Quiz</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="quiz-container">
+
+    <div class="selection-container" id="selection-container">
+        <h1>GISP Exam Flashcards</h1>
+        <p>Select a topic to study, or choose 'Random Mix' for a quiz with questions from all topics.</p>
+        <select id="topic-select">
+            <option value="random">Random Mix (10 Questions)</option>
+            <option value="questions_1.json">Section 1: Foundational Concepts</option>
+            <option value="questions_2.json">Section 2: Data Models & Management</option>
+            <option value="questions_3.json">Section 3: Cartography & Visualization</option>
+            <option value="questions_4.json">Section 4: Data Acquisition</option>
+            <option value="questions_5.json">Section 5: Data Transformation & Generalization</option>
+            <option value="questions_6.json">Section 6: Spatial Analysis</option>
+            <option value="questions_7.json">Section 7: Database Management</option>
+            <option value="questions_8.json">Section 8: System Architecture & Development</option>
+            <option value="questions_9.json">Section 9: GIS Design & Implementation</option>
+            <option value="questions_10.json">Section 10: Advanced Topics & Ethics</option>
+            <option value="questions_11.json">Section 11: Elevation & Remote Sensing</option>
+        </select>
+        <button id="start-btn">Start Quiz</button>
+    </div>
+
+    <div class="quiz-container hide" id="quiz-container">
         <div id="card">
             <h2 id="question">Question goes here</h2>
             <div id="answers" class="answer-buttons">
