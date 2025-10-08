@@ -1,0 +1,542 @@
+[
+    {
+        "questionNumber": 1,
+        "question": "A city planner needs to identify all buildings taller than 50 feet within a downtown corridor for a new zoning regulation. They have high-resolution LiDAR data for the entire city. What is the most direct method to calculate the height of each building?",
+        "answerOptions": [
+            {
+                "text": "Subtract a Digital Terrain Model (DTM) from a Digital Surface Model (DSM).",
+                "rationale": "This calculation creates a normalized height model, effectively isolating the height of surface features (like buildings) above the bare-earth ground.",
+                "isCorrect": true
+            },
+            {
+                "text": "Create a hillshade from the Digital Surface Model (DSM) to visualize building shadows.",
+                "rationale": "While a hillshade provides visual context, it does not give a quantitative height measurement for each building.",
+                "isCorrect": false
+            },
+            {
+                "text": "Generate contours from the Digital Terrain Model (DTM) and count the intervals.",
+                "rationale": "Contours from a DTM represent ground elevation, not the height of buildings on the surface.",
+                "isCorrect": false
+            },
+            {
+                "text": "Perform a viewshed analysis from the top of the tallest known building.",
+                "rationale": "A viewshed analysis determines visibility from a point, not the height of surrounding features.",
+                "isCorrect": false
+            }
+        ],
+        "hint": "Think about the difference between a surface model that includes features and one that represents the bare ground."
+    },
+    {
+        "questionNumber": 2,
+        "question": "An ecologist is analyzing a new LiDAR dataset to find potential habitats for a bird species that nests only on the ground, beneath dense forest canopies. Which classified LiDAR points are most critical for their analysis?",
+        "answerOptions": [
+            {
+                "text": "Class 2 (Ground)",
+                "rationale": "This class represents the bare-earth surface, which is essential for analyzing the terrain where the birds would nest.",
+                "isCorrect": true
+            },
+            {
+                "text": "Class 5 (High Vegetation)",
+                "rationale": "While high vegetation defines the canopy, the analysis requires knowing the ground conditions beneath it.",
+                "isCorrect": false
+            },
+            {
+                "text": "Class 1 (Unclassified)",
+                "rationale": "Relying on unclassified points would be inaccurate; the goal is to use points that have been definitively identified as ground.",
+                "isCorrect": false
+            },
+            {
+                "text": "Class 6 (Building)",
+                "rationale": "Buildings are irrelevant to finding natural nesting habitats in a forest.",
+                "isCorrect": false
+            }
+        ],
+        "hint": "The standard LAS classification format assigns specific codes to different types of features. Which code represents the bare earth?"
+    },
+    {
+        "questionNumber": 3,
+        "question": "A geologist is mapping a remote, jungle-covered region in a country known for its persistent, heavy cloud cover. They need a reliable elevation model of the terrain. Which remote sensing technology would be the best choice for this project?",
+        "answerOptions": [
+            {
+                "text": "Synthetic Aperture Radar (SAR)",
+                "rationale": "SAR is an active sensor that can penetrate clouds, making it ideal for mapping terrain in tropical or frequently overcast regions.",
+                "isCorrect": true
+            },
+            {
+                "text": "High-resolution satellite imagery (e.g., WorldView)",
+                "rationale": "Optical sensors like WorldView cannot penetrate cloud cover, making data acquisition unreliable in this environment.",
+                "isCorrect": false
+            },
+            {
+                "text": "Aerial photogrammetry",
+                "rationale": "Like satellite imagery, aerial photography is an optical method and would be severely hampered by the constant cloud cover.",
+                "isCorrect": false
+            },
+            {
+                "text": "Multispectral imagery (e.g., Landsat)",
+                "rationale": "Landsat is a passive optical sensor and would be unable to collect surface data through the clouds.",
+                "isCorrect": false
+            }
+        ],
+        "hint": "Consider which type of sensor actively sends its own signal and can 'see' through atmospheric conditions that block visible light."
+    },
+    {
+        "questionNumber": 4,
+        "question": "A ski resort wants to create a map showing which slopes face north, as these slopes typically hold snow the longest. After creating a DEM of the resort, which terrain analysis tool should be used?",
+        "answerOptions": [
+            {
+                "text": "Aspect",
+                "rationale": "This tool specifically calculates the downslope direction for each cell, which can then be classified to identify north-facing slopes.",
+                "isCorrect": true
+            },
+            {
+                "text": "Slope",
+                "rationale": "Slope measures the steepness or gradient of the terrain, not the direction it faces.",
+                "isCorrect": false
+            },
+            {
+                "text": "Hillshade",
+                "rationale": "Hillshade creates a visual representation of the terrain's shape but does not provide a quantifiable direction for each slope.",
+                "isCorrect": false
+            },
+            {
+                "text": "Viewshed",
+                "rationale": "Viewshed determines visibility from a point, which is not relevant to identifying the orientation of the slopes themselves.",
+                "isCorrect": false
+            }
+        ],
+        "hint": "Which terrain parameter measures the orientation or directional component of a slope?"
+    },
+    {
+        "questionNumber": 5,
+        "question": "A GIS analyst is tasked with creating a false-color composite image from a Landsat 8 scene to make agricultural fields and forests stand out vividly. Healthy vegetation should appear bright red. Which band combination should they assign to the display's R, G, and B channels?",
+        "answerOptions": [
+            {
+                "text": "R: Band 5 (Near-Infrared), G: Band 4 (Red), B: Band 3 (Green)",
+                "rationale": "This is the standard 'false-color infrared' combination. Healthy vegetation strongly reflects NIR, so assigning it to the red channel makes it appear red.",
+                "isCorrect": true
+            },
+            {
+                "text": "R: Band 4 (Red), G: Band 3 (Green), B: Band 2 (Blue)",
+                "rationale": "This is a 'natural color' composite, which would show vegetation as green, not red.",
+                "isCorrect": false
+            },
+            {
+                "text": "R: Band 7 (Shortwave Infrared), G: Band 5 (Near-Infrared), B: Band 4 (Red)",
+                "rationale": "This combination is often used for geology or soil moisture analysis, not for the classic red vegetation display.",
+                "isCorrect": false
+            },
+            {
+                "text": "R: Band 2 (Blue), G: Band 3 (Green), B: Band 4 (Red)",
+                "rationale": "This combination reverses the standard natural color display and would not result in red vegetation.",
+                "isCorrect": false
+            }
+        ],
+        "hint": "Healthy plants reflect a specific type of light that our eyes can't see. To make them stand out, you assign that reflectance band to the red display channel."
+    },
+    {
+        "questionNumber": 6,
+        "question": "An engineer is creating a TIN to model a proposed reservoir. To ensure the surface model accurately represents the shoreline of the lake and the crest of the dam, what type of feature should they use during the TIN creation process?",
+        "answerOptions": [
+            {
+                "text": "Breaklines",
+                "rationale": "Breaklines force the TIN's triangulation to conform to linear features where there is an abrupt change in the surface, like a shoreline or the edge of a dam.",
+                "isCorrect": true
+            },
+            {
+                "text": "Erase Polygons",
+                "rationale": "Erase polygons would remove data, not help define the shape of the surface.",
+                "isCorrect": false
+            },
+            {
+                "text": "Mass Points",
+                "rationale": "While mass points provide the elevation data, they don't enforce the linear structure of features like a shoreline.",
+                "isCorrect": false
+            },
+            {
+                "text": "Contour Lines",
+                "rationale": "While contours can be an input, breaklines are the specific tool used to define sharp linear features with high fidelity.",
+                "isCorrect": false
+            }
+        ],
+        "hint": "Consider the tool designed specifically to enforce linear features where the surface changes its behavior abruptly."
+    },
+    {
+        "questionNumber": 7,
+        "question": "A disaster response agency needs to monitor the daily extent of a major, slow-moving flood that covers several states. Which satellite sensor would be the most appropriate choice for this task?",
+        "answerOptions": [
+            {
+                "text": "MODIS",
+                "rationale": "MODIS has a very high temporal resolution (daily revisits) and a wide swath, making it perfect for monitoring large-scale, dynamic events, even with its coarse spatial resolution.",
+                "isCorrect": true
+            },
+            {
+                "text": "WorldView-3",
+                "rationale": "WorldView-3 has very high spatial resolution but a much lower temporal resolution and a smaller footprint, making it unsuitable for daily monitoring of a multi-state area.",
+                "isCorrect": false
+            },
+            {
+                "text": "Landsat 8",
+                "rationale": "Landsat's 16-day revisit cycle is too infrequent for daily monitoring of an active flood event.",
+                "isCorrect": false
+            },
+            {
+                "text": "IKONOS",
+                "rationale": "Like WorldView, IKONOS is a high-spatial-resolution sensor with a revisit time that is not suitable for daily monitoring on such a large scale.",
+                "isCorrect": false
+            }
+        ],
+        "hint": "The priority here is the frequency of data collection over a large area, not the level of fine detail."
+    },
+    {
+        "questionNumber": 8,
+        "question": "Before performing a watershed analysis on a DEM, a GIS analyst runs a tool that finds and fills all single-cell depressions in the raster. What common DEM artifact are they correcting?",
+        "answerOptions": [
+            {
+                "text": "Sinks (or pits)",
+                "rationale": "Sinks are cells without a drainage outlet that can trap 'flow' in hydrologic modeling. Filling them is a standard preprocessing step to ensure continuous flow paths.",
+                "isCorrect": true
+            },
+            {
+                "text": "Spikes (or peaks)",
+                "rationale": "Spikes are abnormally high cells, not depressions. While they are also errors, the process described is 'filling,' which applies to low spots.",
+                "isCorrect": false
+            },
+            {
+                "text": "Striping",
+                "rationale": "Striping refers to linear artifacts often caused by sensor errors and is not corrected by filling depressions.",
+                "isCorrect": false
+            },
+            {
+                "text": "NoData values",
+                "rationale": "While NoData values can be an issue, sinks are a specific type of data artifact related to elevation values, not an absence of data.",
+                "isCorrect": false
+            }
+        ],
+        "hint": "What is the term for a low point in a DEM from which water cannot flow out?"
+    },
+    {
+        "questionNumber": 9,
+        "question": "A sensor that can distinguish between very subtle variations in the color of light, such as identifying different minerals based on their unique reflectance in hundreds of narrow wavelength bands, is known as what type of sensor?",
+        "answerOptions": [
+            {
+                "text": "Hyperspectral",
+                "rationale": "This type of sensor collects data across a large number of narrow, contiguous bands, allowing for the creation of a detailed spectral signature for objects.",
+                "isCorrect": true
+            },
+            {
+                "text": "Multispectral",
+                "rationale": "Multispectral sensors collect data in a small number of broad bands (e.g., Landsat) and cannot distinguish such subtle spectral differences.",
+                "isCorrect": false
+            },
+            {
+                "text": "Panchromatic",
+                "rationale": "A panchromatic sensor collects data in a single, wide band (usually black and white) and has no spectral differentiation capability.",
+                "isCorrect": false
+            },
+            {
+                "text": "Radar",
+                "rationale": "Radar is an active sensor that operates in the microwave portion of the spectrum and does not measure reflected light in the same way.",
+                "isCorrect": false
+            }
+        ],
+        "hint": "Think about the prefixes that relate to the number of spectral bands a sensor collects: 'multi-' vs. 'hyper-'."
+    },
+    {
+        "questionNumber": 10,
+        "question": "An analyst is creating a 3D visualization of a canyon. To make the canyon's depth and the steepness of its walls more dramatic and easier to see on screen, what display property should they adjust?",
+        "answerOptions": [
+            {
+                "text": "Vertical Exaggeration",
+                "rationale": "This property multiplies the z-values of the elevation data, making vertical changes appear more pronounced, which is useful for areas with subtle or dramatic relief.",
+                "isCorrect": true
+            },
+            {
+                "text": "Light Source Azimuth",
+                "rationale": "Adjusting the azimuth changes the direction of the light for hillshading but does not alter the perceived depth of the terrain itself.",
+                "isCorrect": false
+            },
+            {
+                "text": "Spatial Resolution",
+                "rationale": "Changing the spatial resolution would alter the level of detail, but not the perceived vertical scale of the terrain.",
+                "isCorrect": false
+            },
+            {
+                "text": "Contour Interval",
+                "rationale": "The contour interval is used for 2D representation and does not directly apply to the scaling of a 3D visualization.",
+                "isCorrect": false
+            }
+        ],
+        "hint": "What setting in a 3D viewer artificially stretches the 'Z' dimension?"
+    },
+    {
+        "questionNumber": 11,
+        "question": "A utility company has a raw aerial photograph taken from a plane. When they overlay their pipe network on it, the pipes appear misaligned, especially in hilly areas. To use the photo as an accurate basemap, what process is required?",
+        "answerOptions": [
+            {
+                "text": "Orthorectification",
+                "rationale": "This process removes distortions caused by both sensor tilt and terrain relief, creating a planimetrically correct image with a uniform scale.",
+                "isCorrect": true
+            },
+            {
+                "text": "Georeferencing",
+                "rationale": "Basic georeferencing might align the photo generally, but it won't correct the internal distortions caused by terrain relief.",
+                "isCorrect": false
+            },
+            {
+                "text": "Radiometric Correction",
+                "rationale": "This corrects for sensor and atmospheric effects on the brightness values of pixels, not their geometric location.",
+                "isCorrect": false
+            },
+            {
+                "text": "Pan-sharpening",
+                "rationale": "This process fuses a panchromatic and a multispectral image to increase spatial resolution, but it does not correct geometric distortions.",
+                "isCorrect": false
+            }
+        ],
+        "hint": "The problem involves geometric distortions caused by both the camera and the terrain. What is the specific term for correcting both?"
+    },
+    {
+        "questionNumber": 12,
+        "question": "A government agency wants to compare the amount of urban growth between 1990 and 2020. They have Landsat satellite images from both years. What type of analysis would be most appropriate?",
+        "answerOptions": [
+            {
+                "text": "Change Detection",
+                "rationale": "This is the general term for using multi-temporal datasets to identify differences in land cover or land use over time.",
+                "isCorrect": true
+            },
+            {
+                "text": "Suitability Analysis",
+                "rationale": "This analysis is used to find the best locations for a future activity, not to measure past changes.",
+                "isCorrect": false
+            },
+            {
+                "text": "Network Analysis",
+                "rationale": "This is used for analyzing linear networks like roads or rivers and is not applicable here.",
+                "isCorrect": false
+            },
+            {
+                "text": "Density Analysis",
+                "rationale": "This would measure the concentration of urban areas at one point in time but is not the primary method for comparing two different time periods.",
+                "isCorrect": false
+            }
+        ],
+        "hint": "What is the process of comparing imagery from two different time periods called?"
+    },
+    {
+        "questionNumber": 13,
+        "question": "An agricultural analyst is using a satellite image to assess crop health. They calculate a well-known index and find that a section of a field has a value of 0.1, while healthy areas have values around 0.8. What does the low value likely indicate?",
+        "answerOptions": [
+            {
+                "text": "Stressed or sparse vegetation",
+                "rationale": "In the NDVI, values close to zero indicate a lack of healthy, photosynthetically active vegetation, which could be due to stress, disease, or sparse planting.",
+                "isCorrect": true
+            },
+            {
+                "text": "Extremely healthy, dense vegetation",
+                "rationale": "Healthy, dense vegetation would have high NDVI values, typically greater than 0.6.",
+                "isCorrect": false
+            },
+            {
+                "text": "Water or impervious surface",
+                "rationale": "Water and impervious surfaces typically have negative NDVI values.",
+                "isCorrect": false
+            },
+            {
+                "text": "Recently tilled bare soil",
+                "rationale": "Bare soil typically has a low positive NDVI value, but 0.1 specifically points towards struggling plant life rather than just soil.",
+                "isCorrect": false
+            }
+        ],
+        "hint": "Consider the range of the Normalized Difference Vegetation Index (NDVI) and what low positive values represent."
+    },
+    {
+        "questionNumber": 14,
+        "question": "To create a shaded relief map (hillshade) that simulates a late afternoon sun in the northern hemisphere, what would be the most appropriate azimuth and altitude settings for the light source?",
+        "answerOptions": [
+            {
+                "text": "Azimuth: 315° (Northwest), Altitude: 45°",
+                "rationale": "This standard setting simulates a light source from the northwest, which provides shadowing that is natural and easy for the human eye to interpret as 3D relief.",
+                "isCorrect": true
+            },
+            {
+                "text": "Azimuth: 180° (South), Altitude: 45°",
+                "rationale": "A light source from the south can cause 'relief inversion,' where valleys look like ridges and vice-versa.",
+                "isCorrect": false
+            },
+            {
+                "text": "Azimuth: 315° (Northwest), Altitude: 90°",
+                "rationale": "An altitude of 90° places the light source directly overhead, which would produce very little to no shadowing and a flat-looking map.",
+                "isCorrect": false
+            },
+            {
+                "text": "Azimuth: 90° (East), Altitude: 15°",
+                "rationale": "While an eastern azimuth is possible, a low altitude of 15° would create extremely long, exaggerated shadows that might obscure terrain details.",
+                "isCorrect": false
+            }
+        ],
+        "hint": "Cartographic convention for hillshading typically places the light source in the upper-left of the map to avoid a visual illusion called relief inversion."
+    },
+    {
+        "questionNumber": 15,
+        "question": "A forestry company needs to create a highly detailed elevation model of a planned harvest area that accurately maps not only the ground but also individual trees and canopy structure. Which technology would provide the most suitable raw data?",
+        "answerOptions": [
+            {
+                "text": "LiDAR",
+                "rationale": "LiDAR is unique in its ability to capture multiple returns, providing a dense 3D point cloud that can model both the ground (last return) and the full vegetation structure (first and intermediate returns).",
+                "isCorrect": true
+            },
+            {
+                "text": "SRTM",
+                "rationale": "SRTM data has a coarse resolution (30m or 90m) and cannot resolve individual trees or detailed canopy structure.",
+                "isCorrect": false
+            },
+            {
+                "text": "Landsat Imagery",
+                "rationale": "Landsat provides 2D multispectral imagery and cannot be used to directly model the 3D structure of individual trees.",
+                "isCorrect": false
+            },
+            {
+                "text": "Digitized Contours",
+                "rationale": "Digitizing contours from an old map would only provide ground elevation and would lack the detail needed for individual tree modeling.",
+                "isCorrect": false
+            }
+        ],
+        "hint": "Which technology directly measures the 3D structure of the environment by sending out laser pulses and recording their returns?"
+    },
+    {
+        "questionNumber": 16,
+        "question": "The 'bit depth' of a satellite image (e.g., 8-bit, 12-bit) determines its...",
+        "answerOptions": [
+            {
+                "text": "Radiometric Resolution",
+                "rationale": "Bit depth defines the number of unique values that can be stored for each pixel, which corresponds to the sensor's sensitivity to differences in light intensity.",
+                "isCorrect": true
+            },
+            {
+                "text": "Spatial Resolution",
+                "rationale": "Spatial resolution is determined by the pixel size (e.g., 30 meters), not the bit depth.",
+                "isCorrect": false
+            },
+            {
+                "text": "Temporal Resolution",
+                "rationale": "Temporal resolution is the revisit frequency of the satellite, which is unrelated to bit depth.",
+                "isCorrect": false
+            },
+            {
+                "text": "Spectral Resolution",
+                "rationale": "Spectral resolution relates to the number and width of the wavelength bands the sensor records.",
+                "isCorrect": false
+            }
+        ],
+        "hint": "Which type of resolution relates to the sensitivity of the sensor and the range of brightness values it can record?"
+    },
+    {
+        "questionNumber": 17,
+        "question": "An emergency manager is using a DEM to model the potential inundation area for a dam failure. The first step in their workflow is to derive a raster showing the direction water will flow out of each cell. What tool should they use?",
+        "answerOptions": [
+            {
+                "text": "Flow Direction",
+                "rationale": "This tool specifically calculates the direction of steepest descent from each cell, which is the foundational layer for most hydrologic analysis.",
+                "isCorrect": true
+            },
+            {
+                "text": "Flow Accumulation",
+                "rationale": "This is a subsequent step that calculates the cumulative flow into each cell, but it requires the flow direction raster as an input.",
+                "isCorrect": false
+            },
+            {
+                "text": "Watershed Delineation",
+                "rationale": "This tool identifies the contributing area for a given point and also depends on a pre-calculated flow direction raster.",
+                "isCorrect": false
+            },
+            {
+                "text": "Aspect",
+                "rationale": "While similar, aspect calculates the general downslope direction. Flow direction tools are specifically designed for hydrologic modeling with an 8-direction pointer system.",
+                "isCorrect": false
+            }
+        ],
+        "hint": "Hydrologic modeling starts with determining, for every cell in a DEM, which of its neighbors is the lowest."
+    },
+    {
+        "questionNumber": 18,
+        "question": "A researcher has two elevation datasets for a coastal area, one collected in 2005 and another in 2020. They want to precisely measure the amount of coastal erosion that has occurred. What is this analytical process called?",
+        "answerOptions": [
+            {
+                "text": "DEM of Difference (DoD)",
+                "rationale": "This technique involves subtracting one elevation model from another to create a new raster where cell values represent the change in elevation over time.",
+                "isCorrect": true
+            },
+            {
+                "text": "Terrain Ruggedness Index (TRI)",
+                "rationale": "This measures the roughness of the terrain at a single point in time, not the change between two time periods.",
+                "isCorrect": false
+            },
+            {
+                "text": "Contour Generation",
+                "rationale": "While contours can visualize the terrain, comparing two sets of contour lines is not a precise way to quantify volumetric change.",
+                "isCorrect": false
+            },
+            {
+                "text": "Viewshed Analysis",
+                "rationale": "This determines visibility and is not relevant for measuring changes in the land surface itself.",
+                "isCorrect": false
+            }
+        ],
+        "hint": "What is the most direct way to find the change between two raster datasets representing the same variable at different times?"
+    },
+    {
+        "questionNumber": 19,
+        "question": "A real estate company wants to create a map layer that only shows land parcels with an elevation below 100 feet, as these are considered high-risk for flooding. They have a DEM and a parcel polygon layer. What is the best GIS process to achieve this?",
+        "answerOptions": [
+            {
+                "text": "Reclassify the DEM into 'below 100ft' and 'above 100ft', then use that result to clip or select the parcel layer.",
+                "rationale": "This is a standard suitability workflow: first, classify the continuous elevation data into a binary (suitable/unsuitable) raster, then use that raster to query the vector features.",
+                "isCorrect": true
+            },
+            {
+                "text": "Generate a hillshade from the DEM and visually estimate which parcels are in low areas.",
+                "rationale": "Visual estimation from a hillshade is subjective and not precise enough for identifying parcels based on a specific elevation threshold.",
+                "isCorrect": false
+            },
+            {
+                "text": "Calculate the average slope for each parcel and select the flattest ones.",
+                "rationale": "Slope is not the same as elevation; a parcel could be very flat but located on a high plateau, well above 100 feet.",
+                "isCorrect": false
+            },
+            {
+                "text": "Buffer the coastline by 100 feet and select all parcels within the buffer.",
+                "rationale": "A horizontal buffer of 100 feet from the coast has no direct relationship to a vertical elevation of 100 feet above sea level.",
+                "isCorrect": false
+            }
+        ],
+        "hint": "The solution requires using the elevation values from the raster to filter the vector parcel data."
+    },
+    {
+        "questionNumber": 20,
+        "question": "The 'red edge' is a region in the electromagnetic spectrum between the red and near-infrared bands where the reflectance of healthy vegetation increases sharply. Advanced remote sensing for agriculture often uses sensors that can capture this. What is the primary benefit of analyzing the red edge?",
+        "answerOptions": [
+            {
+                "text": "It is highly sensitive for monitoring plant stress, health, and nitrogen content.",
+                "rationale": "The exact position and slope of the red edge shift in response to changes in chlorophyll and nitrogen content, making it a more sensitive indicator of plant health than broader indices like NDVI.",
+                "isCorrect": true
+            },
+            {
+                "text": "It allows for the direct measurement of a plant's height.",
+                "rationale": "The red edge is a spectral characteristic and does not provide information about the vertical structure or height of plants.",
+                "isCorrect": false
+            },
+            {
+                "text": "It can penetrate clouds and smoke better than other bands.",
+                "rationale": "The red edge is in the optical part of the spectrum and is blocked by clouds, just like visible light.",
+                "isCorrect": false
+            },
+            {
+                "text": "It is primarily used to distinguish between different types of soil.",
+                "rationale": "While soil has its own spectral signature, the red edge is a phenomenon specifically related to vegetation.",
+                "isCorrect": false
+            }
+        ],
+        "hint": "This specific part of the spectral curve is a very sensitive indicator of a plant's internal chemistry and well-being."
+    }
+]
