@@ -2,190 +2,442 @@
     {
         "question": "What is the general term for data accessed and exchanged as needed between software systems, often using web services?",
         "answers": [
-            { "text": "Application Programming Interface (API)", "correct": true },
-            { "text": "File Transfer Protocol (FTP)", "correct": false },
-            { "text": "Secure Sockets Layer (SSL)", "correct": false },
-            { "text": "Transmission Control Protocol (TCP)", "correct": false }
+            {
+                "text": "File Transfer Protocol (FTP)",
+                "correct": false
+            },
+            {
+                "text": "Transmission Control Protocol (TCP)",
+                "correct": false
+            },
+            {
+                "text": "Application Programming Interface (API)",
+                "correct": true
+            },
+            {
+                "text": "Secure Sockets Layer (SSL)",
+                "correct": false
+            }
         ]
     },
     {
         "question": "Which protocol header is added at the physical network layer and represents a device's unique hardware address?",
         "answers": [
-            { "text": "Media Access Control (MAC) address", "correct": true },
-            { "text": "Internet Protocol (IP)", "correct": false },
-            { "text": "Transmission Control Protocol (TCP)", "correct": false },
-            { "text": "User Datagram Protocol (UDP)", "correct": false }
+            {
+                "text": "Internet Protocol (IP)",
+                "correct": false
+            },
+            {
+                "text": "Media Access Control (MAC) address",
+                "correct": true
+            },
+            {
+                "text": "User Datagram Protocol (UDP)",
+                "correct": false
+            },
+            {
+                "text": "Transmission Control Protocol (TCP)",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What standard, but insecure, communication protocol is used for the transfer of computer files from a server to a client on a computer network?",
         "answers": [
-            { "text": "File Transfer Protocol (FTP)", "correct": true },
-            { "text": "Hypertext Transfer Protocol (HTTP)", "correct": false },
-            { "text": "Simple Mail Transfer Protocol (SMTP)", "correct": false },
-            { "text": "Secure File Transfer Protocol (SFTP)", "correct": false }
+            {
+                "text": "Simple Mail Transfer Protocol (SMTP)",
+                "correct": false
+            },
+            {
+                "text": "File Transfer Protocol (FTP)",
+                "correct": true
+            },
+            {
+                "text": "Hypertext Transfer Protocol (HTTP)",
+                "correct": false
+            },
+            {
+                "text": "Secure File Transfer Protocol (SFTP)",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is the term for a computer network that provides high-bandwidth communications for short distances, such as within a single office building?",
         "answers": [
-            { "text": "Local Area Network (LAN)", "correct": true },
-            { "text": "Wide Area Network (WAN)", "correct": false },
-            { "text": "Metropolitan Area Network (MAN)", "correct": false },
-            { "text": "Personal Area Network (PAN)", "correct": false }
+            {
+                "text": "Wide Area Network (WAN)",
+                "correct": false
+            },
+            {
+                "text": "Local Area Network (LAN)",
+                "correct": true
+            },
+            {
+                "text": "Metropolitan Area Network (MAN)",
+                "correct": false
+            },
+            {
+                "text": "Personal Area Network (PAN)",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is the term for a network's data transfer capacity?",
         "answers": [
-            { "text": "Bandwidth", "correct": true },
-            { "text": "Latency", "correct": false },
-            { "text": "Throughput", "correct": false },
-            { "text": "Jitter", "correct": false }
+            {
+                "text": "Latency",
+                "correct": false
+            },
+            {
+                "text": "Bandwidth",
+                "correct": true
+            },
+            {
+                "text": "Jitter",
+                "correct": false
+            },
+            {
+                "text": "Throughput",
+                "correct": false
+            }
         ]
     },
     {
         "question": "In the ArcGIS direct connect architecture, where are the SDE translation functions and query processing primarily handled?",
         "answers": [
-            { "text": "Translation on client, query processing on server", "correct": true },
-            { "text": "Both translation and query processing on the server", "correct": false },
-            { "text": "Both translation and query processing on the client", "correct": false },
-            { "text": "Translation on server, query processing on client", "correct": false }
+            {
+                "text": "Translation on client, query processing on server",
+                "correct": true
+            },
+            {
+                "text": "Both translation and query processing on the client",
+                "correct": false
+            },
+            {
+                "text": "Both translation and query processing on the server",
+                "correct": false
+            },
+            {
+                "text": "Translation on server, query processing on client",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is the round-trip travel time for a single communication packet, which significantly impacts the performance of 'chatty' applications?",
         "answers": [
-            { "text": "Network latency", "correct": true },
-            { "text": "Network bandwidth", "correct": false },
-            { "text": "Packet loss", "correct": false },
-            { "text": "Network throughput", "correct": false }
+            {
+                "text": "Network bandwidth",
+                "correct": false
+            },
+            {
+                "text": "Network throughput",
+                "correct": false
+            },
+            {
+                "text": "Packet loss",
+                "correct": false
+            },
+            {
+                "text": "Network latency",
+                "correct": true
+            }
         ]
     },
     {
         "question": "Which image output format is a lightweight, lossless compression supporting up to 256 colors and transparency?",
         "answers": [
-            { "text": "PNG8", "correct": true },
-            { "text": "PNG24", "correct": false },
-            { "text": "PNG32", "correct": false },
-            { "text": "JPEG", "correct": false }
+            {
+                "text": "PNG24",
+                "correct": false
+            },
+            {
+                "text": "PNG8",
+                "correct": true
+            },
+            {
+                "text": "PNG32",
+                "correct": false
+            },
+            {
+                "text": "JPEG",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What programming paradigm is based on the concept of 'objects,' which are data structures containing fields (attributes) and code (methods)?",
         "answers": [
-            { "text": "Object-oriented programming (OOP)", "correct": true },
-            { "text": "Procedural programming", "correct": false },
-            { "text": "Functional programming", "correct": false },
-            { "text": "Scripting", "correct": false }
+            {
+                "text": "Procedural programming",
+                "correct": false
+            },
+            {
+                "text": "Object-oriented programming (OOP)",
+                "correct": true
+            },
+            {
+                "text": "Functional programming",
+                "correct": false
+            },
+            {
+                "text": "Scripting",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What system design principle considers future growth, measuring the ability to extend a system and the effort required to do so?",
         "answers": [
-            { "text": "Extensibility", "correct": true },
-            { "text": "Scalability", "correct": false },
-            { "text": "Modularity", "correct": false },
-            { "text": "Maintainability", "correct": false }
+            {
+                "text": "Scalability",
+                "correct": false
+            },
+            {
+                "text": "Modularity",
+                "correct": false
+            },
+            {
+                "text": "Maintainability",
+                "correct": false
+            },
+            {
+                "text": "Extensibility",
+                "correct": true
+            }
         ]
     },
     {
         "question": "In programming, what is the term for a conditional expression that is either true or false, used to control the flow of a program?",
         "answers": [
-            { "text": "If statement", "correct": true },
-            { "text": "For loop", "correct": false },
-            { "text": "Variable", "correct": false },
-            { "text": "Function", "correct": false }
+            {
+                "text": "If statement",
+                "correct": true
+            },
+            {
+                "text": "For loop",
+                "correct": false
+            },
+            {
+                "text": "Variable",
+                "correct": false
+            },
+            {
+                "text": "Function",
+                "correct": false
+            }
         ]
     },
     {
         "question": "In object-oriented programming, what are the definitions or blueprints for the data format and available procedures for a given type of object?",
         "answers": [
-            { "text": "Classes", "correct": true },
-            { "text": "Objects", "correct": false },
-            { "text": "Methods", "correct": false },
-            { "text": "Attributes", "correct": false }
+            {
+                "text": "Attributes",
+                "correct": false
+            },
+            {
+                "text": "Classes",
+                "correct": true
+            },
+            {
+                "text": "Methods",
+                "correct": false
+            },
+            {
+                "text": "Objects",
+                "correct": false
+            }
         ]
     },
     {
         "question": "In object-oriented programming, what are the actual instances of classes called?",
         "answers": [
-            { "text": "Objects", "correct": true },
-            { "text": "Classes", "correct": false },
-            { "text": "Variables", "correct": false },
-            { "text": "Methods", "correct": false }
+            {
+                "text": "Methods",
+                "correct": false
+            },
+            {
+                "text": "Objects",
+                "correct": true
+            },
+            {
+                "text": "Variables",
+                "correct": false
+            },
+            {
+                "text": "Classes",
+                "correct": false
+            }
         ]
     },
     {
         "question": "In object-oriented programming, what are the procedures or functions that belong to a class or object known as?",
         "answers": [
-            { "text": "Methods", "correct": true },
-            { "text": "Attributes", "correct": false },
-            { "text": "Variables", "correct": false },
-            { "text": "Properties", "correct": false }
+            {
+                "text": "Attributes",
+                "correct": false
+            },
+            {
+                "text": "Properties",
+                "correct": false
+            },
+            {
+                "text": "Variables",
+                "correct": false
+            },
+            {
+                "text": "Methods",
+                "correct": true
+            }
         ]
     },
     {
         "question": "In Python, what data type indicates values that are whole numbers?",
         "answers": [
-            { "text": "Integer (int)", "correct": true },
-            { "text": "Floating-point number (float)", "correct": false },
-            { "text": "String (str)", "correct": false },
-            { "text": "Boolean (bool)", "correct": false }
+            {
+                "text": "Integer (int)",
+                "correct": true
+            },
+            {
+                "text": "Floating-point number (float)",
+                "correct": false
+            },
+            {
+                "text": "String (str)",
+                "correct": false
+            },
+            {
+                "text": "Boolean (bool)",
+                "correct": false
+            }
         ]
     },
     {
         "question": "In Python, a text value is known as what data type?",
         "answers": [
-            { "text": "String", "correct": true },
-            { "text": "Integer", "correct": false },
-            { "text": "Float", "correct": false },
-            { "text": "Character", "correct": false }
+            {
+                "text": "Integer",
+                "correct": false
+            },
+            {
+                "text": "Character",
+                "correct": false
+            },
+            {
+                "text": "String",
+                "correct": true
+            },
+            {
+                "text": "Float",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What type of application development methodology involves building software in many small increments of new functionality?",
         "answers": [
-            { "text": "Agile", "correct": true },
-            { "text": "Waterfall", "correct": false },
-            { "text": "Spiral", "correct": false },
-            { "text": "DevOps", "correct": false }
+            {
+                "text": "Waterfall",
+                "correct": false
+            },
+            {
+                "text": "Spiral",
+                "correct": false
+            },
+            {
+                "text": "DevOps",
+                "correct": false
+            },
+            {
+                "text": "Agile",
+                "correct": true
+            }
         ]
     },
     {
         "question": "What methodology is used for organizational changes that enhance collaboration between departments responsible for different segments of the development lifecycle?",
         "answers": [
-            { "text": "DevOps", "correct":true },
-            { "text": "Agile", "correct": false },
-            { "text": "Waterfall", "correct": false },
-            { "text": "Rapid Application Development (RAD)", "correct": false }
+            {
+                "text": "Agile",
+                "correct": false
+            },
+            {
+                "text": "DevOps",
+                "correct": true
+            },
+            {
+                "text": "Waterfall",
+                "correct": false
+            },
+            {
+                "text": "Rapid Application Development (RAD)",
+                "correct": false
+            }
         ]
     },
     {
         "question": "Which application development method is a rigid linear model with sequential phases (e.g., requirements, design, implementation) that must be completed in order?",
         "answers": [
-            { "text": "Waterfall", "correct": true },
-            { "text": "Agile", "correct": false },
-            { "text": "Spiral", "correct": false },
-            { "text": "Rapid Application Development (RAD)", "correct": false }
+            {
+                "text": "Agile",
+                "correct": false
+            },
+            {
+                "text": "Rapid Application Development (RAD)",
+                "correct": false
+            },
+            {
+                "text": "Waterfall",
+                "correct": true
+            },
+            {
+                "text": "Spiral",
+                "correct": false
+            }
         ]
     },
     {
         "question": "Which development method uses a condensed process to produce high-quality systems with low investment costs and is effective for small, time-sensitive projects?",
         "answers": [
-            { "text": "Rapid Application Development (RAD)", "correct": true },
-            { "text": "Waterfall", "correct": false },
-            { "text": "Spiral", "correct": false },
-            { "text": "Agile", "correct": false }
+            {
+                "text": "Spiral",
+                "correct": false
+            },
+            {
+                "text": "Rapid Application Development (RAD)",
+                "correct": true
+            },
+            {
+                "text": "Waterfall",
+                "correct": false
+            },
+            {
+                "text": "Agile",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is the process of planning and managing software development, often referred to as a software development life cycle (SDLC)?",
         "answers": [
-            { "text": "Software development process", "correct": true },
-            { "text": "Agile development", "correct": false },
-            { "text": "Object-oriented programming", "correct": false },
-            { "text": "Extensibility design", "correct": false }
+            {
+                "text": "Extensibility design",
+                "correct": false
+            },
+            {
+                "text": "Software development process",
+                "correct": true
+            },
+            {
+                "text": "Object-oriented programming",
+                "correct": false
+            },
+            {
+                "text": "Agile development",
+                "correct": false
+            }
         ]
     }
 ]
