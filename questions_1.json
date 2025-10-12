@@ -2,298 +2,694 @@
     {
         "question": "What framework, also known as a coordinate reference system, is used to precisely measure locations on Earth's surface?",
         "answers": [
-            { "text": "Spatial Reference System", "correct": true },
-            { "text": "Geoid", "correct": false },
-            { "text": "Vector Data Model", "correct": false },
-            { "text": "Geomatics", "correct": false }
+            {
+                "text": "Geomatics",
+                "correct": false
+            },
+            {
+                "text": "Geoid",
+                "correct": false
+            },
+            {
+                "text": "Spatial Reference System",
+                "correct": true
+            },
+            {
+                "text": "Vector Data Model",
+                "correct": false
+            }
         ]
     },
     {
         "question": "Which term describes the theoretical shape of the ocean's surface under the influence of gravity and rotation alone?",
         "answers": [
-            { "text": "Geoid", "correct": true },
-            { "text": "Ellipsoid", "correct": false },
-            { "text": "Datum", "correct": false },
-            { "text": "Mean Sea Level", "correct": false }
+            {
+                "text": "Datum",
+                "correct": false
+            },
+            {
+                "text": "Mean Sea Level",
+                "correct": false
+            },
+            {
+                "text": "Geoid",
+                "correct": true
+            },
+            {
+                "text": "Ellipsoid",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is the name for the measured, equipotential surface (not mathematically defined) used to reference heights?",
         "answers": [
-            { "text": "Geoid", "correct": true },
-            { "text": "Spheroid", "correct": false },
-            { "text": "Reference Ellipsoid", "correct": false },
-            { "text": "Digital Surface Model", "correct": false }
+            {
+                "text": "Spheroid",
+                "correct": false
+            },
+            {
+                "text": "Digital Surface Model",
+                "correct": false
+            },
+            {
+                "text": "Geoid",
+                "correct": true
+            },
+            {
+                "text": "Reference Ellipsoid",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is a mathematically defined, sphere-like but not perfectly spherical object?",
         "answers": [
-            { "text": "Spheroid", "correct": true },
-            { "text": "Geoid", "correct": false },
-            { "text": "Datum", "correct": false },
-            { "text": "Equipotential Surface", "correct": false }
+            {
+                "text": "Geoid",
+                "correct": false
+            },
+            {
+                "text": "Spheroid",
+                "correct": true
+            },
+            {
+                "text": "Datum",
+                "correct": false
+            },
+            {
+                "text": "Equipotential Surface",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What term means to be centered on the Earth's center of mass?",
         "answers": [
-            { "text": "Geocentric", "correct": true },
-            { "text": "Geodetic", "correct": false },
-            { "text": "Centroid", "correct": false },
-            { "text": "Planar", "correct": false }
+            {
+                "text": "Geodetic",
+                "correct": false
+            },
+            {
+                "text": "Planar",
+                "correct": false
+            },
+            {
+                "text": "Geocentric",
+                "correct": true
+            },
+            {
+                "text": "Centroid",
+                "correct": false
+            }
         ]
     },
     {
         "question": "Which type of spheroid has a semi-minor axis in the polar direction and a semi-major axis in the equatorial direction?",
         "answers": [
-            { "text": "Ellipsoid", "correct": true },
-            { "text": "Geoid", "correct": false },
-            { "text": "Sphere", "correct": false },
-            { "text": "Reference Frame", "correct": false }
+            {
+                "text": "Sphere",
+                "correct": false
+            },
+            {
+                "text": "Ellipsoid",
+                "correct": true
+            },
+            {
+                "text": "Reference Frame",
+                "correct": false
+            },
+            {
+                "text": "Geoid",
+                "correct": false
+            }
         ]
     },
     {
         "question": "Which common spheroid (Geodetic Reference System) is preferred globally and used for NAD83 and ITRF?",
         "answers": [
-            { "text": "GRS 1980", "correct": true },
-            { "text": "WGS 1984", "correct": false },
-            { "text": "Clarke 1866", "correct": false },
-            { "text": "NAD 27", "correct": false }
+            {
+                "text": "Clarke 1866",
+                "correct": false
+            },
+            {
+                "text": "GRS 1980",
+                "correct": true
+            },
+            {
+                "text": "NAD 27",
+                "correct": false
+            },
+            {
+                "text": "WGS 1984",
+                "correct": false
+            }
         ]
     },
     {
         "question": "Which common spheroid (World Geodetic System) is used for the WGS 1984 reference frame?",
         "answers": [
-            { "text": "WGS 1984", "correct": true },
-            { "text": "GRS 1980", "correct": false },
-            { "text": "Clarke 1866", "correct": false },
-            { "text": "ITRF", "correct": false }
+            {
+                "text": "ITRF",
+                "correct": false
+            },
+            {
+                "text": "WGS 1984",
+                "correct": true
+            },
+            {
+                "text": "Clarke 1866",
+                "correct": false
+            },
+            {
+                "text": "GRS 1980",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is the reference surface that provides known locations to begin surveys and create maps?",
         "answers": [
-            { "text": "Datum", "correct": true },
-            { "text": "Geoid", "correct": false },
-            { "text": "Projection", "correct": false },
-            { "text": "Coordinate System", "correct": false }
+            {
+                "text": "Geoid",
+                "correct": false
+            },
+            {
+                "text": "Coordinate System",
+                "correct": false
+            },
+            {
+                "text": "Datum",
+                "correct": true
+            },
+            {
+                "text": "Projection",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What type of datum is used as a reference for specifying horizontal coordinates (latitude and longitude) on Earth?",
         "answers": [
-            { "text": "Horizontal Datum", "correct": true },
-            { "text": "Vertical Datum", "correct": false },
-            { "text": "Geocentric Datum", "correct": false },
-            { "text": "Ellipsoidal Datum", "correct": false }
+            {
+                "text": "Geocentric Datum",
+                "correct": false
+            },
+            {
+                "text": "Vertical Datum",
+                "correct": false
+            },
+            {
+                "text": "Ellipsoidal Datum",
+                "correct": false
+            },
+            {
+                "text": "Horizontal Datum",
+                "correct": true
+            }
         ]
     },
     {
         "question": "A GIS dataset must contain attributes, spatial information, and what other component?",
         "answers": [
-            { "text": "Features", "correct": true },
-            { "text": "Raster Bands", "correct": false },
-            { "text": "Vertices", "correct": false },
-            { "text": "Bit Depth", "correct": false }
+            {
+                "text": "Features",
+                "correct": true
+            },
+            {
+                "text": "Bit Depth",
+                "correct": false
+            },
+            {
+                "text": "Raster Bands",
+                "correct": false
+            },
+            {
+                "text": "Vertices",
+                "correct": false
+            }
         ]
     },
     {
         "question": "Data that occurs only at specific locations with well-defined boundaries, such as property lines, is known as what?",
         "answers": [
-            { "text": "Discrete Data", "correct": true },
-            { "text": "Continuous Data", "correct": false },
-            { "text": "Raster Data", "correct": false },
-            { "text": "Topological Data", "correct": false }
+            {
+                "text": "Topological Data",
+                "correct": false
+            },
+            {
+                "text": "Raster Data",
+                "correct": false
+            },
+            {
+                "text": "Continuous Data",
+                "correct": false
+            },
+            {
+                "text": "Discrete Data",
+                "correct": true
+            }
         ]
     },
     {
         "question": "Data representing phenomena where each location has a measurement, such as elevation or temperature, is known as what?",
         "answers": [
-            { "text": "Continuous Data", "correct": true },
-            { "text": "Discrete Data", "correct": false },
-            { "text": "Vector Data", "correct": false },
-            { "text": "Categorical Data", "correct": false }
+            {
+                "text": "Categorical Data",
+                "correct": false
+            },
+            {
+                "text": "Vector Data",
+                "correct": false
+            },
+            {
+                "text": "Continuous Data",
+                "correct": true
+            },
+            {
+                "text": "Discrete Data",
+                "correct": false
+            }
         ]
     },
     {
         "question": "Which coordinate-based data model represents geographic features using points, lines, and polygons?",
         "answers": [
-            { "text": "Vector Data Model", "correct": true },
-            { "text": "Raster Data Model", "correct": false },
-            { "text": "Digital Elevation Model", "correct": false },
-            { "text": "Object-Oriented Model", "correct": false }
+            {
+                "text": "Object-Oriented Model",
+                "correct": false
+            },
+            {
+                "text": "Digital Elevation Model",
+                "correct": false
+            },
+            {
+                "text": "Raster Data Model",
+                "correct": false
+            },
+            {
+                "text": "Vector Data Model",
+                "correct": true
+            }
         ]
     },
     {
         "question": "Which of the following is an advantage of the vector data model?",
         "answers": [
-            { "text": "Efficient storage and support for topology", "correct": true },
-            { "text": "Simplicity and ease of map algebra", "correct": false },
-            { "text": "Good for representing continuous surfaces", "correct": false },
-            { "text": "Faster computational processing", "correct": false }
+            {
+                "text": "Efficient storage and support for topology",
+                "correct": true
+            },
+            {
+                "text": "Simplicity and ease of map algebra",
+                "correct": false
+            },
+            {
+                "text": "Good for representing continuous surfaces",
+                "correct": false
+            },
+            {
+                "text": "Faster computational processing",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is the term for an ordered set of connected points that begins and ends at a node?",
         "answers": [
-            { "text": "Line", "correct": true },
-            { "text": "Polygon", "correct": false },
-            { "text": "Edge", "correct": false },
-            { "text": "Curve", "correct": false }
+            {
+                "text": "Curve",
+                "correct": false
+            },
+            {
+                "text": "Edge",
+                "correct": false
+            },
+            {
+                "text": "Line",
+                "correct": true
+            },
+            {
+                "text": "Polygon",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is a point at which a line feature ends, intersects, or branches?",
         "answers": [
-            { "text": "Node", "correct": true },
-            { "text": "Vertex", "correct": false },
-            { "text": "Centroid", "correct": false },
-            { "text": "Pseudonode", "correct": false }
+            {
+                "text": "Vertex",
+                "correct": false
+            },
+            {
+                "text": "Node",
+                "correct": true
+            },
+            {
+                "text": "Pseudonode",
+                "correct": false
+            },
+            {
+                "text": "Centroid",
+                "correct": false
+            }
         ]
     },
     {
         "question": "Which data model represents the world as a surface divided into a regular grid of cells?",
         "answers": [
-            { "text": "Raster Data Model", "correct": true },
-            { "text": "Vector Data Model", "correct": false },
-            { "text": "Network Model", "correct": false },
-            { "text": "TIN Model", "correct": false }
+            {
+                "text": "Vector Data Model",
+                "correct": false
+            },
+            {
+                "text": "Network Model",
+                "correct": false
+            },
+            {
+                "text": "Raster Data Model",
+                "correct": true
+            },
+            {
+                "text": "TIN Model",
+                "correct": false
+            }
         ]
     },
     {
         "question": "Which of the following is an advantage of the raster data model?",
         "answers": [
-            { "text": "Good for representing continuous surfaces and easy map algebra", "correct": true },
-            { "text": "High precision and accuracy of features", "correct": false },
-            { "text": "Efficient storage for discrete features", "correct": false },
-            { "text": "Supports complex topological relationships", "correct": false }
+            {
+                "text": "Efficient storage for discrete features",
+                "correct": false
+            },
+            {
+                "text": "Good for representing continuous surfaces and easy map algebra",
+                "correct": true
+            },
+            {
+                "text": "Supports complex topological relationships",
+                "correct": false
+            },
+            {
+                "text": "High precision and accuracy of features",
+                "correct": false
+            }
         ]
     },
     {
         "question": "The number of bits used to store values for each cell in a raster, determining the range of data, is known as what?",
         "answers": [
-            { "text": "Bit depth", "correct": true },
-            { "text": "Resolution", "correct": false },
-            { "text": "Extent", "correct": false },
-            { "text": "Pixel size", "correct": false }
+            {
+                "text": "Extent",
+                "correct": false
+            },
+            {
+                "text": "Resolution",
+                "correct": false
+            },
+            {
+                "text": "Pixel size",
+                "correct": false
+            },
+            {
+                "text": "Bit depth",
+                "correct": true
+            }
         ]
     },
     {
         "question": "Which type of DEM aims to represent an idealized land surface with objects like buildings and trees digitally removed?",
         "answers": [
-            { "text": "Digital Terrain Model (DTM)", "correct": true },
-            { "text": "Digital Surface Model (DSM)", "correct": false },
-            { "text": "Digital Elevation Model (DEM)", "correct": false },
-            { "text": "Digital Height Model (DHM)", "correct": false }
+            {
+                "text": "Digital Height Model (DHM)",
+                "correct": false
+            },
+            {
+                "text": "Digital Elevation Model (DEM)",
+                "correct": false
+            },
+            {
+                "text": "Digital Terrain Model (DTM)",
+                "correct": true
+            },
+            {
+                "text": "Digital Surface Model (DSM)",
+                "correct": false
+            }
         ]
     },
     {
         "question": "Which type of DEM represents the elevation of the tops of features, including buildings and trees?",
         "answers": [
-            { "text": "Digital Surface Model (DSM)", "correct": true },
-            { "text": "Digital Terrain Model (DTM)", "correct": false },
-            { "text": "Triangulated Irregular Network (TIN)", "correct": false },
-            { "text": "Bare-Earth Model", "correct": false }
+            {
+                "text": "Digital Surface Model (DSM)",
+                "correct": true
+            },
+            {
+                "text": "Bare-Earth Model",
+                "correct": false
+            },
+            {
+                "text": "Digital Terrain Model (DTM)",
+                "correct": false
+            },
+            {
+                "text": "Triangulated Irregular Network (TIN)",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is the degree of detail to which a phenomenon is represented, defined by pixel size in rasters?",
         "answers": [
-            { "text": "Resolution", "correct": true },
-            { "text": "Extent", "correct": false },
-            { "text": "Scale", "correct": false },
-            { "text": "Bit Depth", "correct": false }
+            {
+                "text": "Extent",
+                "correct": false
+            },
+            {
+                "text": "Scale",
+                "correct": false
+            },
+            {
+                "text": "Resolution",
+                "correct": true
+            },
+            {
+                "text": "Bit Depth",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is the term for a height measured above the geoid?",
         "answers": [
-            { "text": "Orthometric Height", "correct": true },
-            { "text": "Ellipsoidal Height", "correct": false },
-            { "text": "Geoidal Height", "correct": false },
-            { "text": "Dynamic Height", "correct": false }
+            {
+                "text": "Geoidal Height",
+                "correct": false
+            },
+            {
+                "text": "Dynamic Height",
+                "correct": false
+            },
+            {
+                "text": "Ellipsoidal Height",
+                "correct": false
+            },
+            {
+                "text": "Orthometric Height",
+                "correct": true
+            }
         ]
     },
     {
         "question": "The distance between an ellipsoid and a geoid is known as geoidal separation or what?",
         "answers": [
-            { "text": "Geoidal Height", "correct": true },
-            { "text": "Orthometric Height", "correct": false },
-            { "text": "Ellipsoidal Height", "correct": false },
-            { "text": "Mean Sea Level", "correct": false }
+            {
+                "text": "Orthometric Height",
+                "correct": false
+            },
+            {
+                "text": "Geoidal Height",
+                "correct": true
+            },
+            {
+                "text": "Mean Sea Level",
+                "correct": false
+            },
+            {
+                "text": "Ellipsoidal Height",
+                "correct": false
+            }
         ]
     },
     {
         "question": "The discipline concerned with the collection, storage, analysis, and presentation of geographic data is called what?",
         "answers": [
-            { "text": "Geomatics", "correct": true },
-            { "text": "Geodesy", "correct": false },
-            { "text": "Cartography", "correct": false },
-            { "text": "Photogrammetry", "correct": false }
+            {
+                "text": "Cartography",
+                "correct": false
+            },
+            {
+                "text": "Geodesy",
+                "correct": false
+            },
+            {
+                "text": "Geomatics",
+                "correct": true
+            },
+            {
+                "text": "Photogrammetry",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is the science of precisely measuring and understanding Earth's shape, gravity field, and rotation?",
         "answers": [
-            { "text": "Geodesy", "correct": true },
-            { "text": "Surveying", "correct": false },
-            { "text": "Geomatics", "correct": false },
-            { "text": "Hydrography", "correct": false }
+            {
+                "text": "Geodesy",
+                "correct": true
+            },
+            {
+                "text": "Geomatics",
+                "correct": false
+            },
+            {
+                "text": "Surveying",
+                "correct": false
+            },
+            {
+                "text": "Hydrography",
+                "correct": false
+            }
         ]
     },
     {
         "question": "The art and science of obtaining reliable information from photographic images is known as what?",
         "answers": [
-            { "text": "Photogrammetry", "correct": true },
-            { "text": "Remote Sensing", "correct": false },
-            { "text": "Cartography", "correct": false },
-            { "text": "Lidar", "correct": false }
+            {
+                "text": "Lidar",
+                "correct": false
+            },
+            {
+                "text": "Cartography",
+                "correct": false
+            },
+            {
+                "text": "Remote Sensing",
+                "correct": false
+            },
+            {
+                "text": "Photogrammetry",
+                "correct": true
+            }
         ]
     },
     {
         "question": "Which U.S. government agency, administered by NOAA, defines and maintains the National Spatial Reference System?",
         "answers": [
-            { "text": "National Geodetic Survey (NGS)", "correct": true },
-            { "text": "U.S. Geological Survey (USGS)", "correct": false },
-            { "text": "National Geospatial-Intelligence Agency (NGA)", "correct": false },
-            { "text": "Bureau of Land Management (BLM)", "correct": false }
+            {
+                "text": "U.S. Geological Survey (USGS)",
+                "correct": false
+            },
+            {
+                "text": "National Geodetic Survey (NGS)",
+                "correct": true
+            },
+            {
+                "text": "Bureau of Land Management (BLM)",
+                "correct": false
+            },
+            {
+                "text": "National Geospatial-Intelligence Agency (NGA)",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is the shortest distance between two points across a curved surface, used on unprojected maps?",
         "answers": [
-            { "text": "Geodesic distance", "correct": true },
-            { "text": "Euclidean distance", "correct": false },
-            { "text": "Great-circle distance", "correct": false },
-            { "text": "Manhattan distance", "correct": false }
+            {
+                "text": "Geodesic distance",
+                "correct": true
+            },
+            {
+                "text": "Euclidean distance",
+                "correct": false
+            },
+            {
+                "text": "Great-circle distance",
+                "correct": false
+            },
+            {
+                "text": "Manhattan distance",
+                "correct": false
+            }
         ]
     },
     {
         "question": "A line of constant bearing or azimuth, such as a rhumb line, is also known as what?",
         "answers": [
-            { "text": "Loxodromic measure", "correct": true },
-            { "text": "Geodesic measure", "correct": false },
-            { "text": "Euclidean measure", "correct": false },
-            { "text": "Planar measure", "correct": false }
+            {
+                "text": "Planar measure",
+                "correct": false
+            },
+            {
+                "text": "Loxodromic measure",
+                "correct": true
+            },
+            {
+                "text": "Geodesic measure",
+                "correct": false
+            },
+            {
+                "text": "Euclidean measure",
+                "correct": false
+            }
         ]
     },
     {
         "question": "The straight-line distance between two points, calculated using the Pythagorean theorem on projected maps, is known as what?",
         "answers": [
-            { "text": "Euclidean distance", "correct": true },
-            { "text": "Manhattan distance", "correct": false },
-            { "text": "Geodesic distance", "correct": false },
-            { "text": "Loxodromic distance", "correct": false }
+            {
+                "text": "Geodesic distance",
+                "correct": false
+            },
+            {
+                "text": "Loxodromic distance",
+                "correct": false
+            },
+            {
+                "text": "Euclidean distance",
+                "correct": true
+            },
+            {
+                "text": "Manhattan distance",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is the term for a direction measured in degrees clockwise from a north reference line?",
         "answers": [
-            { "text": "Azimuth", "correct": true },
-            { "text": "Quadrant Bearing", "correct": false },
-            { "text": "Heading", "correct": false },
-            { "text": "Declination", "correct": false }
+            {
+                "text": "Declination",
+                "correct": false
+            },
+            {
+                "text": "Quadrant Bearing",
+                "correct": false
+            },
+            {
+                "text": "Azimuth",
+                "correct": true
+            },
+            {
+                "text": "Heading",
+                "correct": false
+            }
         ]
     }
 ]
