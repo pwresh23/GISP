@@ -11,8 +11,8 @@ const wrongAnswersList = document.getElementById('wrong-answers-list');
 
 // --- List of all your JSON files for the 'random' option ---
 const allQuestionFiles = [
-    'questions_1.json', 'questions_2.json', 'questions_3.json', 'questions_4.json', 
-    'questions_5.json', 'questions_6.json', 'questions_7.json', 'questions_8.json', 
+    'questions_1.json', 'questions_2.json', 'questions_3.json', 'questions_4.json',
+    'questions_5.json', 'questions_6.json', 'questions_7.json', 'questions_8.json',
     'questions_9.json', 'questions_10.json', 'questions_11.json', 'questions_12.json'
 ];
 
@@ -76,11 +76,19 @@ function startQuiz() {
 function showQuestion(question) {
     questionElement.innerText = question.question;
     answerButtonsElement.innerHTML = '';
-    question.answers.forEach(answer => {
+
+    // --- UPDATED LOGIC TO HANDLE BOTH JSON FORMATS ---
+    const answersArray = question.answers || question.answerOptions; // Use 'answers' OR 'answerOptions'
+
+    answersArray.forEach(answer => {
         const button = document.createElement('button');
         button.innerText = answer.text;
         button.classList.add('btn');
-        if (answer.correct) {
+
+        // Check for 'correct' OR 'isCorrect'
+        const isCorrect = answer.correct || answer.isCorrect; 
+
+        if (isCorrect) {
             button.dataset.correct = true;
         }
         button.addEventListener('click', () => selectAnswer(answer, button));
@@ -89,14 +97,15 @@ function showQuestion(question) {
 }
 
 function selectAnswer(answer, button) {
-    const correct = answer.correct;
+    // --- UPDATED LOGIC TO HANDLE BOTH JSON FORMATS ---
+    const isCorrect = answer.correct || answer.isCorrect; // Check for 'correct' OR 'isCorrect'
 
     // Disable all buttons after an answer is chosen
     Array.from(answerButtonsElement.children).forEach(btn => {
         btn.disabled = true;
     });
 
-    if (correct) {
+    if (isCorrect) {
         button.classList.add('correct');
     } else {
         button.classList.add('wrong');
@@ -104,7 +113,7 @@ function selectAnswer(answer, button) {
             question: currentQuizQuestions[currentQuestionIndex].question, 
             yourAnswer: answer.text 
         });
-        // --- NEW: Highlight the correct answer ---
+        // Highlight the correct answer
         Array.from(answerButtonsElement.children).forEach(btn => {
             if (btn.dataset.correct) {
                 btn.classList.add('correct');
@@ -121,7 +130,7 @@ function selectAnswer(answer, button) {
             answerButtonsElement.classList.add('hide');
             resultsBtn.classList.remove('hide');
         }
-    }, 2000); // Increased delay to 2 seconds to see the correct answer
+    }, 2000); 
 }
 
 resultsBtn.addEventListener('click', () => {
