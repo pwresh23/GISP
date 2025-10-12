@@ -8,6 +8,7 @@ const answerButtonsElement = document.getElementById('answers');
 const resultsBtn = document.getElementById('results-btn');
 const resultsContainer = document.getElementById('results-container');
 const wrongAnswersList = document.getElementById('wrong-answers-list');
+const backToMenuBtn = document.getElementById('back-to-menu-btn'); // New button element
 
 // --- List of all your JSON files for the 'random' option ---
 const allQuestionFiles = [
@@ -77,15 +78,14 @@ function showQuestion(question) {
     questionElement.innerText = question.question;
     answerButtonsElement.innerHTML = '';
 
-    // --- UPDATED LOGIC TO HANDLE BOTH JSON FORMATS ---
-    const answersArray = question.answers || question.answerOptions; // Use 'answers' OR 'answerOptions'
+    // Handles both JSON formats
+    const answersArray = question.answers || question.answerOptions; 
 
     answersArray.forEach(answer => {
         const button = document.createElement('button');
         button.innerText = answer.text;
         button.classList.add('btn');
 
-        // Check for 'correct' OR 'isCorrect'
         const isCorrect = answer.correct || answer.isCorrect; 
 
         if (isCorrect) {
@@ -97,10 +97,8 @@ function showQuestion(question) {
 }
 
 function selectAnswer(answer, button) {
-    // --- UPDATED LOGIC TO HANDLE BOTH JSON FORMATS ---
-    const isCorrect = answer.correct || answer.isCorrect; // Check for 'correct' OR 'isCorrect'
+    const isCorrect = answer.correct || answer.isCorrect;
 
-    // Disable all buttons after an answer is chosen
     Array.from(answerButtonsElement.children).forEach(btn => {
         btn.disabled = true;
     });
@@ -113,7 +111,6 @@ function selectAnswer(answer, button) {
             question: currentQuizQuestions[currentQuestionIndex].question, 
             yourAnswer: answer.text 
         });
-        // Highlight the correct answer
         Array.from(answerButtonsElement.children).forEach(btn => {
             if (btn.dataset.correct) {
                 btn.classList.add('correct');
@@ -145,4 +142,10 @@ resultsBtn.addEventListener('click', () => {
             wrongAnswersList.appendChild(li);
         });
     }
+});
+
+// ## NEW EVENT LISTENER FOR THE BACK BUTTON ##
+backToMenuBtn.addEventListener('click', () => {
+    quizContainer.classList.add('hide');
+    selectionContainer.classList.remove('hide');
 });
