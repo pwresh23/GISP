@@ -8,7 +8,8 @@ const answerButtonsElement = document.getElementById('answers');
 const resultsBtn = document.getElementById('results-btn');
 const resultsContainer = document.getElementById('results-container');
 const wrongAnswersList = document.getElementById('wrong-answers-list');
-const backToMenuBtn = document.getElementById('back-to-menu-btn'); // New button element
+// ## FIX: Define the new button element here with the others ##
+const backToMenuBtn = document.getElementById('back-to-menu-btn'); 
 
 // --- List of all your JSON files for the 'random' option ---
 const allQuestionFiles = [
@@ -25,18 +26,15 @@ let wrongAnswers = [];
 startBtn.addEventListener('click', async () => {
     const selectedTopic = topicSelect.value;
     
-    // Show the quiz and hide the selection menu
     selectionContainer.classList.add('hide');
     quizContainer.classList.remove('hide');
 
     if (selectedTopic === 'random') {
-        // --- Logic for RANDOM quiz ---
         try {
             const fetchPromises = allQuestionFiles.map(file => fetch(file).then(res => res.json()));
             const questionArrays = await Promise.all(fetchPromises);
             const allQuestions = questionArrays.flat();
             
-            // Shuffle and pick 10 random questions
             currentQuizQuestions = allQuestions.sort(() => 0.5 - Math.random()).slice(0, 10);
         } catch (error) {
             console.error("Error loading random questions:", error);
@@ -44,11 +42,9 @@ startBtn.addEventListener('click', async () => {
             return;
         }
     } else {
-        // --- Logic for a SPECIFIC section quiz ---
         try {
             const response = await fetch(selectedTopic);
             const questions = await response.json();
-            // Shuffle all questions from that section
             currentQuizQuestions = questions.sort(() => 0.5 - Math.random());
         } catch (error) {
             console.error(`Error loading ${selectedTopic}:`, error);
@@ -77,8 +73,7 @@ function startQuiz() {
 function showQuestion(question) {
     questionElement.innerText = question.question;
     answerButtonsElement.innerHTML = '';
-
-    // Handles both JSON formats
+    
     const answersArray = question.answers || question.answerOptions; 
 
     answersArray.forEach(answer => {
@@ -144,7 +139,7 @@ resultsBtn.addEventListener('click', () => {
     }
 });
 
-// ## NEW EVENT LISTENER FOR THE BACK BUTTON ##
+// ## FIX: The event listener now correctly references the button defined at the top ##
 backToMenuBtn.addEventListener('click', () => {
     quizContainer.classList.add('hide');
     selectionContainer.classList.remove('hide');
