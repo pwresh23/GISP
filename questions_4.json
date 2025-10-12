@@ -2,505 +2,1177 @@
     {
         "question": "What is the process of converting coordinates from a map, image, or other source into a digital format in GIS?",
         "answers": [
-            { "text": "Digitizing", "correct": true },
-            { "text": "Scanning", "correct": false },
-            { "text": "Georeferencing", "correct": false },
-            { "text": "Registration", "correct": false }
+            {
+                "text": "Registration",
+                "correct": false
+            },
+            {
+                "text": "Digitizing",
+                "correct": true
+            },
+            {
+                "text": "Georeferencing",
+                "correct": false
+            },
+            {
+                "text": "Scanning",
+                "correct": false
+            }
         ]
     },
     {
         "question": "Which digitizing method involves scanning paper documents into digital files and then tracing features on-screen?",
         "answers": [
-            { "text": "Heads-up digitizing", "correct": true },
-            { "text": "Manual digitizing", "correct": false },
-            { "text": "Automatic digitizing", "correct": false },
-            { "text": "Stream mode digitizing", "correct": false }
+            {
+                "text": "Automatic digitizing",
+                "correct": false
+            },
+            {
+                "text": "Manual digitizing",
+                "correct": false
+            },
+            {
+                "text": "Stream mode digitizing",
+                "correct": false
+            },
+            {
+                "text": "Heads-up digitizing",
+                "correct": true
+            }
         ]
     },
     {
         "question": "In which digitizing mode are points automatically sampled at a fixed time or distance interval?",
         "answers": [
-            { "text": "Stream mode digitizing", "correct": true },
-            { "text": "Point mode digitizing", "correct": false },
-            { "text": "Minimum distance digitizing", "correct": false },
-            { "text": "Heads-up digitizing", "correct": false }
+            {
+                "text": "Stream mode digitizing",
+                "correct": true
+            },
+            {
+                "text": "Point mode digitizing",
+                "correct": false
+            },
+            {
+                "text": "Heads-up digitizing",
+                "correct": false
+            },
+            {
+                "text": "Minimum distance digitizing",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What are nodes that fall short of their intended location during digitizing called?",
         "answers": [
-            { "text": "Undershoots", "correct": true },
-            { "text": "Overshoots", "correct": false },
-            { "text": "Dangles", "correct": false },
-            { "text": "Pseudonodes", "correct": false }
+            {
+                "text": "Overshoots",
+                "correct": false
+            },
+            {
+                "text": "Pseudonodes",
+                "correct": false
+            },
+            {
+                "text": "Dangles",
+                "correct": false
+            },
+            {
+                "text": "Undershoots",
+                "correct": true
+            }
         ]
     },
     {
         "question": "What automated process repositions digitized points to be coincident with a nearby feature within a specified range?",
         "answers": [
-            { "text": "Snapping", "correct": true },
-            { "text": "Splining", "correct": false },
-            { "text": "Thinning", "correct": false },
-            { "text": "Registration", "correct": false }
+            {
+                "text": "Snapping",
+                "correct": true
+            },
+            {
+                "text": "Registration",
+                "correct": false
+            },
+            {
+                "text": "Thinning",
+                "correct": false
+            },
+            {
+                "text": "Splining",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What process removes vertices from a line to reduce file size while maintaining its general shape?",
         "answers": [
-            { "text": "Point thinning", "correct": true },
-            { "text": "Skeletonizing", "correct": false },
-            { "text": "Snapping", "correct": false },
-            { "text": "Generalization", "correct": false }
+            {
+                "text": "Generalization",
+                "correct": false
+            },
+            {
+                "text": "Snapping",
+                "correct": false
+            },
+            {
+                "text": "Point thinning",
+                "correct": true
+            },
+            {
+                "text": "Skeletonizing",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is the conversion of digitizer or other geospatial data to an Earth-referenced coordinate system?",
         "answers": [
-            { "text": "Registration", "correct": true },
-            { "text": "Digitizing", "correct": false },
-            { "text": "Projection", "correct": false },
-            { "text": "Transformation", "correct": false }
+            {
+                "text": "Registration",
+                "correct": true
+            },
+            {
+                "text": "Digitizing",
+                "correct": false
+            },
+            {
+                "text": "Projection",
+                "correct": false
+            },
+            {
+                "text": "Transformation",
+                "correct": false
+            }
         ]
     },
     {
         "question": "Data collected for the first time for a specific GIS project, such as new GPS measurements, is known as what?",
         "answers": [
-            { "text": "Primary data", "correct": true },
-            { "text": "Secondary data", "correct": false },
-            { "text": "Tertiary data", "correct": false },
-            { "text": "Raw data", "correct": false }
+            {
+                "text": "Tertiary data",
+                "correct": false
+            },
+            {
+                "text": "Raw data",
+                "correct": false
+            },
+            {
+                "text": "Primary data",
+                "correct": true
+            },
+            {
+                "text": "Secondary data",
+                "correct": false
+            }
         ]
     },
     {
         "question": "Data derived from other sources, not collected for the specific project at hand, such as government datasets, is known as what?",
         "answers": [
-            { "text": "Secondary data", "correct": true },
-            { "text": "Primary data", "correct": false },
-            { "text": "Archival data", "correct": false },
-            { "text": "Ancillary data", "correct": false }
+            {
+                "text": "Ancillary data",
+                "correct": false
+            },
+            {
+                "text": "Archival data",
+                "correct": false
+            },
+            {
+                "text": "Primary data",
+                "correct": false
+            },
+            {
+                "text": "Secondary data",
+                "correct": true
+            }
         ]
     },
     {
         "question": "Which type of data is descriptive, consists of non-numerical or nominal values, and is used to group common data?",
         "answers": [
-            { "text": "Qualitative data", "correct": true },
-            { "text": "Quantitative data", "correct": false },
-            { "text": "Ordinal data", "correct": false },
-            { "text": "Interval data", "correct": false }
+            {
+                "text": "Qualitative data",
+                "correct": true
+            },
+            {
+                "text": "Interval data",
+                "correct": false
+            },
+            {
+                "text": "Quantitative data",
+                "correct": false
+            },
+            {
+                "text": "Ordinal data",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is the minimum tolerated distance between vertices in a topology, where vertices within this distance are snapped together?",
         "answers": [
-            { "text": "Cluster tolerance", "correct": true },
-            { "text": "Fuzzy tolerance", "correct": false },
-            { "text": "Snap tolerance", "correct": false },
-            { "text": "Weed distance", "correct": false }
+            {
+                "text": "Fuzzy tolerance",
+                "correct": false
+            },
+            {
+                "text": "Cluster tolerance",
+                "correct": true
+            },
+            {
+                "text": "Weed distance",
+                "correct": false
+            },
+            {
+                "text": "Snap tolerance",
+                "correct": false
+            }
         ]
     },
     {
         "question": "Which is longer: a U.S. survey foot or an international foot?",
         "answers": [
-            { "text": "U.S. survey foot", "correct": true },
-            { "text": "International foot", "correct": false },
-            { "text": "They are the same length", "correct": false },
-            { "text": "Depends on the location", "correct": false }
+            {
+                "text": "Depends on the location",
+                "correct": false
+            },
+            {
+                "text": "They are the same length",
+                "correct": false
+            },
+            {
+                "text": "International foot",
+                "correct": false
+            },
+            {
+                "text": "U.S. survey foot",
+                "correct": true
+            }
         ]
     },
     {
         "question": "What is the generic name for all satellite positioning systems, including the US's NAVSTAR?",
         "answers": [
-            { "text": "Global Navigation Satellite System (GNSS)", "correct": true },
-            { "text": "Global Positioning System (GPS)", "correct": false },
-            { "text": "Satellite Positioning Service (SPS)", "correct": false },
-            { "text": "Precise Positioning Service (PPS)", "correct": false }
+            {
+                "text": "Satellite Positioning Service (SPS)",
+                "correct": false
+            },
+            {
+                "text": "Global Positioning System (GPS)",
+                "correct": false
+            },
+            {
+                "text": "Global Navigation Satellite System (GNSS)",
+                "correct": true
+            },
+            {
+                "text": "Precise Positioning Service (PPS)",
+                "correct": false
+            }
         ]
     },
     {
         "question": "How many satellites are typically required for a GNSS receiver to calculate an accurate location quickly?",
         "answers": [
-            { "text": "4", "correct": true },
-            { "text": "3", "correct": false },
-            { "text": "5", "correct": false },
-            { "text": "2", "correct": false }
+            {
+                "text": "5",
+                "correct": false
+            },
+            {
+                "text": "4",
+                "correct": true
+            },
+            {
+                "text": "2",
+                "correct": false
+            },
+            {
+                "text": "3",
+                "correct": false
+            }
         ]
     },
     {
         "question": "Which GNSS segment consists of the tracking, communications, data gathering, integration, analysis, and control facilities?",
         "answers": [
-            { "text": "Control segment", "correct": true },
-            { "text": "Satellite segment", "correct": false },
-            { "text": "User segment", "correct": false },
-            { "text": "Ground segment", "correct": false }
+            {
+                "text": "User segment",
+                "correct": false
+            },
+            {
+                "text": "Control segment",
+                "correct": true
+            },
+            {
+                "text": "Satellite segment",
+                "correct": false
+            },
+            {
+                "text": "Ground segment",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is the name of the European Space Agency's GNSS?",
         "answers": [
-            { "text": "Galileo", "correct": true },
-            { "text": "GLONASS", "correct": false },
-            { "text": "BeiDou", "correct": false },
-            { "text": "NAVSTAR", "correct": false }
+            {
+                "text": "NAVSTAR",
+                "correct": false
+            },
+            {
+                "text": "Galileo",
+                "correct": true
+            },
+            {
+                "text": "BeiDou",
+                "correct": false
+            },
+            {
+                "text": "GLONASS",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is the data broadcast by GNSS satellites about their status and location called?",
         "answers": [
-            { "text": "Almanac", "correct": true },
-            { "text": "Ephemeris", "correct": false },
-            { "text": "CDMA code", "correct": false },
-            { "text": "Carrier phase signal", "correct": false }
+            {
+                "text": "Carrier phase signal",
+                "correct": false
+            },
+            {
+                "text": "Almanac",
+                "correct": true
+            },
+            {
+                "text": "Ephemeris",
+                "correct": false
+            },
+            {
+                "text": "CDMA code",
+                "correct": false
+            }
         ]
     },
     {
         "question": "In GNSS, what is the distance between a satellite and a receiver on the ground called?",
         "answers": [
-            { "text": "Range distance", "correct": true },
-            { "text": "Pseudorange", "correct": false },
-            { "text": "Carrier phase", "correct": false },
-            { "text": "Geodetic distance", "correct": false }
+            {
+                "text": "Pseudorange",
+                "correct": false
+            },
+            {
+                "text": "Carrier phase",
+                "correct": false
+            },
+            {
+                "text": "Range distance",
+                "correct": true
+            },
+            {
+                "text": "Geodetic distance",
+                "correct": false
+            }
         ]
     },
     {
         "question": "GNSS typically measures height above which reference surface?",
         "answers": [
-            { "text": "Ellipsoid", "correct": true },
-            { "text": "Geoid", "correct": false },
-            { "text": "Mean Sea Level", "correct": false },
-            { "text": "Topographic surface", "correct": false }
+            {
+                "text": "Topographic surface",
+                "correct": false
+            },
+            {
+                "text": "Mean Sea Level",
+                "correct": false
+            },
+            {
+                "text": "Geoid",
+                "correct": false
+            },
+            {
+                "text": "Ellipsoid",
+                "correct": true
+            }
         ]
     },
     {
         "question": "Which GNSS signals are more accurate but take longer to calculate and require more expensive receivers?",
         "answers": [
-            { "text": "Carrier phase signals", "correct": true },
-            { "text": "Coded signals", "correct": false },
-            { "text": "C/A signals", "correct": false },
-            { "text": "P-code signals", "correct": false }
+            {
+                "text": "C/A signals",
+                "correct": false
+            },
+            {
+                "text": "Coded signals",
+                "correct": false
+            },
+            {
+                "text": "Carrier phase signals",
+                "correct": true
+            },
+            {
+                "text": "P-code signals",
+                "correct": false
+            }
         ]
     },
     {
         "question": "Which GNSS service is reserved for military use and authorized civilian users, utilizing the P-code?",
         "answers": [
-            { "text": "Precise Positioning Service (PPS)", "correct": true },
-            { "text": "Standard Positioning Service (SPS)", "correct": false },
-            { "text": "Wide Area Augmentation System (WAAS)", "correct": false },
-            { "text": "Differential Positioning", "correct": false }
+            {
+                "text": "Standard Positioning Service (SPS)",
+                "correct": false
+            },
+            {
+                "text": "Differential Positioning",
+                "correct": false
+            },
+            {
+                "text": "Precise Positioning Service (PPS)",
+                "correct": true
+            },
+            {
+                "text": "Wide Area Augmentation System (WAAS)",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What term describes how good the satellite configuration is for collecting accurate points, where a lower value is better?",
         "answers": [
-            { "text": "Positional Dilution of Precision (PDOP)", "correct": true },
-            { "text": "Signal-to-Noise Ratio (SNR)", "correct": false },
-            { "text": "User Range Error (URE)", "correct": false },
-            { "text": "Root Mean Square Error (RMSE)", "correct": false }
+            {
+                "text": "User Range Error (URE)",
+                "correct": false
+            },
+            {
+                "text": "Signal-to-Noise Ratio (SNR)",
+                "correct": false
+            },
+            {
+                "text": "Positional Dilution of Precision (PDOP)",
+                "correct": true
+            },
+            {
+                "text": "Root Mean Square Error (RMSE)",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is the practice of using two receivers (a base station and a rover) to remove range errors and improve GNSS accuracy?",
         "answers": [
-            { "text": "Differential positioning", "correct": true },
-            { "text": "Precise Point Positioning (PPP)", "correct": false },
-            { "text": "Post-processing", "correct": false },
-            { "text": "Triangulation", "correct": false }
+            {
+                "text": "Precise Point Positioning (PPP)",
+                "correct": false
+            },
+            {
+                "text": "Triangulation",
+                "correct": false
+            },
+            {
+                "text": "Post-processing",
+                "correct": false
+            },
+            {
+                "text": "Differential positioning",
+                "correct": true
+            }
         ]
     },
     {
         "question": "What high-accuracy GNSS technique uses a dual-frequency base station and rover to achieve centimeter-level accuracy for surveying?",
         "answers": [
-            { "text": "Real-Time Kinematic (RTK)", "correct": true },
-            { "text": "Wide Area Augmentation System (WAAS)", "correct": false },
-            { "text": "Standard Positioning Service (SPS)", "correct": false },
-            { "text": "Precise Point Positioning (PPP)", "correct": false }
+            {
+                "text": "Precise Point Positioning (PPP)",
+                "correct": false
+            },
+            {
+                "text": "Wide Area Augmentation System (WAAS)",
+                "correct": false
+            },
+            {
+                "text": "Standard Positioning Service (SPS)",
+                "correct": false
+            },
+            {
+                "text": "Real-Time Kinematic (RTK)",
+                "correct": true
+            }
         ]
     },
     {
         "question": "What is the most advanced satellite-based augmentation system (SBAS) in the United States?",
         "answers": [
-            { "text": "Wide Area Augmentation System (WAAS)", "correct": true },
-            { "text": "Continuously Operating Reference Station (CORS)", "correct": false },
-            { "text": "Real-Time Kinematic (RTK)", "correct": false },
-            { "text": "Networked Transport of RTCM via Internet Protocol (NTRIP)", "correct": false }
+            {
+                "text": "Networked Transport of RTCM via Internet Protocol (NTRIP)",
+                "correct": false
+            },
+            {
+                "text": "Wide Area Augmentation System (WAAS)",
+                "correct": true
+            },
+            {
+                "text": "Real-Time Kinematic (RTK)",
+                "correct": false
+            },
+            {
+                "text": "Continuously Operating Reference Station (CORS)",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is the network of over 2,000 GNSS reference stations managed by NOAA that provides data for differential correction?",
         "answers": [
-            { "text": "Continuously Operating Reference Station (CORS)", "correct": true },
-            { "text": "Wide Area Augmentation System (WAAS)", "correct": false },
-            { "text": "National Geodetic Survey (NGS)", "correct": false },
-            { "text": "Virtual Reference Station (VRS)", "correct": false }
+            {
+                "text": "Wide Area Augmentation System (WAAS)",
+                "correct": false
+            },
+            {
+                "text": "National Geodetic Survey (NGS)",
+                "correct": false
+            },
+            {
+                "text": "Continuously Operating Reference Station (CORS)",
+                "correct": true
+            },
+            {
+                "text": "Virtual Reference Station (VRS)",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What surveying technique uses a network of interlocking triangles to determine positions at survey stations?",
         "answers": [
-            { "text": "Triangulation surveying", "correct": true },
-            { "text": "Traverse surveying", "correct": false },
-            { "text": "Plane surveying", "correct": false },
-            { "text": "Geodetic surveying", "correct": false }
+            {
+                "text": "Geodetic surveying",
+                "correct": false
+            },
+            {
+                "text": "Plane surveying",
+                "correct": false
+            },
+            {
+                "text": "Traverse surveying",
+                "correct": false
+            },
+            {
+                "text": "Triangulation surveying",
+                "correct": true
+            }
         ]
     },
     {
         "question": "What is used in surveying to draw points, lines, and polygons using a starting point (station) and a list of bearings and distances?",
         "answers": [
-            { "text": "Coordinate Geometry (COGO)", "correct":true },
-            { "text": "Triangulation", "correct": false },
-            { "text": "Traversing", "correct": false },
-            { "text": "Leveling", "correct": false }
+            {
+                "text": "Leveling",
+                "correct": false
+            },
+            {
+                "text": "Triangulation",
+                "correct": false
+            },
+            {
+                "text": "Coordinate Geometry (COGO)",
+                "correct": true
+            },
+            {
+                "text": "Traversing",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What are the known points across the United States, often brass discs in concrete, that have exact locations and are maintained by the NGS?",
         "answers": [
-            { "text": "Benchmarks", "correct": true },
-            { "text": "Control points", "correct": false },
-            { "text": "Monuments", "correct": false },
-            { "text": "Stations", "correct": false }
+            {
+                "text": "Control points",
+                "correct": false
+            },
+            {
+                "text": "Monuments",
+                "correct": false
+            },
+            {
+                "text": "Stations",
+                "correct": false
+            },
+            {
+                "text": "Benchmarks",
+                "correct": true
+            }
         ]
     },
     {
         "question": "What modern survey instrument combines the functionality of a theodolite with an electronic distance measurement (EDM) device?",
         "answers": [
-            { "text": "Total station", "correct": true },
-            { "text": "Transit", "correct": false },
-            { "text": "Level", "correct": false },
-            { "text": "GNSS receiver", "correct": false }
+            {
+                "text": "Level",
+                "correct": false
+            },
+            {
+                "text": "Total station",
+                "correct": true
+            },
+            {
+                "text": "Transit",
+                "correct": false
+            },
+            {
+                "text": "GNSS receiver",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What standardized method, which is not a coordinate system, is used for designating and describing land parcels in much of the U.S.?",
         "answers": [
-            { "text": "Public Land Survey System (PLSS)", "correct": true },
-            { "text": "Metes and Bounds", "correct": false },
-            { "text": "State Plane Coordinate System (SPCS)", "correct": false },
-            { "text": "Universal Transverse Mercator (UTM)", "correct": false }
+            {
+                "text": "Metes and Bounds",
+                "correct": false
+            },
+            {
+                "text": "State Plane Coordinate System (SPCS)",
+                "correct": false
+            },
+            {
+                "text": "Public Land Survey System (PLSS)",
+                "correct": true
+            },
+            {
+                "text": "Universal Transverse Mercator (UTM)",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is the process of transforming raw data like satellite imagery or LiDAR point clouds into meaningful features?",
         "answers": [
-            { "text": "Feature extraction", "correct": true },
-            { "text": "Data scraping", "correct": false },
-            { "text": "Digitizing", "correct": false },
-            { "text": "Classification", "correct": false }
+            {
+                "text": "Data scraping",
+                "correct": false
+            },
+            {
+                "text": "Digitizing",
+                "correct": false
+            },
+            {
+                "text": "Feature extraction",
+                "correct": true
+            },
+            {
+                "text": "Classification",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What three-step data integration process is used to combine data from multiple sources into a consistent format for loading into a data warehouse?",
         "answers": [
-            { "text": "Extract, Transform, Load (ETL)", "correct": true },
-            { "text": "Acquire, Process, Analyze (APA)", "correct": false },
-            { "text": "Collect, Clean, Classify (CCC)", "correct": false },
-            { "text": "Input, Process, Output (IPO)", "correct": false }
+            {
+                "text": "Input, Process, Output (IPO)",
+                "correct": false
+            },
+            {
+                "text": "Collect, Clean, Classify (CCC)",
+                "correct": false
+            },
+            {
+                "text": "Acquire, Process, Analyze (APA)",
+                "correct": false
+            },
+            {
+                "text": "Extract, Transform, Load (ETL)",
+                "correct": true
+            }
         ]
     },
     {
         "question": "What is the process of employing an instrument to acquire information about an object or phenomenon without making physical contact?",
         "answers": [
-            { "text": "Remote sensing", "correct": true },
-            { "text": "Field surveying", "correct": false },
-            { "text": "Data scraping", "correct": false },
-            { "text": "In-situ measurement", "correct": false }
+            {
+                "text": "In-situ measurement",
+                "correct": false
+            },
+            {
+                "text": "Data scraping",
+                "correct": false
+            },
+            {
+                "text": "Field surveying",
+                "correct": false
+            },
+            {
+                "text": "Remote sensing",
+                "correct": true
+            }
         ]
     },
     {
         "question": "In aerial imagery, what is the radial displacement of objects at different elevations, where higher elevations are displaced outward?",
         "answers": [
-            { "text": "Relief displacement", "correct": true },
-            { "text": "Perspective distortion", "correct": false },
-            { "text": "Radial lens displacement", "correct": false },
-            { "text": "Atmospheric bending", "correct": false }
+            {
+                "text": "Atmospheric bending",
+                "correct": false
+            },
+            {
+                "text": "Radial lens displacement",
+                "correct": false
+            },
+            {
+                "text": "Relief displacement",
+                "correct": true
+            },
+            {
+                "text": "Perspective distortion",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is the process of removing geometric distortions from images to show features in their true planimetric locations?",
         "answers": [
-            { "text": "Orthorectification", "correct": true },
-            { "text": "Georeferencing", "correct": false },
-            { "text": "Registration", "correct": false },
-            { "text": "Resampling", "correct": false }
+            {
+                "text": "Registration",
+                "correct": false
+            },
+            {
+                "text": "Orthorectification",
+                "correct": true
+            },
+            {
+                "text": "Georeferencing",
+                "correct": false
+            },
+            {
+                "text": "Resampling",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is the science of making measurements from pictures, aerial photographs, and other remote sensing data, often using stereo pairs?",
         "answers": [
-            { "text": "Photogrammetry", "correct": true },
-            { "text": "Cartography", "correct": false },
-            { "text": "LiDAR", "correct": false },
-            { "text": "Geodesy", "correct": false }
+            {
+                "text": "Geodesy",
+                "correct": false
+            },
+            {
+                "text": "Cartography",
+                "correct": false
+            },
+            {
+                "text": "Photogrammetry",
+                "correct": true
+            },
+            {
+                "text": "LiDAR",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What type of remote sensing emits its own energy (e.g., laser or radio waves) and measures the amount of energy returned?",
         "answers": [
-            { "text": "Active sensing", "correct": true },
-            { "text": "Passive sensing", "correct": false },
-            { "text": "Reflective sensing", "correct": false },
-            { "text": "Thermal sensing", "correct": false }
+            {
+                "text": "Reflective sensing",
+                "correct": false
+            },
+            {
+                "text": "Passive sensing",
+                "correct": false
+            },
+            {
+                "text": "Active sensing",
+                "correct": true
+            },
+            {
+                "text": "Thermal sensing",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is the unique pattern of how light reflects from an object across different wavelengths called?",
         "answers": [
-            { "text": "Spectral signature", "correct": true },
-            { "text": "Composite image", "correct": false },
-            { "text": "Band combination", "correct": false },
-            { "text": "Albedo", "correct": false }
+            {
+                "text": "Albedo",
+                "correct": false
+            },
+            {
+                "text": "Spectral signature",
+                "correct": true
+            },
+            {
+                "text": "Composite image",
+                "correct": false
+            },
+            {
+                "text": "Band combination",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What remote sensing method uses a pulsed laser to measure ranges, generating precise 3D information about Earth's surface?",
         "answers": [
-            { "text": "LiDAR", "correct": true },
-            { "text": "Radar", "correct": false },
-            { "text": "Sonar", "correct": false },
-            { "text": "Photogrammetry", "correct": false }
+            {
+                "text": "Radar",
+                "correct": false
+            },
+            {
+                "text": "Photogrammetry",
+                "correct": false
+            },
+            {
+                "text": "LiDAR",
+                "correct": true
+            },
+            {
+                "text": "Sonar",
+                "correct": false
+            }
         ]
     },
     {
         "question": "In LiDAR data, which laser pulse return is most likely to show the ground shape by penetrating through vegetation?",
         "answers": [
-            { "text": "Last return", "correct": true },
-            { "text": "First return", "correct": false },
-            { "text": "Intermediate return", "correct": false },
-            { "text": "Single return", "correct": false }
+            {
+                "text": "Intermediate return",
+                "correct": false
+            },
+            {
+                "text": "First return",
+                "correct": false
+            },
+            {
+                "text": "Last return",
+                "correct": true
+            },
+            {
+                "text": "Single return",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What index is commonly used to assess plant health by measuring the reflection of infrared pulses?",
         "answers": [
-            { "text": "Normalized Difference Vegetation Index (NDVI)", "correct": true },
-            { "text": "Enhanced Vegetation Index (EVI)", "correct": false },
-            { "text": "Soil-Adjusted Vegetation Index (SAVI)", "correct": false },
-            { "text": "Leaf Area Index (LAI)", "correct": false }
+            {
+                "text": "Leaf Area Index (LAI)",
+                "correct": false
+            },
+            {
+                "text": "Soil-Adjusted Vegetation Index (SAVI)",
+                "correct": false
+            },
+            {
+                "text": "Enhanced Vegetation Index (EVI)",
+                "correct": false
+            },
+            {
+                "text": "Normalized Difference Vegetation Index (NDVI)",
+                "correct": true
+            }
         ]
     },
     {
         "question": "What type of imagery is corrected to be an exact top-down view, allowing for the measurement of true distances?",
         "answers": [
-            { "text": "Orthoimagery", "correct": true },
-            { "text": "Oblique imagery", "correct": false },
-            { "text": "Perspective imagery", "correct": false },
-            { "text": "Stereo imagery", "correct": false }
+            {
+                "text": "Oblique imagery",
+                "correct": false
+            },
+            {
+                "text": "Perspective imagery",
+                "correct": false
+            },
+            {
+                "text": "Orthoimagery",
+                "correct": true
+            },
+            {
+                "text": "Stereo imagery",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is a computer-generated image of an aerial photograph in which image displacement from terrain relief and camera tilt has been removed?",
         "answers": [
-            { "text": "Digital Orthophoto Quarter Quad (DOQQ)", "correct": true },
-            { "text": "Georeferenced Tagged Image File Format (GeoTIFF)", "correct": false },
-            { "text": "Digital Elevation Model (DEM)", "correct": false },
-            { "text": "Scanned Topographic Map", "correct": false }
+            {
+                "text": "Digital Orthophoto Quarter Quad (DOQQ)",
+                "correct": true
+            },
+            {
+                "text": "Scanned Topographic Map",
+                "correct": false
+            },
+            {
+                "text": "Digital Elevation Model (DEM)",
+                "correct": false
+            },
+            {
+                "text": "Georeferenced Tagged Image File Format (GeoTIFF)",
+                "correct": false
+            }
         ]
     },
     {
         "question": "Which USDA program provides orthoimagery and geospatial data taken during the growing seasons?",
         "answers": [
-            { "text": "National Agriculture Imagery Program (NAIP)", "correct": true },
-            { "text": "National Aerial Photography Program (NAPP)", "correct": false },
-            { "text": "National Digital Orthophoto Program (NDOP)", "correct": false },
-            { "text": "United States Forest Service (USFS) Imagery Program", "correct": false }
+            {
+                "text": "National Digital Orthophoto Program (NDOP)",
+                "correct": false
+            },
+            {
+                "text": "National Agriculture Imagery Program (NAIP)",
+                "correct": true
+            },
+            {
+                "text": "United States Forest Service (USFS) Imagery Program",
+                "correct": false
+            },
+            {
+                "text": "National Aerial Photography Program (NAPP)",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is a free, open geographic database updated and maintained by a community of volunteers via open collaboration?",
         "answers": [
-            { "text": "OpenStreetMap", "correct": true },
-            { "text": "Waze", "correct": false },
-            { "text": "Localwiki", "correct": false },
-            { "text": "Google Maps", "correct": false }
+            {
+                "text": "Google Maps",
+                "correct": false
+            },
+            {
+                "text": "Waze",
+                "correct": false
+            },
+            {
+                "text": "Localwiki",
+                "correct": false
+            },
+            {
+                "text": "OpenStreetMap",
+                "correct": true
+            }
         ]
     },
     {
         "question": "Which international research effort obtained digital elevation models on a near-global scale, with tiles named by their southwestern corners?",
         "answers": [
-            { "text": "Shuttle Radar Topography Mission (SRTM)", "correct": true },
-            { "text": "Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER)", "correct": false },
-            { "text": "Landsat", "correct": false },
-            { "text": "Sentinel", "correct": false }
+            {
+                "text": "Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER)",
+                "correct": false
+            },
+            {
+                "text": "Sentinel",
+                "correct": false
+            },
+            {
+                "text": "Landsat",
+                "correct": false
+            },
+            {
+                "text": "Shuttle Radar Topography Mission (SRTM)",
+                "correct": true
+            }
         ]
     },
     {
         "question": "What is the online portal where users can obtain a vast collection of geospatial datasets from the USGS, including Landsat, radar, and aerial photos?",
         "answers": [
-            { "text": "USGS EarthExplorer", "correct": true },
-            { "text": "The National Map", "correct": false },
-            { "text": "Data.gov", "correct": false },
-            { "text": "Geospatial Platform", "correct": false }
+            {
+                "text": "The National Map",
+                "correct": false
+            },
+            {
+                "text": "Data.gov",
+                "correct": false
+            },
+            {
+                "text": "USGS EarthExplorer",
+                "correct": true
+            },
+            {
+                "text": "Geospatial Platform",
+                "correct": false
+            }
         ]
     },
     {
         "question": "What is the primary elevation data product produced and distributed by the USGS, often with 3, 10, or 30-meter resolution?",
         "answers": [
-            { "text": "National Elevation Dataset (NED)", "correct": true },
-            { "text": "National Hydrography Dataset (NHD)", "correct": false },
-            { "text": "National Land Cover Database (NLCD)", "correct": false },
-            { "text": "Shuttle Radar Topography Mission (SRTM)", "correct": false }
+            {
+                "text": "National Hydrography Dataset (NHD)",
+                "correct": false
+            },
+            {
+                "text": "National Elevation Dataset (NED)",
+                "correct": true
+            },
+            {
+                "text": "Shuttle Radar Topography Mission (SRTM)",
+                "correct": false
+            },
+            {
+                "text": "National Land Cover Database (NLCD)",
+                "correct": false
+            }
         ]
     },
     {
         "question": "Which USGS database, retired in 2023, represented the water drainage network of the United States?",
         "answers": [
-            { "text": "National Hydrography Dataset (NHD)", "correct": true },
-            { "text": "Watershed Boundary Dataset (WBD)", "correct": false },
-            { "text": "National Elevation Dataset (NED)", "correct": false },
-            { "text": "3D Hydrography Program (3DHP)", "correct": false }
+            {
+                "text": "National Elevation Dataset (NED)",
+                "correct": false
+            },
+            {
+                "text": "3D Hydrography Program (3DHP)",
+                "correct": false
+            },
+            {
+                "text": "Watershed Boundary Dataset (WBD)",
+                "correct": false
+            },
+            {
+                "text": "National Hydrography Dataset (NHD)",
+                "correct": true
+            }
         ]
     },
     {
         "question": "Which database provides land cover data for the US, including metrics like urban imperviousness?",
         "answers": [
-            { "text": "National Land Cover Database (NLCD)", "correct": true },
-            { "text": "National Wetlands Inventory (NWI)", "correct": false },
-            { "text": "Cropland Data Layer (CDL)", "correct": false },
-            { "text": "Gap Analysis Project (GAP)", "correct": false }
+            {
+                "text": "National Wetlands Inventory (NWI)",
+                "correct": false
+            },
+            {
+                "text": "National Land Cover Database (NLCD)",
+                "correct": true
+            },
+            {
+                "text": "Gap Analysis Project (GAP)",
+                "correct": false
+            },
+            {
+                "text": "Cropland Data Layer (CDL)",
+                "correct": false
+            }
         ]
     },
     {
         "question": "Which U.S. Fish and Wildlife Service program produces and distributes maps and data on American wetland and deepwater habitats?",
         "answers": [
-            { "text": "National Wetlands Inventory (NWI)", "correct": true },
-            { "text": "National Hydrography Dataset (NHD)", "correct": false },
-            { "text": "STATSGO2", "correct": false },
-            { "text": "SSURGO", "correct": false }
+            {
+                "text": "National Hydrography Dataset (NHD)",
+                "correct": false
+            },
+            {
+                "text": "STATSGO2",
+                "correct": false
+            },
+            {
+                "text": "National Wetlands Inventory (NWI)",
+                "correct": true
+            },
+            {
+                "text": "SSURGO",
+                "correct": false
+            }
         ]
     },
     {
         "question": "Which detailed soil database, gathered by walking the land and analyzing samples, typically has an extent of a county?",
         "answers": [
-            { "text": "SSURGO", "correct": true },
-            { "text": "STATSGO2", "correct": false },
-            { "text": "GNATSGO", "correct": false },
-            { "text": "Raster Soil Survey (RSS)", "correct": false }
+            {
+                "text": "STATSGO2",
+                "correct": false
+            },
+            {
+                "text": "SSURGO",
+                "correct": true
+            },
+            {
+                "text": "Raster Soil Survey (RSS)",
+                "correct": false
+            },
+            {
+                "text": "GNATSGO",
+                "correct": false
+            }
         ]
     },
     {
         "question": "Which U.S. Census Bureau system includes data for roads, hydrography, political boundaries, and addresses?",
         "answers": [
-            { "text": "TIGER (Topologically Integrated Geographic Encoding and Referencing) System", "correct": true },
-            { "text": "American Community Survey (ACS)", "correct": false },
-            { "text": "Decennial Census", "correct": false },
-            { "text": "Public Land Survey System (PLSS)", "correct": false }
+            {
+                "text": "TIGER (Topologically Integrated Geographic Encoding and Referencing) System",
+                "correct": true
+            },
+            {
+                "text": "Public Land Survey System (PLSS)",
+                "correct": false
+            },
+            {
+                "text": "American Community Survey (ACS)",
+                "correct": false
+            },
+            {
+                "text": "Decennial Census",
+                "correct": false
+            }
         ]
     },
     {
         "question": "Which ongoing survey provides yearly statistics based on samples of the U.S. population?",
         "answers": [
-            { "text": "American Community Survey (ACS)", "correct": true },
-            { "text": "Decennial Census", "correct": false },
-            { "text": "Current Population Survey (CPS)", "correct": false },
-            { "text": "National Health Interview Survey (NHIS)", "correct": false }
+            {
+                "text": "Decennial Census",
+                "correct": false
+            },
+            {
+                "text": "National Health Interview Survey (NHIS)",
+                "correct": false
+            },
+            {
+                "text": "American Community Survey (ACS)",
+                "correct": true
+            },
+            {
+                "text": "Current Population Survey (CPS)",
+                "correct": false
+            }
         ]
     },
     {
         "question": "Which division of NOAA maintains foundational elements of latitude, longitude, elevation, and shoreline information, including geodetic datums and benchmarks?",
         "answers": [
-            { "text": "National Geodetic Survey (NGS)", "correct": true },
-            { "text": "National Ocean Service (NOS)", "correct": false },
-            { "text": "National Climatic Data Center (NCDC)", "correct": false },
-            { "text": "National Weather Service (NWS)", "correct": false }
+            {
+                "text": "National Ocean Service (NOS)",
+                "correct": false
+            },
+            {
+                "text": "National Geodetic Survey (NGS)",
+                "correct": true
+            },
+            {
+                "text": "National Weather Service (NWS)",
+                "correct": false
+            },
+            {
+                "text": "National Climatic Data Center (NCDC)",
+                "correct": false
+            }
         ]
     }
 ]
