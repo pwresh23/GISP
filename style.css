@@ -151,3 +151,10 @@ body {
 #back-to-menu-btn:hover {
     background-color: #5a6268;
 }
+
+#question-counter {
+    margin-bottom: 15px; /* Add some space below the counter */
+    color: #555;        /* Make it a slightly muted color */
+    font-size: 0.9em;   /* Make it slightly smaller than regular text */
+    font-weight: bold;
+}
