@@ -8,8 +8,8 @@ const answerButtonsElement = document.getElementById('answers');
 const resultsBtn = document.getElementById('results-btn');
 const resultsContainer = document.getElementById('results-container');
 const wrongAnswersList = document.getElementById('wrong-answers-list');
-// ## FIX: Define the new button element here with the others ##
-const backToMenuBtn = document.getElementById('back-to-menu-btn'); 
+const backToMenuBtn = document.getElementById('back-to-menu-btn');
+const questionCounterElement = document.getElementById('question-counter'); // New counter element
 
 // --- List of all your JSON files for the 'random' option ---
 const allQuestionFiles = [
@@ -25,7 +25,7 @@ let wrongAnswers = [];
 // --- Event Listener to start the quiz ---
 startBtn.addEventListener('click', async () => {
     const selectedTopic = topicSelect.value;
-    
+
     selectionContainer.classList.add('hide');
     quizContainer.classList.remove('hide');
 
@@ -34,7 +34,6 @@ startBtn.addEventListener('click', async () => {
             const fetchPromises = allQuestionFiles.map(file => fetch(file).then(res => res.json()));
             const questionArrays = await Promise.all(fetchPromises);
             const allQuestions = questionArrays.flat();
-            
             currentQuizQuestions = allQuestions.sort(() => 0.5 - Math.random()).slice(0, 10);
         } catch (error) {
             console.error("Error loading random questions:", error);
@@ -45,6 +44,7 @@ startBtn.addEventListener('click', async () => {
         try {
             const response = await fetch(selectedTopic);
             const questions = await response.json();
+            // Shuffle questions from the selected section
             currentQuizQuestions = questions.sort(() => 0.5 - Math.random());
         } catch (error) {
             console.error(`Error loading ${selectedTopic}:`, error);
@@ -52,7 +52,6 @@ startBtn.addEventListener('click', async () => {
             return;
         }
     }
-    
     startQuiz();
 });
 
@@ -62,26 +61,32 @@ function startQuiz() {
     resultsContainer.classList.add('hide');
     resultsBtn.classList.add('hide');
     answerButtonsElement.classList.remove('hide');
-    
+    questionCounterElement.classList.remove('hide'); // Show counter
+
     if (currentQuizQuestions.length > 0) {
         showQuestion(currentQuizQuestions[currentQuestionIndex]);
     } else {
         questionElement.innerText = "No questions found for this topic.";
+        questionCounterElement.classList.add('hide'); // Hide counter if no questions
     }
 }
 
 function showQuestion(question) {
+    // Update counter text
+    questionCounterElement.innerText = `Question ${currentQuestionIndex + 1} of ${currentQuizQuestions.length}`;
+
     questionElement.innerText = question.question;
     answerButtonsElement.innerHTML = '';
-    
-    const answersArray = question.answers || question.answerOptions; 
+
+    const answersArray = question.answers || question.answerOptions;
+    // Removed answer shuffling here based on user request
 
     answersArray.forEach(answer => {
         const button = document.createElement('button');
         button.innerText = answer.text;
         button.classList.add('btn');
 
-        const isCorrect = answer.correct || answer.isCorrect; 
+        const isCorrect = answer.correct || answer.isCorrect;
 
         if (isCorrect) {
             button.dataset.correct = true;
@@ -102,9 +107,9 @@ function selectAnswer(answer, button) {
         button.classList.add('correct');
     } else {
         button.classList.add('wrong');
-        wrongAnswers.push({ 
-            question: currentQuizQuestions[currentQuestionIndex].question, 
-            yourAnswer: answer.text 
+        wrongAnswers.push({
+            question: currentQuizQuestions[currentQuestionIndex].question,
+            yourAnswer: answer.text
         });
         Array.from(answerButtonsElement.children).forEach(btn => {
             if (btn.dataset.correct) {
@@ -120,9 +125,10 @@ function selectAnswer(answer, button) {
         } else {
             questionElement.innerText = "Quiz Finished!";
             answerButtonsElement.classList.add('hide');
+            questionCounterElement.classList.add('hide'); // Hide counter when quiz finishes
             resultsBtn.classList.remove('hide');
         }
-    }, 2000); 
+    }, 2000);
 }
 
 resultsBtn.addEventListener('click', () => {
@@ -139,8 +145,8 @@ resultsBtn.addEventListener('click', () => {
     }
 });
 
-// ## FIX: The event listener now correctly references the button defined at the top ##
 backToMenuBtn.addEventListener('click', () => {
     quizContainer.classList.add('hide');
+    questionCounterElement.classList.add('hide'); // Hide counter when going back to menu
     selectionContainer.classList.remove('hide');
 });
