@@ -355,5 +355,278 @@
                 "correct": true
             }
         ]
+    },
+    {
+        "question": "In system performance terminology, what is the percentage of capacity represented by a given throughput rate?",
+        "answers": [
+            {
+                "text": "Utilization",
+                "correct": true
+            },
+            {
+                "text": "Capacity",
+                "correct": false
+            },
+            {
+                "text": "Throughput",
+                "correct": false
+            },
+            {
+                "text": "Workflow Transaction",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which step in the system architecture design process translates user needs into project workflows with baseline and peak processing transaction loads?",
+        "answers": [
+            {
+                "text": "User Needs Assessment",
+                "correct": false
+            },
+            {
+                "text": "Workflow Loads Analysis",
+                "correct": true
+            },
+            {
+                "text": "Network Suitability Analysis",
+                "correct": false
+            },
+            {
+                "text": "Technical Architecture Strategy",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What term describes a workflow, such as a complex analysis, that runs from start to finish without requiring user interaction?",
+        "answers": [
+            {
+                "text": "Real-time process",
+                "correct": false
+            },
+            {
+                "text": "Interactive process",
+                "correct": false
+            },
+            {
+                "text": "Batch Process",
+                "correct": true
+            },
+            {
+                "text": "Service-oriented process",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In which type of GIS environment do professionals develop and maintain data sources locally, and users request maps prepared by analysts?",
+        "answers": [
+            {
+                "text": "Centralized GIS",
+                "correct": false
+            },
+            {
+                "text": "Web GIS",
+                "correct": false
+            },
+            {
+                "text": "GIS online sharing",
+                "correct": false
+            },
+            {
+                "text": "Traditional GIS",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What type of GIS environment involves sharing common cloud-hosted cached basemaps and imagery that users can download and view with local software?",
+        "answers": [
+            {
+                "text": "Traditional GIS",
+                "correct": false
+            },
+            {
+                "text": "Centralized GIS",
+                "correct": false
+            },
+            {
+                "text": "GIS online sharing",
+                "correct": true
+            },
+            {
+                "text": "Web GIS architecture",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In the ArcGIS Enterprise deployment, what component provides content management, collaboration, and sharing, empowering users to create and share content?",
+        "answers": [
+            {
+                "text": "ArcGIS Server",
+                "correct": false
+            },
+            {
+                "text": "ArcGIS Portal",
+                "correct": true
+            },
+            {
+                "text": "ArcGIS Data Store",
+                "correct": false
+            },
+            {
+                "text": "ArcGIS Web Adaptor",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In the CIA Security Triad, what principle refers to restricting user access to privileged communications based on a 'need-to-know' basis?",
+        "answers": [
+            {
+                "text": "Confidentiality",
+                "correct": true
+            },
+            {
+                "text": "Integrity",
+                "correct": false
+            },
+            {
+                "text": "Availability",
+                "correct": false
+            },
+            {
+                "text": "Authentication",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In the CIA Security Triad, what principle ensures that an information system is functional and accessible when needed for business operations?",
+        "answers": [
+            {
+                "text": "Confidentiality",
+                "correct": false
+            },
+            {
+                "text": "Integrity",
+                "correct": false
+            },
+            {
+                "text": "Availability",
+                "correct": true
+            },
+            {
+                "text": "Accountability",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the general term for making applications more secure by finding, fixing, and enhancing security throughout the entire development lifecycle?",
+        "answers": [
+            {
+                "text": "Network Security",
+                "correct": false
+            },
+            {
+                "text": "Application security (AppSec)",
+                "correct": true
+            },
+            {
+                "text": "Dynamic Testing",
+                "correct": false
+            },
+            {
+                "text": "CIA Triad",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of application security testing analyzes code at fixed points without executing the application?",
+        "answers": [
+            {
+                "text": "Static testing",
+                "correct": true
+            },
+            {
+                "text": "Dynamic testing",
+                "correct": false
+            },
+            {
+                "text": "Interactive testing",
+                "correct": false
+            },
+            {
+                "text": "Mobile testing",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which security threat specifically involves flaws in how an application confirms a user's identity or manages their session?",
+        "answers": [
+            {
+                "text": "Injection",
+                "correct": false
+            },
+            {
+                "text": "Insecure Design",
+                "correct": false
+            },
+            {
+                "text": "Cryptographic Failures",
+                "correct": false
+            },
+            {
+                "text": "Identification and authentication failures",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Which technology trend is characterized by the ubiquitous generation of spatiotemporal data and the ability to continuously create and interact with this data?",
+        "answers": [
+            {
+                "text": "The real-time revolution",
+                "correct": true
+            },
+            {
+                "text": "Miniaturization of technologies",
+                "correct": false
+            },
+            {
+                "text": "Advances in computing capacity",
+                "correct": false
+            },
+            {
+                "text": "Proliferation of mobile sensor platforms",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which geospatial technology trend includes the rapid development of small satellites and unmanned aircraft systems (drones) for data collection?",
+        "answers": [
+            {
+                "text": "The real-time revolution",
+                "correct": false
+            },
+            {
+                "text": "Advances in computing capacity",
+                "correct": false
+            },
+            {
+                "text": "Proliferation of new mobile geospatial sensor platforms",
+                "correct": true
+            },
+            {
+                "text": "Expanding wireless and web networks",
+                "correct": false
+            }
+        ]
     }
 ]

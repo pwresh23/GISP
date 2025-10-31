@@ -418,5 +418,551 @@
                 "correct": true
             }
         ]
+    },
+    {
+        "question": "What database construct enforces data integrity by identifying the set of allowed values for a field in a feature class?",
+        "answers": [
+            {
+                "text": "Spatial Domain",
+                "correct": false
+            },
+            {
+                "text": "Attribute Domain",
+                "correct": true
+            },
+            {
+                "text": "Schema",
+                "correct": false
+            },
+            {
+                "text": "Constraint",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What defines the allowable range for x, y coordinates and m, z values in a geodatabase?",
+        "answers": [
+            {
+                "text": "Spatial Domain",
+                "correct": true
+            },
+            {
+                "text": "Range Domain",
+                "correct": false
+            },
+            {
+                "text": "Coordinate System",
+                "correct": false
+            },
+            {
+                "text": "Data Dictionary",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is a virtual table in a database that is computed dynamically from a stored query on the data?",
+        "answers": [
+            {
+                "text": "Snapshot",
+                "correct": false
+            },
+            {
+                "text": "Schema",
+                "correct": false
+            },
+            {
+                "text": "View",
+                "correct": true
+            },
+            {
+                "text": "Index",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What database object is an ordered collection of objects where repetitions are allowed?",
+        "answers": [
+            {
+                "text": "Table",
+                "correct": false
+            },
+            {
+                "text": "Sequence",
+                "correct": true
+            },
+            {
+                "text": "Cluster",
+                "correct": false
+            },
+            {
+                "text": "Index",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is an alias or alternate name for a database object like a table, view, or sequence?",
+        "answers": [
+            {
+                "text": "Function",
+                "correct": false
+            },
+            {
+                "text": "Trigger",
+                "correct": false
+            },
+            {
+                "text": "Domain",
+                "correct": false
+            },
+            {
+                "text": "Synonym",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "In database management, what term describes a setup where databases are distributed to different servers using replication, syncing with a master database?",
+        "answers": [
+            {
+                "text": "Snapshot",
+                "correct": false
+            },
+            {
+                "text": "Database Link",
+                "correct": false
+            },
+            {
+                "text": "Cluster",
+                "correct": true
+            },
+            {
+                "text": "Package",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What allows a database to access data stored in different, separate databases?",
+        "answers": [
+            {
+                "text": "Database Links",
+                "correct": true
+            },
+            {
+                "text": "Schema",
+                "correct": false
+            },
+            {
+                "text": "Replication",
+                "correct": false
+            },
+            {
+                "text": "Views",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is a subroutine, often used for data validation or access control, that is available to applications accessing a relational database?",
+        "answers": [
+            {
+                "text": "Trigger",
+                "correct": false
+            },
+            {
+                "text": "Function",
+                "correct": false
+            },
+            {
+                "text": "Procedure",
+                "correct": true
+            },
+            {
+                "text": "Package",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which of the following would be considered a 'non-schema object' in a database?",
+        "answers": [
+            {
+                "text": "Tables",
+                "correct": false
+            },
+            {
+                "text": "Views",
+                "correct": false
+            },
+            {
+                "text": "Indexes",
+                "correct": false
+            },
+            {
+                "text": "Users",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What database rule is used to restrict the domain of an attribute and implement business rules?",
+        "answers": [
+            {
+                "text": "Constraint",
+                "correct": true
+            },
+            {
+                "text": "Trigger",
+                "correct": false
+            },
+            {
+                "text": "Procedure",
+                "correct": false
+            },
+            {
+                "text": "Index",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is an executable piece of code stored in a database, often used as an API to encapsulate complex business logic?",
+        "answers": [
+            {
+                "text": "View",
+                "correct": false
+            },
+            {
+                "text": "Stored Procedure",
+                "correct": true
+            },
+            {
+                "text": "Trigger",
+                "correct": false
+            },
+            {
+                "text": "Function",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In relational algebra, which operator produces a set of tuples that two relations have in common?",
+        "answers": [
+            {
+                "text": "Union Operator",
+                "correct": false
+            },
+            {
+                "text": "Set Difference Operator",
+                "correct": false
+            },
+            {
+                "text": "Intersection Operator",
+                "correct": true
+            },
+            {
+                "text": "Cartesian Product",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which relational algebra operator produces the set of tuples from the first relation that are not present in the second?",
+        "answers": [
+            {
+                "text": "Set Difference Operator",
+                "correct": true
+            },
+            {
+                "text": "Intersection Operator",
+                "correct": false
+            },
+            {
+                "text": "Union Operator",
+                "correct": false
+            },
+            {
+                "text": "Relational Division Operator",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which stage of database design involves determining the relationships and dependencies within the data?",
+        "answers": [
+            {
+                "text": "Physical Database Design",
+                "correct": false
+            },
+            {
+                "text": "Logical Data Model",
+                "correct": false
+            },
+            {
+                "text": "Conceptual Schema",
+                "correct": true
+            },
+            {
+                "text": "Database Implementation",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which stage of database design involves the physical configuration of the database on storage media, including indexing options?",
+        "answers": [
+            {
+                "text": "Logical Data Model",
+                "correct": false
+            },
+            {
+                "text": "Physical Database Design",
+                "correct": true
+            },
+            {
+                "text": "Conceptual Schema",
+                "correct": false
+            },
+            {
+                "text": "Data Modeling",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which field type is used to store whole numbers between approximately negative two billion and positive two billion?",
+        "answers": [
+            {
+                "text": "Short Integer",
+                "correct": false
+            },
+            {
+                "text": "Float",
+                "correct": false
+            },
+            {
+                "text": "Double",
+                "correct": false
+            },
+            {
+                "text": "Long Integer",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What data type is stored as a 36-character registry-style string in curly brackets, ensuring global uniqueness?",
+        "answers": [
+            {
+                "text": "Object Identifier (OID)",
+                "correct": false
+            },
+            {
+                "text": "Global Identifier (GUID)",
+                "correct": true
+            },
+            {
+                "text": "Text (String)",
+                "correct": false
+            },
+            {
+                "text": "Blob",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Point, line, polygon, and multi-patch are examples of what field type?",
+        "answers": [
+            {
+                "text": "Raster Field Type",
+                "correct": false
+            },
+            {
+                "text": "Blob Field Type",
+                "correct": false
+            },
+            {
+                "text": "Geometry Field Type",
+                "correct": true
+            },
+            {
+                "text": "Global Identifier",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In database security, what is the process of ensuring that the right people have the correct level of access to data?",
+        "answers": [
+            {
+                "text": "Authentication",
+                "correct": false
+            },
+            {
+                "text": "Auditing",
+                "correct": true
+            },
+            {
+                "text": "Authorization",
+                "correct": false
+            },
+            {
+                "text": "Administration",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What three-part function is used for data extraction, transformation, and loading, often associated with database management?",
+        "answers": [
+            {
+                "text": "GIS (Geographic Information System)",
+                "correct": false
+            },
+            {
+                "text": "API (Application Programming Interface)",
+                "correct": false
+            },
+            {
+                "text": "ETL (Extract, Transform, Load)",
+                "correct": true
+            },
+            {
+                "text": "SQL (Structured Query Language)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the process of extracting data from a backup, typically due to data loss or corruption?",
+        "answers": [
+            {
+                "text": "Archiving",
+                "correct": false
+            },
+            {
+                "text": "Retrieval",
+                "correct": true
+            },
+            {
+                "text": "Replication",
+                "correct": false
+            },
+            {
+                "text": "Tuning",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of enterprise geodatabase is used to organize and manage the primary geospatial feature data resources?",
+        "answers": [
+            {
+                "text": "GIS Feature Data Publication Database",
+                "correct": false
+            },
+            {
+                "text": "GIS Feature Data Map Cache",
+                "correct": false
+            },
+            {
+                "text": "GIS Feature Data Production Database",
+                "correct": true
+            },
+            {
+                "text": "ArcGIS Data Store",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the Esri-managed data repository that stores spatial content shared to an ArcGIS Enterprise portal?",
+        "answers": [
+            {
+                "text": "Production Geodatabase",
+                "correct": false
+            },
+            {
+                "text": "Publication Geodatabase",
+                "correct": false
+            },
+            {
+                "text": "File Geodatabase",
+                "correct": false
+            },
+            {
+                "text": "ArcGIS Data Store",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Which type of versioning provides flexibility for long transactions when accessed directly from the enterprise geodatabase?",
+        "answers": [
+            {
+                "text": "Branch Versioning",
+                "correct": false
+            },
+            {
+                "text": "Traditional Versioning",
+                "correct": true
+            },
+            {
+                "text": "Web Versioning",
+                "correct": false
+            },
+            {
+                "text": "Service Versioning",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In data security, what user role is defined as the one who creates and owns tables and feature classes?",
+        "answers": [
+            {
+                "text": "Database Administrator",
+                "correct": false
+            },
+            {
+                "text": "Editor",
+                "correct": false
+            },
+            {
+                "text": "Data Owner",
+                "correct": true
+            },
+            {
+                "text": "Creator",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which user access level can read, update, create, and delete features, but cannot create new feature classes?",
+        "answers": [
+            {
+                "text": "Administrator",
+                "correct": false
+            },
+            {
+                "text": "Editor",
+                "correct": true
+            },
+            {
+                "text": "Creator",
+                "correct": false
+            },
+            {
+                "text": "Reader",
+                "correct": false
+            }
+        ]
     }
 ]

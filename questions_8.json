@@ -439,5 +439,488 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "question": "What term describes data accessed and exchanged over networks, like the internet, between software components using HTTP and other web-based protocols?",
+        "answers": [
+            {
+                "text": "Web Services",
+                "correct": true
+            },
+            {
+                "text": "Application Programming Interface (API)",
+                "correct": false
+            },
+            {
+                "text": "File Transfer Protocol (FTP)",
+                "correct": false
+            },
+            {
+                "text": "Local Area Network (LAN)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which cryptographic protocols (one the predecessor of the other) are used to encrypt data for secure communication over a network?",
+        "answers": [
+            {
+                "text": "TCP and IP",
+                "correct": false
+            },
+            {
+                "text": "SSL and TLS",
+                "correct": true
+            },
+            {
+                "text": "HTTP and FTP",
+                "correct": false
+            },
+            {
+                "text": "MAC and NFS",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which core protocol, added at the Transport Layer, provides reliable, ordered, and error-checked delivery of data between applications?",
+        "answers": [
+            {
+                "text": "Transmission Control Protocol (TCP)",
+                "correct": true
+            },
+            {
+                "text": "User Datagram Protocol (UDP)",
+                "correct": false
+            },
+            {
+                "text": "Internet Protocol (IP)",
+                "correct": false
+            },
+            {
+                "text": "Media Access Control (MAC)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which protocol header is added at the Internet Layer and is responsible for routing packets to their destination address?",
+        "answers": [
+            {
+                "text": "Transmission Control Protocol (TCP)",
+                "correct": false
+            },
+            {
+                "text": "Media Access Control (MAC)",
+                "correct": false
+            },
+            {
+                "text": "Internet Protocol (IP)",
+                "correct": true
+            },
+            {
+                "text": "File Transfer Protocol (FTP)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of network, such as the internet, transmits data by dividing it into units called packets, which comprise a header and a payload?",
+        "answers": [
+            {
+                "text": "Packet-switched network",
+                "correct": true
+            },
+            {
+                "text": "Circuit-switched network",
+                "correct": false
+            },
+            {
+                "text": "Local Area Network (LAN)",
+                "correct": false
+            },
+            {
+                "text": "Token Ring network",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which alternative Transport Layer protocol is connectionless and faster than TCP but does not guarantee packet delivery or order?",
+        "answers": [
+            {
+                "text": "Transmission Control Protocol (TCP)",
+                "correct": false
+            },
+            {
+                "text": "Internet Protocol (IP)",
+                "correct": false
+            },
+            {
+                "text": "User Datagram Protocol (UDP)",
+                "correct": true
+            },
+            {
+                "text": "Secure Sockets Layer (SSL)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of network provides an infrastructure enabling communication between geographically remote locations?",
+        "answers": [
+            {
+                "text": "Local Area Network (LAN)",
+                "correct": false
+            },
+            {
+                "text": "Wide Area Network (WAN)",
+                "correct": true
+            },
+            {
+                "text": "Personal Area Network (PAN)",
+                "correct": false
+            },
+            {
+                "text": "Storage Area Network (SAN)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In the initial ArcSDE architecture, a proprietary API was used by clients to connect to SDE middleware functions running on the client platform. What was this architecture called?",
+        "answers": [
+            {
+                "text": "ArcSDE API, Application Server Connect Architecture",
+                "correct": true
+            },
+            {
+                "text": "Database API, ArcGIS Direct Connect Architecture",
+                "correct": false
+            },
+            {
+                "text": "Web Services Connect Architecture",
+                "correct": false
+            },
+            {
+                "text": "Local Area Network Connect Architecture",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which image format is a medium-weight, lossless compression supporting up to 16 million colors and transparency?",
+        "answers": [
+            {
+                "text": "PNG8",
+                "correct": false
+            },
+            {
+                "text": "PNG24",
+                "correct": true
+            },
+            {
+                "text": "PNG32",
+                "correct": false
+            },
+            {
+                "text": "JPEG",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which image format provides the highest quality lossless compression, best suited for graphics with gradients, varying colors, and full transparency?",
+        "answers": [
+            {
+                "text": "PNG32",
+                "correct": true
+            },
+            {
+                "text": "PNG24",
+                "correct": false
+            },
+            {
+                "text": "PNG8",
+                "correct": false
+            },
+            {
+                "text": "TIFF LZW",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What protocol, developed by Citrix, is used for communications between a remote desktop host and a Citrix remote client terminal display?",
+        "answers": [
+            {
+                "text": "Remote Desktop Protocol (RDP)",
+                "correct": false
+            },
+            {
+                "text": "Independent Computing Architecture (ICA)",
+                "correct": true
+            },
+            {
+                "text": "Secure Shell (SSH)",
+                "correct": false
+            },
+            {
+                "text": "Virtual Network Computing (VNC)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which proprietary image format (MrSID) uses a mix of techniques to support lossless and lossy compression for large raster datasets?",
+        "answers": [
+            {
+                "text": "Enhanced Compression Wavelet (ECW)",
+                "correct": false
+            },
+            {
+                "text": "JPEG 2000",
+                "correct": false
+            },
+            {
+                "text": "Multi-resolution Seamless Image Database (MrSID)",
+                "correct": true
+            },
+            {
+                "text": "ERDAS IMAGINE (IMG)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which compressed image format is optimized for aerial and satellite imagery, using wavelet compression?",
+        "answers": [
+            {
+                "text": "Enhanced Compression Wavelet (ECW)",
+                "correct": true
+            },
+            {
+                "text": "Multi-resolution Seamless Image Database (MrSID)",
+                "correct": false
+            },
+            {
+                "text": "Tagged Image File Format (TIFF)",
+                "correct": false
+            },
+            {
+                "text": "Portable Network Graphics (PNG)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the term for code that is interpreted by the computer rather than compiled, often used to automate tasks in existing software?",
+        "answers": [
+            {
+                "text": "Scripting",
+                "correct": true
+            },
+            {
+                "text": "Object-oriented programming",
+                "correct": false
+            },
+            {
+                "text": "Machine code",
+                "correct": false
+            },
+            {
+                "text": "Compilation",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of expression is used to select a subset of features or records based on their attribute values?",
+        "answers": [
+            {
+                "text": "Query expression",
+                "correct": true
+            },
+            {
+                "text": "Variable assignment",
+                "correct": false
+            },
+            {
+                "text": "Iteration loop",
+                "correct": false
+            },
+            {
+                "text": "Conditional statement",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In scripting, what is the most basic programming instruction, which can contain values and operators that reduce to a single value?",
+        "answers": [
+            {
+                "text": "A variable",
+                "correct": false
+            },
+            {
+                "text": "An expression",
+                "correct": true
+            },
+            {
+                "text": "An iteration",
+                "correct": false
+            },
+            {
+                "text": "A condition",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What programming construct, such as a 'for loop' or 'do while loop', is used to repeat a block of code multiple times?",
+        "answers": [
+            {
+                "text": "Condition",
+                "correct": false
+            },
+            {
+                "text": "Variable",
+                "correct": false
+            },
+            {
+                "text": "Iteration",
+                "correct": true
+            },
+            {
+                "text": "Expression",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In object-oriented programming, what mechanism allows a new class to reuse and extend the code of an existing class?",
+        "answers": [
+            {
+                "text": "Inheritance",
+                "correct": true
+            },
+            {
+                "text": "Encapsulation",
+                "correct": false
+            },
+            {
+                "text": "Polymorphism",
+                "correct": false
+            },
+            {
+                "text": "Iteration",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In OOP, what type of variable belongs to the class as a whole, with only one copy shared among all instances of that class?",
+        "answers": [
+            {
+                "text": "Instance variable",
+                "correct": false
+            },
+            {
+                "text": "Local variable",
+                "correct": false
+            },
+            {
+                "text": "Class variable",
+                "correct": true
+            },
+            {
+                "text": "Global variable",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In OOP, what are the data fields, members, or properties that belong to individual objects (instances) called?",
+        "answers": [
+            {
+                "text": "Class variables",
+                "correct": false
+            },
+            {
+                "text": "Instance variables (or attributes)",
+                "correct": true
+            },
+            {
+                "text": "Class methods",
+                "correct": false
+            },
+            {
+                "text": "Instance methods",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In Python, what data type is used for numbers that have a decimal point?",
+        "answers": [
+            {
+                "text": "Integer (int)",
+                "correct": false
+            },
+            {
+                "text": "String (str)",
+                "correct": false
+            },
+            {
+                "text": "Boolean (bool)",
+                "correct": false
+            },
+            {
+                "text": "Floating-point number (float)",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What popular Agile framework involves iterative development in fixed-length time periods called 'sprints'?",
+        "answers": [
+            {
+                "text": "Scrum",
+                "correct": true
+            },
+            {
+                "text": "Waterfall",
+                "correct": false
+            },
+            {
+                "text": "Crystal",
+                "correct": false
+            },
+            {
+                "text": "Spiral",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which software development model combines the linear approach of Waterfall with the iterative nature of RAD, placing a strong emphasis on risk analysis?",
+        "answers": [
+            {
+                "text": "Agile",
+                "correct": false
+            },
+            {
+                "text": "DevOps",
+                "correct": false
+            },
+            {
+                "text": "Spiral development",
+                "correct": true
+            },
+            {
+                "text": "Scrum",
+                "correct": false
+            }
+        ]
     }
 ]
