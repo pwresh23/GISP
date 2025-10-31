@@ -712,5 +712,510 @@
                 "correct": true
             }
         ]
+    },
+
+    {
+        "question": "In attribute selection, what operation selects only features that are currently in the selection set AND also meet the new criteria?",
+        "answers": [
+        {
+            "text": "Add to selection",
+            "correct": false
+        },
+        {
+            "text": "New selection",
+            "correct": false
+        },
+        {
+            "text": "Remove from selection",
+            "correct": false
+        },
+        {
+            "text": "Subset selection",
+            "correct": true
+        }
+        ]
+    },
+    {
+        "question": "Which spatial selection method selects features that are *completely* inside a selecting polygon, and *will* include features that touch the boundary?",
+        "answers": [
+        {
+            "text": "Completely contains",
+            "correct": true
+        },
+        {
+            "text": "Contains Clementini",
+            "correct": false
+        },
+        {
+            "text": "Completely within",
+            "correct": false
+        },
+        {
+            "text": "Within",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "question": "Which spatial selection method selects features that are inside a selecting polygon but *cannot* be *entirely* on the boundary of that polygon?",
+        "answers": [
+        {
+            "text": "Completely within",
+            "correct": false
+        },
+        {
+            "text": "Contains Clementini",
+            "correct": false
+        },
+        {
+            "text": "Within Clementini",
+            "correct": true
+        },
+        {
+            "text": "Boundary touches",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "question": "Which spatial selection method selects features that have the *exact same geometry* as the input layer?",
+        "answers": [
+        {
+            "text": "Intersects",
+            "correct": false
+        },
+        {
+            "text": "Contains",
+            "correct": false
+        },
+        {
+            "text": "Are Identical To",
+            "correct": true
+        },
+        {
+            "text": "Completely within",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "question": "Which spatial selection method selects features if they have a boundary that *touches* the boundary of a selecting feature?",
+        "answers": [
+        {
+            "text": "Share a line segment with",
+            "correct": false
+        },
+        {
+            "text": "Boundary touches",
+            "correct": true
+        },
+        {
+            "text": "Crossed by the outline of",
+            "correct": false
+        },
+        {
+            "text": "Intersects",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "question": "What spatial selection method specifically requires features to share a common line segment, not just a single point?",
+        "answers": [
+        {
+            "text": "Boundary touches",
+            "correct": false
+        },
+        {
+            "text": "Intersects",
+            "correct": false
+        },
+        {
+            "text": "Are Identical To",
+            "correct": false
+        },
+        {
+            "text": "Share a line segment with",
+            "correct": true
+        }
+        ]
+    },
+    {
+        "question": "What tool combines multiple input datasets of the same data type into a *single new* output dataset?",
+        "answers": [
+        {
+            "text": "Append",
+            "correct": false
+        },
+        {
+            "text": "Join",
+            "correct": false
+        },
+        {
+            "text": "Merge",
+            "correct": true
+        },
+        {
+            "text": "Union",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "question": "In data classification, what are the two main principles for classes, ensuring all values are included but no value fits in two classes?",
+        "answers": [
+        {
+            "text": "Exhaustive and non-overlapping",
+            "correct": true
+        },
+        {
+            "text": "Normal and skewed",
+            "correct": false
+        },
+        {
+            "text": "Equal and interval",
+            "correct": false
+        },
+        {
+            "text": "Parametric and non-parametric",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "question": "What type of thematic map uses graduated colors to represent a statistical variable within predefined geographic areas?",
+        "answers": [
+        {
+            "text": "Dot density map",
+            "correct": false
+        },
+        {
+            "text": "Choropleth map",
+            "correct": true
+        },
+        {
+            "text": "Isoline map",
+            "correct": false
+        },
+        {
+            "text": "Heat map",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "question": "Which vector overlay tool splits input features by overlay features, keeping *all* attributes and features from the input layer?",
+        "answers": [
+        {
+            "text": "Union",
+            "correct": false
+        },
+        {
+            "text": "Intersect",
+            "correct": false
+        },
+        {
+            "text": "Identity",
+            "correct": true
+        },
+        {
+            "text": "Clip",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "question": "Which vector overlay tool replaces the geometry of an input feature with the geometry of an update layer?",
+        "answers": [
+        {
+            "text": "Identity",
+            "correct": false
+        },
+        {
+            "text": "Update",
+            "correct": true
+        },
+        {
+            "text": "Erase",
+            "correct": false
+        },
+        {
+            "text": "Symmetrical Difference",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "question": "Which raster overlay tool assigns a unique value to each cell based on all *unique combinations* of values from the input layers?",
+        "answers": [
+        {
+            "text": "Weighted Overlay",
+            "correct": false
+        },
+        {
+            "text": "Zonal Statistics",
+            "correct": false
+        },
+        {
+            "text": "Combine",
+            "correct": true
+        },
+        {
+            "text": "Weighted Sum",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "question": "Which raster overlay tool multiplies each raster layer by a given weight and then sums them all together?",
+        "answers": [
+        {
+            "text": "Weighted Sum",
+            "correct": true
+        },
+        {
+            "text": "Combine",
+            "correct": false
+        },
+        {
+            "text": "Weighted Overlay",
+            "correct": false
+        },
+        {
+            "text": "Zonal Statistics",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "question": "What is the general methodology for identifying the most preferred locations for a specific phenomenon, often by combining many different weighted factors?",
+        "answers": [
+        {
+            "text": "Geocoding",
+            "correct": false
+        },
+        {
+            "text": "Network Analysis",
+            "correct": false
+        },
+        {
+            "text": "Suitability modeling",
+            "correct": true
+        },
+        {
+            "text": "Data Classification",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "question": "In fuzzy overlay analysis, which method multiplies the fuzzy values for all input criteria for each cell?",
+        "answers": [
+        {
+            "text": "Fuzzy And",
+            "correct": false
+        },
+        {
+            "text": "Fuzzy Product",
+            "correct": true
+        },
+        {
+            "text": "Fuzzy Sum",
+            "correct": false
+        },
+        {
+            "text": "Fuzzy Or",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "question": "Which fuzzy overlay method is an algebraic product of Fuzzy Product and Fuzzy Sum, both raised to the power of gamma?",
+        "answers": [
+        {
+            "text": "Fuzzy And",
+            "correct": false
+        },
+        {
+            "text": "Fuzzy Or",
+            "correct": false
+        },
+        {
+            "text": "Fuzzy Product",
+            "correct": false
+        },
+        {
+            "text": "Fuzzy Gamma",
+            "correct": true
+        }
+        ]
+    },
+    {
+        "question": "Which type of map algebra operation applies a bulk change or formula to *all cells* in a raster layer at once?",
+        "answers": [
+        {
+            "text": "Local Operations",
+            "correct": false
+        },
+        {
+            "text": "Focal Operations",
+            "correct": false
+        },
+        {
+            "text": "Global Operations",
+            "correct": true
+        },
+        {
+            "text": "Zonal Operations",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "question": "What branch of statistics summarizes the main features of a collection of information, such as finding the mean or median of a sample?",
+        "answers": [
+        {
+            "text": "Inferential Statistics",
+            "correct": false
+        },
+        {
+            "text": "Descriptive Statistics",
+            "correct": true
+        },
+        {
+            "text": "Parametric Statistics",
+            "correct": false
+        },
+        {
+            "text": "Geostatistics",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "question": "What type of statistics is *not* restricted by assumptions concerning the nature or distribution of the population?",
+        "answers": [
+        {
+            "text": "Non-parametric statistics",
+            "correct": true
+        },
+        {
+            "text": "Parametric statistics",
+            "correct": false
+        },
+        {
+            "text": "Descriptive statistics",
+            "correct": false
+        },
+        {
+            "text": "Bivariate statistics",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "question": "What is the general term for the extent to which a statistical distribution is stretched or squeezed?",
+        "answers": [
+        {
+            "text": "Central tendency",
+            "correct": false
+        },
+        {
+            "text": "Dispersion",
+            "correct": true
+        },
+        {
+            "text": "Skewness",
+            "correct": false
+        },
+        {
+            "text": "Kurtosis",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "question": "What is the measure of the *squared deviation* from the mean of a random variable?",
+        "answers": [
+        {
+            "text": "Standard Deviation",
+            "correct": false
+        },
+        {
+            "text": "Variance",
+            "correct": true
+        },
+        {
+            "text": "Z-Score",
+            "correct": false
+        },
+        {
+            "text": "Mean",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "question": "What type of statistical analysis involves describing the distribution of a *single* variable?",
+        "answers": [
+        {
+            "text": "Bivariate analysis",
+            "correct": false
+        },
+        {
+            "text": "Multivariate analysis",
+            "correct": false
+        },
+        {
+            "text": "Correlation",
+            "correct": false
+        },
+        {
+            "text": "Univariate analysis",
+            "correct": true
+        }
+        ]
+    },
+    {
+        "question": "What type of mathematical diagram uses Cartesian coordinates to display values for two variables, often to visualize a relationship?",
+        "answers": [
+        {
+            "text": "Scatter Plot",
+            "correct": true
+        },
+        {
+            "text": "Histogram",
+            "correct": false
+        },
+        {
+            "text": "Contingency Table",
+            "correct": false
+        },
+        {
+            "text": "Choropleth Map",
+            "correct": false
+        }
+        ]
+    },
+    {
+        "question": "What is the general term for any statistical relationship, whether causal or not, between two random variables?",
+        "answers": [
+        {
+            "text": "Prediction",
+            "correct": false
+        },
+        {
+            "text": "Correlation",
+            "correct": true
+        },
+        {
+            "text": "Variance",
+            "correct": false
+        },
+        {
+            "text": "Covariance",
+            "correct": false
+        }
+        ]
     }
 ]
