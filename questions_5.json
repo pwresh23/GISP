@@ -754,5 +754,1349 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "question": "Which of the following is NOT a primary step in accurate georeferencing?",
+        "answers": [
+            {
+                "text": "Digitizing in the correct coordinate system",
+                "correct": false
+            },
+            {
+                "text": "Analyzing the root mean square error (RMSE)",
+                "correct": false
+            },
+            {
+                "text": "Setting fuzzy tolerance and snapping",
+                "correct": false
+            },
+            {
+                "text": "Converting the image to a vector format",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What is another name for a coordinate transformation that aligns spatial data to an earth-based map coordinate system?",
+        "answers": [
+            {
+                "text": "Registration",
+                "correct": true
+            },
+            {
+                "text": "Projection",
+                "correct": false
+            },
+            {
+                "text": "Digitization",
+                "correct": false
+            },
+            {
+                "text": "Generalization",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the minimum number of control points needed to estimate the root mean square error (RMSE) for an affine transformation?",
+        "answers": [
+            {
+                "text": "3",
+                "correct": false
+            },
+            {
+                "text": "6",
+                "correct": false
+            },
+            {
+                "text": "4",
+                "correct": true
+            },
+            {
+                "text": "2",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which first-order polynomial transformation requires equal scale changes in the x and y directions and needs only two control points?",
+        "answers": [
+            {
+                "text": "Affine transformation",
+                "correct": false
+            },
+            {
+                "text": "Conformal transformation",
+                "correct": true
+            },
+            {
+                "text": "Similarity transformation",
+                "correct": false
+            },
+            {
+                "text": "Polynomial transformation",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is a major risk of using higher-order (e.g., 2nd or 3rd) polynomial transformations for georeferencing?",
+        "answers": [
+            {
+                "text": "They cannot scale the data",
+                "correct": false
+            },
+            {
+                "text": "They introduce significant error and deformation in areas far from control points",
+                "correct": true
+            },
+            {
+                "text": "They require fewer control points",
+                "correct": false
+            },
+            {
+                "text": "They always result in a high RMSE",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "How many control points are required for a second-order polynomial transformation?",
+        "answers": [
+            {
+                "text": "3",
+                "correct": false
+            },
+            {
+                "text": "4",
+                "correct": false
+            },
+            {
+                "text": "6",
+                "correct": true
+            },
+            {
+                "text": "10",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "How many control points are required for a third-order polynomial transformation?",
+        "answers": [
+            {
+                "text": "4",
+                "correct": false
+            },
+            {
+                "text": "6",
+                "correct": false
+            },
+            {
+                "text": "8",
+                "correct": false
+            },
+            {
+                "text": "10",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What is the term for applying a transformation during the digitizing steps by overlaying a previously registered image?",
+        "answers": [
+            {
+                "text": "Rubbersheeting",
+                "correct": false
+            },
+            {
+                "text": "On-the-fly transformation",
+                "correct": true
+            },
+            {
+                "text": "Dynamic registration",
+                "correct": false
+            },
+            {
+                "text": "Live georeferencing",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the process of transforming data from one map projection to another?",
+        "answers": [
+            {
+                "text": "Geographic transformation",
+                "correct": false
+            },
+            {
+                "text": "Coordinate transformation",
+                "correct": false
+            },
+            {
+                "text": "Projection transformation",
+                "correct": true
+            },
+            {
+                "text": "Datum transformation",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the first step in the three-step process of transforming data from one map projection to another?",
+        "answers": [
+            {
+                "text": "Perform datum transformation",
+                "correct": false
+            },
+            {
+                "text": "Project to the target projection",
+                "correct": false
+            },
+            {
+                "text": "Convert Cartesian coordinates to geographic coordinates using an inverse projection",
+                "correct": true
+            },
+            {
+                "text": "Convert to a Cartesian XYZ coordinate system",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which datum transformation method converts directly between two geographic coordinate systems without using an intermediary 3D Cartesian system?",
+        "answers": [
+            {
+                "text": "Molodensky method",
+                "correct": true
+            },
+            {
+                "text": "Helmert transformation",
+                "correct": false
+            },
+            {
+                "text": "Three-parameter method",
+                "correct": false
+            },
+            {
+                "text": "Seven-parameter method",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which datum transformation is a grid-based method used by the United States to transform between datums like NAD27 and NAD83?",
+        "answers": [
+            {
+                "text": "Helmert transformation",
+                "correct": false
+            },
+            {
+                "text": "Molodensky method",
+                "correct": false
+            },
+            {
+                "text": "NADCON / HARN methods",
+                "correct": true
+            },
+            {
+                "text": "Seven-parameter method",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is VDATUM?",
+        "answers": [
+            {
+                "text": "A type of vertical datum",
+                "correct": false
+            },
+            {
+                "text": "A tool from the NGS to estimate conversions among datum transformations",
+                "correct": true
+            },
+            {
+                "text": "A standard for 3D elevation data",
+                "correct": false
+            },
+            {
+                "text": "A grid-based transformation file",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the term for converting data from one form to another, such as from vector to raster?",
+        "answers": [
+            {
+                "text": "Transformation",
+                "correct": false
+            },
+            {
+                "text": "Format conversion",
+                "correct": true
+            },
+            {
+                "text": "Projection",
+                "correct": false
+            },
+            {
+                "text": "Generalization",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the term for combining data from different sources and providing users with a unified view of them?",
+        "answers": [
+            {
+                "text": "Data transformation",
+                "correct": false
+            },
+            {
+                "text": "Data integration",
+                "correct": true
+            },
+            {
+                "text": "Data munging",
+                "correct": false
+            },
+            {
+                "text": "Data warehousing",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is a collection of raw, unorganized data?",
+        "answers": [
+            {
+                "text": "Data warehouse",
+                "correct": false
+            },
+            {
+                "text": "Database",
+                "correct": false
+            },
+            {
+                "text": "Data lake",
+                "correct": true
+            },
+            {
+                "text": "Geodatabase",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which vector generalization technique, also known as 'omit', keeps some features and removes others?",
+        "answers": [
+            {
+                "text": "Simplify",
+                "correct": false
+            },
+            {
+                "text": "Select",
+                "correct": true
+            },
+            {
+                "text": "Reclassify",
+                "correct": false
+            },
+            {
+                "text": "Typify",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which vector generalization technique removes vertices in lines and boundaries?",
+        "answers": [
+            {
+                "text": "Simplify",
+                "correct": true
+            },
+            {
+                "text": "Smooth",
+                "correct": false
+            },
+            {
+                "text": "Collapse",
+                "correct": false
+            },
+            {
+                "text": "Point thinning",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which vector generalization technique makes the shapes look smoother, which may require adding vertices?",
+        "answers": [
+            {
+                "text": "Simplify",
+                "correct": false
+            },
+            {
+                "text": "Spline",
+                "correct": false
+            },
+            {
+                "text": "Smooth",
+                "correct": true
+            },
+            {
+                "text": "Enhance",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which vector generalization technique represents features with icons?",
+        "answers": [
+            {
+                "text": "Symbolization",
+                "correct": true
+            },
+            {
+                "text": "Collapse",
+                "correct": false
+            },
+            {
+                "text": "Typify",
+                "correct": false
+            },
+            {
+                "text": "Enhance",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which vector generalization technique replaces a large set of features with a smaller, representative number of features?",
+        "answers": [
+            {
+                "text": "Aggregate",
+                "correct": false
+            },
+            {
+                "text": "Select",
+                "correct": false
+            },
+            {
+                "text": "Simplify",
+                "correct": false
+            },
+            {
+                "text": "Typify",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Which vector generalization technique, also known as categorization, reduces a large range of values into a small number of groups?",
+        "answers": [
+            {
+                "text": "Reclassify",
+                "correct": true
+            },
+            {
+                "text": "Typify",
+                "correct": false
+            },
+            {
+                "text": "Simplify",
+                "correct": false
+            },
+            {
+                "text": "Aggregate",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which vector generalization technique makes features larger than they are, such as making roads thicker on a small-scale map?",
+        "answers": [
+            {
+                "text": "Enhance",
+                "correct": false
+            },
+            {
+                "text": "Exaggerate",
+                "correct": true
+            },
+            {
+                "text": "Symbolize",
+                "correct": false
+            },
+            {
+                "text": "Displace",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which vector generalization technique adds symbols or other details, such as a bridge symbol on a road?",
+        "answers": [
+            {
+                "text": "Exaggerate",
+                "correct": false
+            },
+            {
+                "text": "Symbolize",
+                "correct": false
+            },
+            {
+                "text": "Enhance",
+                "correct": true
+            },
+            {
+                "text": "Typify",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which vector generalization technique organizes features into different levels of importance?",
+        "answers": [
+            {
+                "text": "Reclassify",
+                "correct": false
+            },
+            {
+                "text": "Hierarchy",
+                "correct": true
+            },
+            {
+                "text": "Typify",
+                "correct": false
+            },
+            {
+                "text": "Select",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which vector generalization technique makes boundaries between adjacent map sheets or tiles seamless?",
+        "answers": [
+            {
+                "text": "Merge",
+                "correct": false
+            },
+            {
+                "text": "Smooth",
+                "correct": false
+            },
+            {
+                "text": "Edge matching",
+                "correct": true
+            },
+            {
+                "text": "Conflation",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which vector generalization technique removes unnecessary topological details?",
+        "answers": [
+            {
+                "text": "Simplify",
+                "correct": false
+            },
+            {
+                "text": "Topological simplification",
+                "correct": true
+            },
+            {
+                "text": "Merge",
+                "correct": false
+            },
+            {
+                "text": "Collapse",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which vector generalization technique adjusts feature visibility based on the map scale?",
+        "answers": [
+            {
+                "text": "Hierarchy",
+                "correct": false
+            },
+            {
+                "text": "Scale-dependent rendering",
+                "correct": true
+            },
+            {
+                "text": "Select",
+                "correct": false
+            },
+            {
+                "text": "Dynamic display",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What process decreases the spatial resolution of raster data, resulting in a larger cell size and smaller file?",
+        "answers": [
+            {
+                "text": "Downsampling",
+                "correct": false
+            },
+            {
+                "text": "Generalization",
+                "correct": false
+            },
+            {
+                "text": "Resolution reduction",
+                "correct": true
+            },
+            {
+                "text": "Resampling",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the purpose of the .shx file in a Shapefile?",
+        "answers": [
+            {
+                "text": "Stores the feature geometry",
+                "correct": false
+            },
+            {
+                "text": "Stores the attribute information",
+                "correct": false
+            },
+            {
+                "text": "Stores an index for fast retrieval of geometry",
+                "correct": true
+            },
+            {
+                "text": "Stores the projection information",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the purpose of the .dbf file in a Shapefile?",
+        "answers": [
+            {
+                "text": "Stores the feature geometry",
+                "correct": false
+            },
+            {
+                "text": "Stores the attribute information",
+                "correct": true
+            },
+            {
+                "text": "Stores an index for fast retrieval",
+                "correct": false
+            },
+            {
+                "text": "Stores the projection information",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the purpose of the .prj file in a Shapefile?",
+        "answers": [
+            {
+                "text": "Stores the project layout",
+                "correct": false
+            },
+            {
+                "text": "Stores the attribute information",
+                "correct": false
+            },
+            {
+                "text": "Stores the projection information",
+                "correct": true
+            },
+            {
+                "text": "Stores the feature geometry",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the 2-gigabyte file size limit associated with a Personal Geodatabase (.mdb)?",
+        "answers": [
+            {
+                "text": "It is a limitation of the Esri software",
+                "correct": false
+            },
+            {
+                "text": "It is a limitation of the Microsoft Access data file format",
+                "correct": true
+            },
+            {
+                "text": "It is a limitation of the operating system",
+                "correct": false
+            },
+            {
+                "text": "It is a limitation of the .gdb file format",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What middleware does an Enterprise Geodatabase use to communicate between the relational database and ArcGIS applications?",
+        "answers": [
+            {
+                "text": "SQL",
+                "correct": false
+            },
+            {
+                "text": "ArcSDE",
+                "correct": true
+            },
+            {
+                "text": "Oracle",
+                "correct": false
+            },
+            {
+                "text": "Python",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is an extension of GeoJSON that encodes geospatial topology and provides smaller file sizes?",
+        "answers": [
+            {
+                "text": "GeoPackage",
+                "correct": false
+            },
+            {
+                "text": "GML",
+                "correct": false
+            },
+            {
+                "text": "TopoJSON",
+                "correct": true
+            },
+            {
+                "text": "MiniJSON",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is a key difference between CAD data and GIS data?",
+        "answers": [
+            {
+                "text": "CAD data cannot be 3D",
+                "correct": false
+            },
+            {
+                "text": "CAD data doesn't have to be spatially referenced to an Earth-based system",
+                "correct": true
+            },
+            {
+                "text": "CAD data cannot store attributes",
+                "correct": false
+            },
+            {
+                "text": "GIS data is only 2D",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which CAD file format, made with AutoCAD, is more widely compatible across different software platforms?",
+        "answers": [
+            {
+                "text": "Drawing Exchange Format (.dxf)",
+                "correct": true
+            },
+            {
+                "text": "Drawing File (.dwg)",
+                "correct": false
+            },
+            {
+                "text": "Design File (.dgn)",
+                "correct": false
+            },
+            {
+                "text": "Shapefile (.shp)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which CAD file format is the native format for MicroStation?",
+        "answers": [
+            {
+                "text": "Drawing Exchange Format (.dxf)",
+                "correct": false
+            },
+            {
+                "text": "Drawing File (.dwg)",
+                "correct": false
+            },
+            {
+                "text": "Design File (.dgn)",
+                "correct": true
+            },
+            {
+                "text": "CAD Package (.cad)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is an XML-based vector image format that supports interactivity and animation, and is an open standard by the W3C?",
+        "answers": [
+            {
+                "text": "Scalable Vector Graphics (SVG)",
+                "correct": true
+            },
+            {
+                "text": "Geography Markup Language (GML)",
+                "correct": false
+            },
+            {
+                "text": "Enhanced Metafile (EMF)",
+                "correct": false
+            },
+            {
+                "text": "GeoJSON",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What legacy Esri file type stores vector data as a directory of files and can have topology?",
+        "answers": [
+            {
+                "text": "Shapefile",
+                "correct": false
+            },
+            {
+                "text": "ArcInfo Coverage",
+                "correct": true
+            },
+            {
+                "text": "Digital Line Graph (DLG)",
+                "correct": false
+            },
+            {
+                "text": "Personal Geodatabase",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the file extension for an ArcInfo Interchange File, used for transferring vector data?",
+        "answers": [
+            {
+                "text": ".ADF",
+                "correct": false
+            },
+            {
+                "text": ".GDB",
+                "correct": false
+            },
+            {
+                "text": ".E00",
+                "correct": true
+            },
+            {
+                "text": ".SHP",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What file format, created to replace the Windows Metafile (WMF), is used by the graphic design industry for high-quality vector and raster printing?",
+        "answers": [
+            {
+                "text": "Enhanced Metafile (EMF)",
+                "correct": true
+            },
+            {
+                "text": "Portable Document Format (PDF)",
+                "correct": false
+            },
+            {
+                "text": "Postscript (PS)",
+                "correct": false
+            },
+            {
+                "text": "Scalable Vector Graphics (SVG)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the primary difference between GML and KML?",
+        "answers": [
+            {
+                "text": "GML stores feature location/attributes; KML stores visualization information",
+                "correct": true
+            },
+            {
+                "text": "KML is an OGC standard, GML is not",
+                "correct": false
+            },
+            {
+                "text": "GML is for vector data, KML is for raster data",
+                "correct": false
+            },
+            {
+                "text": "KML uses a tag-based structure, GML does not",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is a .KMZ file?",
+        "answers": [
+            {
+                "text": "A KML file with associated metadata",
+                "correct": false
+            },
+            {
+                "text": "An older, outdated version of KML",
+                "correct": false
+            },
+            {
+                "text": "A compressed (zipped) file format for storing KML and associated resources",
+                "correct": true
+            },
+            {
+                "text": "A KML file that only contains 3D models",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is Postscript (PS)?",
+        "answers": [
+            {
+                "text": "A file format for storing 3D vector graphics",
+                "correct": false
+            },
+            {
+                "text": "A page-definition language used in electronic publishing",
+                "correct": true
+            },
+            {
+                "text": "A metadata standard for raster images",
+                "correct": false
+            },
+            {
+                "text": "A data compression algorithm",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What OGC-defined language is used for representing vector geometry objects as text strings?",
+        "answers": [
+            {
+                "text": "Geography Markup Language (GML)",
+                "correct": false
+            },
+            {
+                "text": "Well-Known Text (WKT)",
+                "correct": true
+            },
+            {
+                "text": "GeoJSON",
+                "correct": false
+            },
+            {
+                "text": "ASCII Grid",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the most widely used method of lossy compression for digital images?",
+        "answers": [
+            {
+                "text": "Tagged Image File Format (TIFF)",
+                "correct": false
+            },
+            {
+                "text": "Graphic Interchange Format (GIF)",
+                "correct": false
+            },
+            {
+                "text": "Joint Photographic Experts Group (JPEG)",
+                "correct": true
+            },
+            {
+                "text": "Portable Network Graphics (PNG)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is a newer version of the JPEG compression standard, with file extensions .jp2 and .jpx?",
+        "answers": [
+            {
+                "text": "GeoJPEG",
+                "correct": false
+            },
+            {
+                "text": "JPEG 2000",
+                "correct": true
+            },
+            {
+                "text": "JPEG-LS (Lossless)",
+                "correct": false
+            },
+            {
+                "text": "M-JPEG",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What does the .IMG file format, used by ERDAS, typically store?",
+        "answers": [
+            {
+                "text": "Vector data",
+                "correct": false
+            },
+            {
+                "text": "Disk images of hard drives",
+                "correct": false
+            },
+            {
+                "text": "Planar bitmap graphics for aerial imagery",
+                "correct": true
+            },
+            {
+                "text": "3D model data",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What file format, developed by CompuServe, uses LZW lossless compression and can be used for short animations?",
+        "answers": [
+            {
+                "text": "Graphic Interchange Format (GIF)",
+                "correct": true
+            },
+            {
+                "text": "JPEG",
+                "correct": false
+            },
+            {
+                "text": "TIFF",
+                "correct": false
+            },
+            {
+                "text": "MP4",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What open standard geospatial file format, developed by the USGS, is used for storing raster-based digital elevation models?",
+        "answers": [
+            {
+                "text": "ArcGIS Grid",
+                "correct": false
+            },
+            {
+                "text": "GeoTIFF",
+                "correct": false
+            },
+            {
+                "text": "SDTS",
+                "correct": false
+            },
+            {
+                "text": "USGS digital elevation model (.dem)",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What is a .TAR file?",
+        "answers": [
+            {
+                "text": "A compressed archive, similar to a .ZIP file",
+                "correct": false
+            },
+            {
+                "text": "A single archive file that combines multiple files, often used for backup",
+                "correct": true
+            },
+            {
+                "text": "A file format for storing raster elevation data",
+                "correct": false
+            },
+            {
+                "text": "A text file containing metadata for Landsat imagery",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is a .LAZ file?",
+        "answers": [
+            {
+                "text": "A compressed version of the LAS LiDAR format",
+                "correct": true
+            },
+            {
+                "text": "A text-based version of the LAS format",
+                "correct": false
+            },
+            {
+                "text": "A proprietary format from LizardTek",
+                "correct": false
+            },
+            {
+                "text": "A file containing only the first returns from a LiDAR scan",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is ECW (Enhanced Compression Wavelet)?",
+        "answers": [
+            {
+                "text": "An open-source compression format for vector data",
+                "correct": false
+            },
+            {
+                "text": "A proprietary, lossy wavelet compression format for imagery",
+                "correct": true
+            },
+            {
+                "text": "A lossless compression format for elevation data",
+                "correct": false
+            },
+            {
+                "text": "A file format for storing 3D point clouds",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What proprietary format, developed by LizardTek, encodes multiple resolutions of a raster (like pyramids) within a single .SID file?",
+        "answers": [
+            {
+                "text": "ECW",
+                "correct": false
+            },
+            {
+                "text": "MrSID",
+                "correct": true
+            },
+            {
+                "text": "JPEG 2000",
+                "correct": false
+            },
+            {
+                "text": "GeoPackage",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the purpose of a raster auxiliary file (.aux or .aux.xml)?",
+        "answers": [
+            {
+                "text": "To store the raster's projection information only",
+                "correct": false
+            },
+            {
+                "text": "To store information that a raster cannot, such as statistics and histograms",
+                "correct": true
+            },
+            {
+                "text": "To store a lower-resolution pyramid of the raster",
+                "correct": false
+            },
+            {
+                "text": "To store the attribute table for the raster",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What encoding standard for characters uses 7-bit strings of zeros and ones?",
+        "answers": [
+            {
+                "text": "Unicode",
+                "correct": false
+            },
+            {
+                "text": "ASCII (American Standard Code for Information Interchange)",
+                "correct": true
+            },
+            {
+                "text": "EBCDIC",
+                "correct": false
+            },
+            {
+                "text": "UTF-8",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is NOT a common file type based on ASCII?",
+        "answers": [
+            {
+                "text": ".DAT",
+                "correct": false
+            },
+            {
+                "text": ".CSV",
+                "correct": false
+            },
+            {
+                "text": ".TXT",
+                "correct": false
+            },
+            {
+                "text": ".GDB",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What file property stores georeferencing information in the file itself, such as in a GeoTIFF or ERDAS IMG file?",
+        "answers": [
+            {
+                "text": "Sidecar file",
+                "correct": false
+            },
+            {
+                "text": "World file",
+                "correct": false
+            },
+            {
+                "text": "Header georeferencing",
+                "correct": true
+            },
+            {
+                "text": "Auxiliary file",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is a method of encoding vector lines using a chain of numbers (0-7) where each number represents a different direction?",
+        "answers": [
+            {
+                "text": "Run-length encoding",
+                "correct": false
+            },
+            {
+                "text": "Freeman codes",
+                "correct": true
+            },
+            {
+                "text": "Topological encoding",
+                "correct": false
+            },
+            {
+                "text": "Vertex chaining",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of lossless compression algorithms, named LZ77 and LZ78, are dictionary encoders that replace repeated data with references?",
+        "answers": [
+            {
+                "text": "Run-length encoding",
+                "correct": false
+            },
+            {
+                "text": "Huffman coding",
+                "correct": false
+            },
+            {
+                "text": "Lempel-Ziv algorithms",
+                "correct": true
+            },
+            {
+                "text": "Wavelet compression",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of data integration involves combining two or more data sources so that all contents of each are accessible in the final product?",
+        "answers": [
+            {
+                "text": "Conflation",
+                "correct": false
+            },
+            {
+                "text": "Concatenation",
+                "correct": true
+            },
+            {
+                "text": "Data pipeline",
+                "correct": false
+            },
+            {
+                "text": "ETL",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What data integration process replaces two or more versions of the same information with a single version that reflects a pooling or averaging of the sources?",
+        "answers": [
+            {
+                "text": "Concatenation",
+                "correct": false
+            },
+            {
+                "text": "ETL",
+                "correct": false
+            },
+            {
+                "text": "Conflation",
+                "correct": true
+            },
+            {
+                "text": "Data warehouse loading",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is a method where raw data is ingested, transformed, and stored in a data lake or warehouse, often shown as a diagram for an ETL workflow?",
+        "answers": [
+            {
+                "text": "Data integration",
+                "correct": false
+            },
+            {
+                "text": "Data pipeline",
+                "correct": true
+            },
+            {
+                "text": "Data munging",
+                "correct": false
+            },
+            {
+                "text": "Data flow",
+                "correct": false
+            }
+        ]
     }
 ]
