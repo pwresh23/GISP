@@ -1048,5 +1048,1643 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "question": "In suitability analysis, what type of rank occurs when a land area is divided into a predetermined set of categorical values?",
+        "answers": [
+            {
+                "text": "Continuous ranks",
+                "correct": false
+            },
+            {
+                "text": "Ordinal ranks",
+                "correct": false
+            },
+            {
+                "text": "Discrete ranks",
+                "correct": true
+            },
+            {
+                "text": "Nominal ranks",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In suitability analysis, what type of rank varies along a continuous scale?",
+        "answers": [
+            {
+                "text": "Continuous ranks",
+                "correct": true
+            },
+            {
+                "text": "Discrete ranks",
+                "correct": false
+            },
+            {
+                "text": "Interval ranks",
+                "correct": false
+            },
+            {
+                "text": "Ratio ranks",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is a diagram of datasets, operations, and their sequence of use, often used in cartographic modeling?",
+        "answers": [
+            {
+                "text": "Data Model",
+                "correct": false
+            },
+            {
+                "text": "Schema",
+                "correct": false
+            },
+            {
+                "text": "Flowchart",
+                "correct": true
+            },
+            {
+                "text": "Database Diagram",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the first step in designing a cartographic model?",
+        "answers": [
+            {
+                "text": "Obtain data",
+                "correct": false
+            },
+            {
+                "text": "Execute model",
+                "correct": false
+            },
+            {
+                "text": "Assign ranking/weightings",
+                "correct": false
+            },
+            {
+                "text": "Define criteria",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What type of simple spatial model is often used to model water flow and uses DEMs and map algebra?",
+        "answers": [
+            {
+                "text": "Hydrologic models",
+                "correct": true
+            },
+            {
+                "text": "Erosion models",
+                "correct": false
+            },
+            {
+                "text": "Spatio-temporal models",
+                "correct": false
+            },
+            {
+                "text": "Suitability models",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of spatio-temporal model involves processes that cause changes?",
+        "answers": [
+            {
+                "text": "Purely fit model",
+                "correct": false
+            },
+            {
+                "text": "Process based model",
+                "correct": true
+            },
+            {
+                "text": "Stochastic model",
+                "correct": false
+            },
+            {
+                "text": "Deterministic model",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of spatio-temporal model does NOT include the processes that cause changes, relying instead on statistical fits?",
+        "answers": [
+            {
+                "text": "Process based model",
+                "correct": false
+            },
+            {
+                "text": "Agent based model",
+                "correct": false
+            },
+            {
+                "text": "Purely fit model",
+                "correct": true
+            },
+            {
+                "text": "Cell based model",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of spatio-temporal model uses a set of functions driven by cell values that update cell values through time?",
+        "answers": [
+            {
+                "text": "Agent based model",
+                "correct": false
+            },
+            {
+                "text": "Cell based model",
+                "correct": true
+            },
+            {
+                "text": "Process based model",
+                "correct": false
+            },
+            {
+                "text": "Purely fit model",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the general term for spatial datasets or coverages used in a GIS model?",
+        "answers": [
+            {
+                "text": "Layers",
+                "correct": true
+            },
+            {
+                "text": "Features",
+                "correct": false
+            },
+            {
+                "text": "Tessellations",
+                "correct": false
+            },
+            {
+                "text": "Attributes",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of data model is built within vector data models and requires features to be connected using specific rules?",
+        "answers": [
+            {
+                "text": "Raster model",
+                "correct": false
+            },
+            {
+                "text": "Surface model",
+                "correct": false
+            },
+            {
+                "text": "Topological model",
+                "correct": true
+            },
+            {
+                "text": "Network model",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of model represents specific planar geometries as a continuous surface?",
+        "answers": [
+            {
+                "text": "Network model",
+                "correct": false
+            },
+            {
+                "text": "Topological model",
+                "correct": false
+            },
+            {
+                "text": "Vector model",
+                "correct": false
+            },
+            {
+                "text": "Surface models",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What is a famous stochastic model administered by the US Forest Service that simulates forest growth?",
+        "answers": [
+            {
+                "text": "ModelBuilder",
+                "correct": false
+            },
+            {
+                "text": "LANDIS",
+                "correct": true
+            },
+            {
+                "text": "DEM",
+                "correct": false
+            },
+            {
+                "text": "GRASS",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of data model combines elements of relational and object-oriented models (e.g., a geodatabase)?",
+        "answers": [
+            {
+                "text": "Object relational data model",
+                "correct": true
+            },
+            {
+                "text": "Relational data model",
+                "correct": false
+            },
+            {
+                "text": "Object oriented data model",
+                "correct": false
+            },
+            {
+                "text": "Topological model",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "According to Bolstad's model theory, which models are static in time and combine spatial datasets to solve problems?",
+        "answers": [
+            {
+                "text": "Spatio-temporal models",
+                "correct": false
+            },
+            {
+                "text": "Network models",
+                "correct": false
+            },
+            {
+                "text": "Dynamic models",
+                "correct": false
+            },
+            {
+                "text": "Cartographic models",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "According to Goodchild's model theory, which type of modeling is iterative and applies transformations to predict changes at time intervals?",
+        "answers": [
+            {
+                "text": "Static modeling",
+                "correct": false
+            },
+            {
+                "text": "Dynamic modeling",
+                "correct": true
+            },
+            {
+                "text": "Conceptual modeling",
+                "correct": false
+            },
+            {
+                "text": "Cartographic modeling",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "According to Demers' model theory, what type of model has a descriptive purpose, describing the study area passively?",
+        "answers": [
+            {
+                "text": "Active models",
+                "correct": false
+            },
+            {
+                "text": "Stochastic models",
+                "correct": false
+            },
+            {
+                "text": "Descriptive (passive) model",
+                "correct": true
+            },
+            {
+                "text": "Deterministic models",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "According to Demers' model theory, what type of logic do models use when they go from general to specific using known factors?",
+        "answers": [
+            {
+                "text": "Inductive logic",
+                "correct": false
+            },
+            {
+                "text": "Deductive logic",
+                "correct": true
+            },
+            {
+                "text": "Stochastic logic",
+                "correct": false
+            },
+            {
+                "text": "Fuzzy logic",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which topological relationship describes two features that have no points in common?",
+        "answers": [
+            {
+                "text": "Disjointed",
+                "correct": true
+            },
+            {
+                "text": "Equals",
+                "correct": false
+            },
+            {
+                "text": "Touches",
+                "correct": false
+            },
+            {
+                "text": "Overlaps",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which topological relationship applies when every point of feature B is also a point of feature A?",
+        "answers": [
+            {
+                "text": "Contains",
+                "correct": false
+            },
+            {
+                "text": "Within",
+                "correct": false
+            },
+            {
+                "text": "Covers",
+                "correct": true
+            },
+            {
+                "text": "Covered By",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which topological relationship applies when feature A is within feature B?",
+        "answers": [
+            {
+                "text": "Contains",
+                "correct": false
+            },
+            {
+                "text": "Covers",
+                "correct": false
+            },
+            {
+                "text": "Within",
+                "correct": true
+            },
+            {
+                "text": "Overlaps",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the topological rule where vertices that fall within a certain tolerance are defined as coincident and snapped together?",
+        "answers": [
+            {
+                "text": "Must not have dangles",
+                "correct": false
+            },
+            {
+                "text": "Must be larger than cluster tolerance",
+                "correct": true
+            },
+            {
+                "text": "Must not have pseudo nodes",
+                "correct": false
+            },
+            {
+                "text": "Must be single part",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which line topology rule, often used for lot lines, states that lines can only touch at their ends?",
+        "answers": [
+            {
+                "text": "Must not intersect or touch interior",
+                "correct": true
+            },
+            {
+                "text": "Must not overlap",
+                "correct": false
+            },
+            {
+                "text": "Must not have dangles",
+                "correct": false
+            },
+            {
+                "text": "Must not self-intersect",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which line topology rule requires that a line must be one continuous series of connected segments?",
+        "answers": [
+            {
+                "text": "Must be single part",
+                "correct": true
+            },
+            {
+                "text": "Must not have pseudo nodes",
+                "correct": false
+            },
+            {
+                "text": "Must not self-overlap",
+                "correct": false
+            },
+            {
+                "text": "Must be covered by feature class of",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which point topology rule states that points cannot overlap within the same feature class?",
+        "answers": [
+            {
+                "text": "Must coincide with",
+                "correct": false
+            },
+            {
+                "text": "Must be disjoined",
+                "correct": true
+            },
+            {
+                "text": "Must be covered by line",
+                "correct": false
+            },
+            {
+                "text": "Must be properly inside polygon",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What term describes features that share a common boundary or touch each other?",
+        "answers": [
+            {
+                "text": "Contiguous",
+                "correct": false
+            },
+            {
+                "text": "Proximity",
+                "correct": false
+            },
+            {
+                "text": "Adjacency",
+                "correct": true
+            },
+            {
+                "text": "Overlap",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What term describes features that are connected or share a border, representing features that are physically touching?",
+        "answers": [
+            {
+                "text": "Contiguous",
+                "correct": true
+            },
+            {
+                "text": "Adjacency",
+                "correct": false
+            },
+            {
+                "text": "Overlap",
+                "correct": false
+            },
+            {
+                "text": "Proximity",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What term describes features that occupy the same space?",
+        "answers": [
+            {
+                "text": "Adjacency",
+                "correct": false
+            },
+            {
+                "text": "Contiguous",
+                "correct": false
+            },
+            {
+                "text": "Proximity",
+                "correct": false
+            },
+            {
+                "text": "Overlap",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What term describes how close features are to each other?",
+        "answers": [
+            {
+                "text": "Proximity",
+                "correct": true
+            },
+            {
+                "text": "Overlap",
+                "correct": false
+            },
+            {
+                "text": "Adjacency",
+                "correct": false
+            },
+            {
+                "text": "Contiguous",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What analysis function connects or joins data based on their spatial relationship?",
+        "answers": [
+            {
+                "text": "Overlay",
+                "correct": false
+            },
+            {
+                "text": "Attribute Join",
+                "correct": false
+            },
+            {
+                "text": "Spatial join",
+                "correct": true
+            },
+            {
+                "text": "Buffer",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the overall suitability of a dataset for a specific purpose?",
+        "answers": [
+            {
+                "text": "Data accuracy",
+                "correct": false
+            },
+            {
+                "text": "Data quality",
+                "correct": true
+            },
+            {
+                "text": "Data validation",
+                "correct": false
+            },
+            {
+                "text": "Data precision",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What ISO data quality element describes how well data from different sources are integrated?",
+        "answers": [
+            {
+                "text": "Completeness",
+                "correct": false
+            },
+            {
+                "text": "Logical consistency",
+                "correct": true
+            },
+            {
+                "text": "Positional accuracy",
+                "correct": false
+            },
+            {
+                "text": "Thematic accuracy",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What ISO data quality element describes the appropriateness of the time frames in which data was measured?",
+        "answers": [
+            {
+                "text": "Completeness",
+                "correct": false
+            },
+            {
+                "text": "Thematic accuracy",
+                "correct": false
+            },
+            {
+                "text": "Temporal accuracy",
+                "correct": true
+            },
+            {
+                "text": "Logical consistency",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What ISO data quality element describes how different attribute values are from the true attribute values?",
+        "answers": [
+            {
+                "text": "Thematic accuracy",
+                "correct": true
+            },
+            {
+                "text": "Positional accuracy",
+                "correct": false
+            },
+            {
+                "text": "Logical consistency",
+                "correct": false
+            },
+            {
+                "text": "Completeness",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What term, synonymous with 'fitness for use', describes how well data fulfills the needs of a project?",
+        "answers": [
+            {
+                "text": "Accuracy",
+                "correct": false
+            },
+            {
+                "text": "Relevance",
+                "correct": true
+            },
+            {
+                "text": "Precision",
+                "correct": false
+            },
+            {
+                "text": "Completeness",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which of the four accuracy types for remotely sensed data refers to the parts of the electromagnetic spectrum that are recorded?",
+        "answers": [
+            {
+                "text": "Spatial accuracy",
+                "correct": false
+            },
+            {
+                "text": "Temporal accuracy",
+                "correct": false
+            },
+            {
+                "text": "Radiometric accuracy",
+                "correct": false
+            },
+            {
+                "text": "Spectral accuracy",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Which of the four accuracy types for remotely sensed data refers to the amount of different values that can be recorded for a measurement?",
+        "answers": [
+            {
+                "text": "Radiometric accuracy",
+                "correct": true
+            },
+            {
+                "text": "Spatial accuracy",
+                "correct": false
+            },
+            {
+                "text": "Spectral accuracy",
+                "correct": false
+            },
+            {
+                "text": "Temporal accuracy",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What term, also known as temporal accuracy, describes if data is up-to-date enough for a project?",
+        "answers": [
+            {
+                "text": "Relevance",
+                "correct": false
+            },
+            {
+                "text": "Timeliness",
+                "correct": true
+            },
+            {
+                "text": "Data Age",
+                "correct": false
+            },
+            {
+                "text": "Completeness",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Why might GIS measurements not line up with a legal deed description?",
+        "answers": [
+            {
+                "text": "The legal description is often based on a meets/bounds survey or written text, not GIS coordinates.",
+                "correct": true
+            },
+            {
+                "text": "GIS data is always more accurate than a legal deed.",
+                "correct": false
+            },
+            {
+                "text": "Legal deeds do not use a coordinate system.",
+                "correct": false
+            },
+            {
+                "text": "GIS measurements do not account for elevation.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the process of ensuring data accuracy and completeness by comparing measured data to real-world true values?",
+        "answers": [
+            {
+                "text": "Data cleaning",
+                "correct": false
+            },
+            {
+                "text": "Data validation",
+                "correct": true
+            },
+            {
+                "text": "Quality assurance",
+                "correct": false
+            },
+            {
+                "text": "Data sampling",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the process of removing errors and standardizing formats in a dataset?",
+        "answers": [
+            {
+                "text": "Data validation",
+                "correct": false
+            },
+            {
+                "text": "Data sampling",
+                "correct": false
+            },
+            {
+                "text": "Data cleaning",
+                "correct": true
+            },
+            {
+                "text": "Data standardization",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What process involves analyzing a subset of data to estimate the quality of the entire dataset?",
+        "answers": [
+            {
+                "text": "Data sampling",
+                "correct": true
+            },
+            {
+                "text": "Data validation",
+                "correct": false
+            },
+            {
+                "text": "Data cleaning",
+                "correct": false
+            },
+            {
+                "text": "Quality control",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which sampling methodology involves selecting point locations using random numbers to reduce bias?",
+        "answers": [
+            {
+                "text": "Systematic sampling",
+                "correct": false
+            },
+            {
+                "text": "Random sampling",
+                "correct": true
+            },
+            {
+                "text": "Cluster sampling",
+                "correct": false
+            },
+            {
+                "text": "Stratified sampling",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which sampling methodology's primary benefit is reduced travel time, as locations are sampled in groups?",
+        "answers": [
+            {
+                "text": "Stratified sampling",
+                "correct": false
+            },
+            {
+                "text": "Systematic sampling",
+                "correct": false
+            },
+            {
+                "text": "Random sampling",
+                "correct": false
+            },
+            {
+                "text": "Cluster sampling",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Which sampling methodology samples the whole study area equally, but may introduce bias if a variable's pattern coincides with the sampling interval?",
+        "answers": [
+            {
+                "text": "Random sampling",
+                "correct": false
+            },
+            {
+                "text": "Systematic sampling",
+                "correct": true
+            },
+            {
+                "text": "Cluster sampling",
+                "correct": false
+            },
+            {
+                "text": "Adaptive sampling",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the average error, which is less sensitive to outliers than root mean square error?",
+        "answers": [
+            {
+                "text": "Mean absolute error",
+                "correct": true
+            },
+            {
+                "text": "Root mean square error",
+                "correct": false
+            },
+            {
+                "text": "Standard deviation",
+                "correct": false
+            },
+            {
+                "text": "Median error",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is a bar chart that summarizes spatial data error by showing the range frequencies of errors?",
+        "answers": [
+            {
+                "text": "Confusion matrix",
+                "correct": false
+            },
+            {
+                "text": "Error frequency histogram",
+                "correct": true
+            },
+            {
+                "text": "RMSE plot",
+                "correct": false
+            },
+            {
+                "text": "Scatter plot",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is a value that specifies a portion of errors occurring above or below it?",
+        "answers": [
+            {
+                "text": "Standard deviation",
+                "correct": false
+            },
+            {
+                "text": "Mean error",
+                "correct": false
+            },
+            {
+                "text": "Error frequency threshold",
+                "correct": true
+            },
+            {
+                "text": "Confidence limit",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the term for the number of cells per inch in a raster or image, often used as a measure of resolution?",
+        "answers": [
+            {
+                "text": "Cell size",
+                "correct": false
+            },
+            {
+                "text": "Pixel density",
+                "correct": false
+            },
+            {
+                "text": "Dots per inch (DPI)",
+                "correct": true
+            },
+            {
+                "text": "Raster resolution",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Resampling a raster to a smaller cell size (upsampling) will increase file size but will not do what?",
+        "answers": [
+            {
+                "text": "Increase accuracy",
+                "correct": true
+            },
+            {
+                "text": "Change the extent",
+                "correct": false
+            },
+            {
+                "text": "Slow down processing",
+                "correct": false
+            },
+            {
+                "text": "Change the coordinate system",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the smallest difference between adjacent positions that can be recorded in a vector dataset?",
+        "answers": [
+            {
+                "text": "Positional accuracy",
+                "correct": false
+            },
+            {
+                "text": "Vector resolution",
+                "correct": true
+            },
+            {
+                "text": "Cluster tolerance",
+                "correct": false
+            },
+            {
+                "text": "Data density",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the term for the scale at which a map 'looks right' or is intended to be viewed?",
+        "answers": [
+            {
+                "text": "Representative scale",
+                "correct": false
+            },
+            {
+                "text": "Absolute scale",
+                "correct": false
+            },
+            {
+                "text": "Display scale",
+                "correct": true
+            },
+            {
+                "text": "Source scale",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What term describes how many features per area are stored in a dataset?",
+        "answers": [
+            {
+                "text": "Data resolution",
+                "correct": false
+            },
+            {
+                "text": "Data density",
+                "correct": true
+            },
+            {
+                "text": "Data completeness",
+                "correct": false
+            },
+            {
+                "text": "Data clustering",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In ModelBuilder, what validation process checks if all steps of the model have been incorporated correctly and function properly?",
+        "answers": [
+            {
+                "text": "Data validation",
+                "correct": false
+            },
+            {
+                "text": "Model execution",
+                "correct": false
+            },
+            {
+                "text": "Model builder validation",
+                "correct": true
+            },
+            {
+                "text": "Schema validation",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the possible unknown difference between the real world and the spatial data that represents it?",
+        "answers": [
+            {
+                "text": "Data error",
+                "correct": false
+            },
+            {
+                "text": "Data uncertainty",
+                "correct": true
+            },
+            {
+                "text": "Data inaccuracy",
+                "correct": false
+            },
+            {
+                "text": "Data vagueness",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In semantic uncertainty, what is the meaning of a word or phrase?",
+        "answers": [
+            {
+                "text": "Syntax",
+                "correct": false
+            },
+            {
+                "text": "Semantics",
+                "correct": true
+            },
+            {
+                "text": "Ambiguity",
+                "correct": false
+            },
+            {
+                "text": "Vagueness",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In semantic uncertainty, what is the arrangement and structure of words?",
+        "answers": [
+            {
+                "text": "Syntax",
+                "correct": true
+            },
+            {
+                "text": "Semantics",
+                "correct": false
+            },
+            {
+                "text": "Grammar",
+                "correct": false
+            },
+            {
+                "text": "Context",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of uncertainty occurs when imperfect indicators of phenomena are used, such as estimating temperature using altitude?",
+        "answers": [
+            {
+                "text": "Vagueness",
+                "correct": false
+            },
+            {
+                "text": "Ambiguity",
+                "correct": true
+            },
+            {
+                "text": "Fuzzy classification",
+                "correct": false
+            },
+            {
+                "text": "Systematic error",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What are surrogate links with the phenomena of interest, such as estimating temperature using altitude?",
+        "answers": [
+            {
+                "text": "Direct indicators",
+                "correct": false
+            },
+            {
+                "text": "Indirect indicators",
+                "correct": true
+            },
+            {
+                "text": "Vague indicators",
+                "correct": false
+            },
+            {
+                "text": "Proxy data",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of uncertainty is characterized by a lack of distinction between boundaries, objects, or classes?",
+        "answers": [
+            {
+                "text": "Ambiguity",
+                "correct": false
+            },
+            {
+                "text": "Vagueness",
+                "correct": true
+            },
+            {
+                "text": "Fuzzy logic",
+                "correct": false
+            },
+            {
+                "text": "Positional error",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the area around a line that has a high probability of containing the true line segment?",
+        "answers": [
+            {
+                "text": "Buffer zone",
+                "correct": false
+            },
+            {
+                "text": "Fuzzy boundary",
+                "correct": false
+            },
+            {
+                "text": "Confidence interval",
+                "correct": false
+            },
+            {
+                "text": "Epsilon bands",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What model is used to predict the probability of a variety of outcomes by running multiple simulations with random variables?",
+        "answers": [
+            {
+                "text": "Deterministic model",
+                "correct": false
+            },
+            {
+                "text": "Monte Carlo simulation",
+                "correct": true
+            },
+            {
+                "text": "Regression model",
+                "correct": false
+            },
+            {
+                "text": "Stochastic model",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "According to CSDGM, what are the 10 types of metadata?",
+        "answers": [
+            {
+                "text": "Identification, Data Quality, Spatial Org, Spatial Ref, Entity/Attribute, Distribution, Metadata Ref, Citation, Time Period, Contact",
+                "correct": true
+            },
+            {
+                "text": "Title, Abstract, Keywords, Scale, Projection, Datum, Author, Date, Source, Lineage",
+                "correct": false
+            },
+            {
+                "text": "Vector, Raster, TIN, Network, Topology, Attributes, Layout, Style, Script, Model",
+                "correct": false
+            },
+            {
+                "text": "Completeness, Accuracy, Logical Consistency, Timeliness, Positional, Thematic, Temporal, Radiometric, Spectral, Spatial",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is data that represents a state in time, often stored in attribute fields with time extents?",
+        "answers": [
+            {
+                "text": "Static data",
+                "correct": false
+            },
+            {
+                "text": "Temporal data",
+                "correct": true
+            },
+            {
+                "text": "Real-time data",
+                "correct": false
+            },
+            {
+                "text": "Dynamic data",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of map allows a user to slide between different time periods to show changes?",
+        "answers": [
+            {
+                "text": "Static map",
+                "correct": false
+            },
+            {
+                "text": "Thematic map",
+                "correct": false
+            },
+            {
+                "text": "Dynamic map",
+                "correct": true
+            },
+            {
+                "text": "Series map",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the term for the time at which data was recorded, which can be stored in a date, string, or numeric field?",
+        "answers": [
+            {
+                "text": "Temporal accuracy",
+                "correct": false
+            },
+            {
+                "text": "Time values",
+                "correct": true
+            },
+            {
+                "text": "Timestamp",
+                "correct": false
+            },
+            {
+                "text": "Metadata date",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of standards facilitates sharing and access to GIS data between different networks and software systems?",
+        "answers": [
+            {
+                "text": "Interoperability standards",
+                "correct": true
+            },
+            {
+                "text": "Data format standards",
+                "correct": false
+            },
+            {
+                "text": "Analysis standards",
+                "correct": false
+            },
+            {
+                "text": "Metadata standards",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of standards ensure the correct analyses are used and produce the best information possible?",
+        "answers": [
+            {
+                "text": "Professional standards",
+                "correct": false
+            },
+            {
+                "text": "Interoperability standards",
+                "correct": false
+            },
+            {
+                "text": "Analysis standards",
+                "correct": true
+            },
+            {
+                "text": "Accuracy standards",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What model, developed by the ETA and GeoTech Center, identifies a set of core and sector industry geospatial abilities?",
+        "answers": [
+            {
+                "text": "GIS&T Body of Knowledge",
+                "correct": false
+            },
+            {
+                "text": "Geospatial Competency Model",
+                "correct": true
+            },
+            {
+                "text": "National Spatial Data Infrastructure",
+                "correct": false
+            },
+            {
+                "text": "ISO 19115",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What are the four categories of spatial data standards?",
+        "answers": [
+            {
+                "text": "Vector, Raster, TIN, Network",
+                "correct": false
+            },
+            {
+                "text": "Media, Format, Accuracy, Documentation",
+                "correct": true
+            },
+            {
+                "text": "OGC, ISO, FGDC, ANSI",
+                "correct": false
+            },
+            {
+                "text": "Positional, Thematic, Temporal, Logical",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What FGDC standard specifies the number and distribution of sample points (20-30) for performing an accuracy assessment?",
+        "answers": [
+            {
+                "text": "Content Standard for Digital Geospatial Metadata (CSDGM)",
+                "correct": false
+            },
+            {
+                "text": "National Map Accuracy Standard (NMAS)",
+                "correct": false
+            },
+            {
+                "text": "National Standard for Spatial Data Accuracy (NSSDA)",
+                "correct": true
+            },
+            {
+                "text": "Spatial Data Transfer Standard (SDTS)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What does the 'A' in the OGC mission acronym FAIR stand for?",
+        "answers": [
+            {
+                "text": "Accessible",
+                "correct": true
+            },
+            {
+                "text": "Accurate",
+                "correct": false
+            },
+            {
+                "text": "Analyzable",
+                "correct": false
+            },
+            {
+                "text": "Authoritative",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which OGC standard is a protocol for serving cached map or image services over the internet, using 'GetTile' commands?",
+        "answers": [
+            {
+                "text": "Web Map Service (WMS)",
+                "correct": false
+            },
+            {
+                "text": "Web Map Tile Service (WMTS)",
+                "correct": true
+            },
+            {
+                "text": "Web Feature Service (WFS)",
+                "correct": false
+            },
+            {
+                "text": "Web Coverage Service (WCS)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which ISO standard contains simple feature standards?",
+        "answers": [
+            {
+                "text": "ISO 19115",
+                "correct": false
+            },
+            {
+                "text": "ISO 19139",
+                "correct": false
+            },
+            {
+                "text": "ISO 19125",
+                "correct": true
+            },
+            {
+                "text": "ISO 19101",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which of these is NOT one of the mandatory fields for ISO-compliant metadata datasets?",
+        "answers": [
+            {
+                "text": "Title",
+                "correct": false
+            },
+            {
+                "text": "Geographic location",
+                "correct": false
+            },
+            {
+                "text": "Projection",
+                "correct": true
+            },
+            {
+                "text": "Abstract",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the U.S. member agency to the International Standards Organization (ISO)?",
+        "answers": [
+            {
+                "text": "Federal Geographic Data Committee (FGDC)",
+                "correct": false
+            },
+            {
+                "text": "Open Geospatial Consortium (OGC)",
+                "correct": false
+            },
+            {
+                "text": "American National Standards Institute (ANSI)",
+                "correct": true
+            },
+            {
+                "text": "National Geodetic Survey (NGS)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "According to the Spatial Data Transfer Standard (SDTS) accuracy rules, an accuracy test must use at least how many checkpoints?",
+        "answers": [
+            {
+                "text": "10",
+                "correct": false
+            },
+            {
+                "text": "20",
+                "correct": true
+            },
+            {
+                "text": "30",
+                "correct": false
+            },
+            {
+                "text": "50",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the name of the organization that oversees spatial data standards in Europe?",
+        "answers": [
+            {
+                "text": "European Spatial Data Committee (ESDC)",
+                "correct": false
+            },
+            {
+                "text": "Infrastructure for Spatial Information in Europe (INSPIRE)",
+                "correct": true
+            },
+            {
+                "text": "EuroGIS",
+                "correct": false
+            },
+            {
+                "text": "European OGC",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What organization, nicknamed 'The Imaging and Geospatial Information Society', has standards for geospatial data accuracy?",
+        "answers": [
+            {
+                "text": "American Society for Photogrammetry and Remote Sensing (ASPRS)",
+                "correct": true
+            },
+            {
+                "text": "Association of American Geographers (AAG)",
+                "correct": false
+            },
+            {
+                "text": "URISA",
+                "correct": false
+            },
+            {
+                "text": "National Geodetic Survey (NGS)",
+                "correct": false
+            }
+        ]
     }
 ]

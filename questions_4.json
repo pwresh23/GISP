@@ -1174,5 +1174,2462 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "question": "Which digitizing method involves human-guided coordinate capture from a map or image source?",
+        "answers": [
+            {
+                "text": "Heads-up digitizing",
+                "correct": false
+            },
+            {
+                "text": "Automatic digitizing",
+                "correct": false
+            },
+            {
+                "text": "Manual digitizing",
+                "correct": true
+            },
+            {
+                "text": "Scan digitizing",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is another name for heads-up digitizing?",
+        "answers": [
+            {
+                "text": "Scan digitizing",
+                "correct": true
+            },
+            {
+                "text": "Manual digitizing",
+                "correct": false
+            },
+            {
+                "text": "Point mode digitizing",
+                "correct": false
+            },
+            {
+                "text": "Automatic digitizing",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What digitizing process uses automated methods to convert raster data to vector data?",
+        "answers": [
+            {
+                "text": "Heads-up digitizing",
+                "correct": false
+            },
+            {
+                "text": "Skeletonizing",
+                "correct": false
+            },
+            {
+                "text": "Automatic digitizing",
+                "correct": true
+            },
+            {
+                "text": "Stream mode digitizing",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In what digitizing mode must the operator press a button to sample each point?",
+        "answers": [
+            {
+                "text": "Stream mode digitizing",
+                "correct": false
+            },
+            {
+                "text": "Point mode digitizing",
+                "correct": true
+            },
+            {
+                "text": "Manual digitizing",
+                "correct": false
+            },
+            {
+                "text": "Heads-up digitizing",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What variant of stream mode digitizing only records a point if it is a certain distance from the previous point?",
+        "answers": [
+            {
+                "text": "Point mode digitizing",
+                "correct": false
+            },
+            {
+                "text": "Point thinning",
+                "correct": false
+            },
+            {
+                "text": "Minimum distance digitizing",
+                "correct": true
+            },
+            {
+                "text": "Weed distance digitizing",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What are nodes that extend past their intended location during digitizing called?",
+        "answers": [
+            {
+                "text": "Dangling nodes",
+                "correct": false
+            },
+            {
+                "text": "Undershoots",
+                "correct": false
+            },
+            {
+                "text": "Overshoots",
+                "correct": true
+            },
+            {
+                "text": "Error nodes",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What mathematical functions are used to smooth lines between digitized points?",
+        "answers": [
+            {
+                "text": "Spline functions",
+                "correct": true
+            },
+            {
+                "text": "Tolerance functions",
+                "correct": false
+            },
+            {
+                "text": "Weed functions",
+                "correct": false
+            },
+            {
+                "text": "Snapping functions",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the term for the distance used in point thinning methods to remove vertices while maintaining line shape?",
+        "answers": [
+            {
+                "text": "Snap tolerance",
+                "correct": false
+            },
+            {
+                "text": "Weed distance",
+                "correct": true
+            },
+            {
+                "text": "Cluster tolerance",
+                "correct": false
+            },
+            {
+                "text": "Search radius",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What point thinning technique uses a spanning line with a 'weed distance' to remove points falling within it?",
+        "answers": [
+            {
+                "text": "Douglas-Peucker algorithm",
+                "correct": false
+            },
+            {
+                "text": "Lang method",
+                "correct": true
+            },
+            {
+                "text": "Spline method",
+                "correct": false
+            },
+            {
+                "text": "Snapping method",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What process reduces the width of scanned lines to a single pixel?",
+        "answers": [
+            {
+                "text": "Vectorization",
+                "correct": false
+            },
+            {
+                "text": "Point thinning",
+                "correct": false
+            },
+            {
+                "text": "Skeletonizing",
+                "correct": true
+            },
+            {
+                "text": "Rasterization",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the second step in a high-quality data collection process?",
+        "answers": [
+            {
+                "text": "Plan the project",
+                "correct": false
+            },
+            {
+                "text": "Test data collection in a sample area",
+                "correct": true
+            },
+            {
+                "text": "Check the accuracy of the sampled data",
+                "correct": false
+            },
+            {
+                "text": "Collect the rest of the data",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of measurement involves collecting data on the observable actions or activities of individuals or groups?",
+        "answers": [
+            {
+                "text": "Physical measurement",
+                "correct": false
+            },
+            {
+                "text": "Observations of behavior",
+                "correct": true
+            },
+            {
+                "text": "Archives",
+                "correct": false
+            },
+            {
+                "text": "Explicit reports",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of measurement is taken from records that were collected for other purposes?",
+        "answers": [
+            {
+                "text": "Archives",
+                "correct": true
+            },
+            {
+                "text": "Explicit reports",
+                "correct": false
+            },
+            {
+                "text": "Secondary data",
+                "correct": false
+            },
+            {
+                "text": "Computational modeling",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question":"What type of measurement involves collecting beliefs people express about things?",
+        "answers": [
+            {
+                "text": "Qualitative data",
+                "correct": false
+            },
+            {
+                "text": "Observations of behavior",
+                "correct": false
+            },
+            {
+                "text": "Explicit reports",
+                "correct": true
+            },
+            {
+                "text": "Archives",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of measurement is taken from models as simplified representations of reality?",
+        "answers": [
+            {
+                "text": "Physical measurement",
+                "correct": false
+            },
+            {
+                "text": "Computational modeling",
+                "correct": true
+            },
+            {
+                "text": "Simulation",
+                "correct": false
+            },
+            {
+                "text": "Explicit reports",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of data consists of numerical values that can be counted and used for statistical analysis?",
+        "answers": [
+            {
+                "text": "Qualitative data",
+                "correct": false
+            },
+            {
+                "text": "Quantitative data",
+                "correct": true
+            },
+            {
+                "text": "Nominal data",
+                "correct": false
+            },
+            {
+                "text": "Descriptive data",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the distance at which two points are considered the same, often used in data processing?",
+        "answers": [
+            {
+                "text": "Cluster tolerance",
+                "correct": false
+            },
+            {
+                "text": "Snap tolerance",
+                "correct": false
+            },
+            {
+                "text": "Fuzzy tolerance",
+                "correct": true
+            },
+            {
+                "text": "Weed distance",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What problem occurs when the same real-world feature is mapped in different locations from different data sources?",
+        "answers": [
+            {
+                "text": "Data conflict",
+                "correct": false
+            },
+            {
+                "text": "Positional error",
+                "correct": false
+            },
+            {
+                "text": "Common feature problem",
+                "correct": true
+            },
+            {
+                "text": "Misalignment",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "How many meters is one international foot?",
+        "answers": [
+            {
+                "text": "0.304800609 meters",
+                "correct": false
+            },
+            {
+                "text": "0.3048 meters",
+                "correct": true
+            },
+            {
+                "text": "3.28 meters",
+                "correct": false
+            },
+            {
+                "text": "1.09 meters",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "How many kilometers are in one mile?",
+        "answers": [
+            {
+                "text": "1.6 kilometers",
+                "correct": true
+            },
+            {
+                "text": "0.62 kilometers",
+                "correct": false
+            },
+            {
+                "text": "5.28 kilometers",
+                "correct": false
+            },
+            {
+                "text": "1.5 kilometers",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In angular conversions, 180 degrees is equal to how many radians?",
+        "answers": [
+            {
+                "text": "1 radian",
+                "correct": false
+            },
+            {
+                "text": "3.14 radians (Pi)",
+                "correct": true
+            },
+            {
+                "text": "6.28 radians (2 * Pi)",
+                "correct": false
+            },
+            {
+                "text": "57.3 radians",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the name of the Russian GNSS system?",
+        "answers": [
+            {
+                "text": "Galileo",
+                "correct": false
+            },
+            {
+                "text": "GLONASS",
+                "correct": true
+            },
+            {
+                "text": "BeiDou",
+                "correct": false
+            },
+            {
+                "text": "IRNSS",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the name of the Indian GNSS system?",
+        "answers": [
+            {
+                "text": "IRNSS",
+                "correct": true
+            },
+            {
+                "text": "GLONASS",
+                "correct": false
+            },
+            {
+                "text": "Compass",
+                "correct": false
+            },
+            {
+                "text": "Galileo",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the name of the Chinese GNSS system?",
+        "answers": [
+            {
+                "text": "NAVSTAR",
+                "correct": false
+            },
+            {
+                "text": "Galileo",
+                "correct": false
+            },
+            {
+                "text": "GLONASS",
+                "correct": false
+            },
+            {
+                "text": "Compass/BEIDOU",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "How is the range distance for a GNSS measurement calculated?",
+        "answers": [
+            {
+                "text": "Speed of light * Travel time",
+                "correct": true
+            },
+            {
+                "text": "Speed of sound * Travel time",
+                "correct": false
+            },
+            {
+                "text": "Triangulation of 3 satellite signals",
+                "correct": false
+            },
+            {
+                "text": "Doppler shift of the carrier signal",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is an extendable pole on which a GNSS antenna is mounted to improve accuracy and reduce multipath signals?",
+        "answers": [
+            {
+                "text": "Range pole",
+                "correct": true
+            },
+            {
+                "text": "Monopod",
+                "correct": false
+            },
+            {
+                "text": "Survey rod",
+                "correct": false
+            },
+            {
+                "text": "Antenna mast",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What device may be attached to a GNSS receiver to measure angles and improve field data collection, often used with an electronic compass?",
+        "answers": [
+            {
+                "text": "Gravimeter",
+                "correct": false
+            },
+            {
+                "text": "Laser rangefinder",
+                "correct": true
+            },
+            {
+                "text": "Total station",
+                "correct": false
+            },
+            {
+                "text": "Plumb bob",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the technique of embedding GNSS signals within signals, allowing multiple satellites to transmit on the same frequencies?",
+        "answers": [
+            {
+                "text": "Multiplexing",
+                "correct": false
+            },
+            {
+                "text": "Frequency modulation (FM)",
+                "correct": false
+            },
+            {
+                "text": "Code division multiple access (CDMA)",
+                "correct": true
+            },
+            {
+                "text": "Amplitude modulation (AM)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which GNSS signals are less accurate but faster to use, with receivers that cost less?",
+        "answers": [
+            {
+                "text": "Carrier phase signals",
+                "correct": false
+            },
+            {
+                "text": "Coded signals",
+                "correct": true
+            },
+            {
+                "text": "L2 band signals",
+                "correct": false
+            },
+            {
+                "text": "P-code signals",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What does the C/A code, transmitted on the L1 carrier, stand for?",
+        "answers": [
+            {
+                "text": "Civilian Access",
+                "correct": false
+            },
+            {
+                "text": "Coarse Acquisition",
+                "correct": true
+            },
+            {
+                "text": "Carrier Allocation",
+                "correct": false
+            },
+            {
+                "text": "Code Allocation",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What do the CM and CL signals, modulated on the L2 carrier, stand for?",
+        "answers": [
+            {
+                "text": "Coarse/Medium and Coarse/Long",
+                "correct": false
+            },
+            {
+                "text": "Civil Medium and Civil Long",
+                "correct": true
+            },
+            {
+                "text": "Carrier Medium and Carrier Long",
+                "correct": false
+            },
+            {
+                "text": "Code modulated and Carrier modulated Long",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The I5 and Q5 codes, modulated on the L5 carrier, stand for In-Phase and...?",
+        "answers": [
+            {
+                "text": "Quadraphase",
+                "correct": true
+            },
+            {
+                "text": "Query-phase",
+                "correct": false
+            },
+            {
+                "text": "Quick-phase",
+                "correct": false
+            },
+            {
+                "text": "Quaternary-phase",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What unit of frequency measures millions of cycles per second?",
+        "answers": [
+            {
+                "text": "Gigahertz (GHz)",
+                "correct": false
+            },
+            {
+                "text": "Kilohertz (kHz)",
+                "correct": false
+            },
+            {
+                "text": "Hertz (Hz)",
+                "correct": false
+            },
+            {
+                "text": "Megahertz (MHz)",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What is the free GNSS service that uses the C/A code to calculate positions with an accuracy of 7.8 meters or less?",
+        "answers": [
+            {
+                "text": "Standard Positioning Service (SPS)",
+                "correct": true
+            },
+            {
+                "text": "Precise Positioning Service (PPS)",
+                "correct": false
+            },
+            {
+                "text": "Consumer Grade GPS",
+                "correct": false
+            },
+            {
+                "text": "Wide Area Augmentation System (WAAS)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What grade of GNSS typically has 10-meter accuracy and uses only the C/A code from the L1 frequency?",
+        "answers": [
+            {
+                "text": "Survey grade",
+                "correct": false
+            },
+            {
+                "text": "Consumer/recreational grade",
+                "correct": true
+            },
+            {
+                "text": "Military grade",
+                "correct": false
+            },
+            {
+                "text": "SPS grade",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What grade of GNSS can reliably produce 10-centimeter accuracy by using both L1 and L2 frequencies?",
+        "answers": [
+            {
+                "text": "Military grade",
+                "correct": false
+            },
+            {
+                "text": "RTK grade",
+                "correct": false
+            },
+            {
+                "text": "Survey grade",
+                "correct": true
+            },
+            {
+                "text": "Consumer grade",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is a primary source of GNSS errors?",
+        "answers": [
+            {
+                "text": "Ionospheric delays in signal transmission",
+                "correct": true
+            },
+            {
+                "text": "Weak satellite batteries",
+                "correct": false
+            },
+            {
+                "text": "Magnetic declination",
+                "correct": false
+            },
+            {
+                "text": "Decimal degree conversion errors",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What does a high signal-to-noise ratio (SNR) indicate in GNSS?",
+        "answers": [
+            {
+                "text": "A more reliable signal (more signal than noise)",
+                "correct": true
+            },
+            {
+                "text": "A less reliable signal (more noise than signal)",
+                "correct": false
+            },
+            {
+                "text": "A high PDOP value",
+                "correct": false
+            },
+            {
+                "text": "A high amount of multipath error",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the fundamental performance parameter of GNSS that describes the total error affecting distance measurements between satellite and receiver?",
+        "answers": [
+            {
+                "text": "Positional Dilution of Precision (PDOP)",
+                "correct": false
+            },
+            {
+                "text": "User range error (URE)",
+                "correct": true
+            },
+            {
+                "text": "Signal-to-noise ratio (SNR)",
+                "correct": false
+            },
+            {
+                "text": "User accuracy",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What term describes how close a GNSS device's calculated position is from the truth, often expressed as a radius?",
+        "answers": [
+            {
+                "text": "User accuracy",
+                "correct": true
+            },
+            {
+                "text": "User range error (URE)",
+                "correct": false
+            },
+            {
+                "text": "PDOP",
+                "correct": false
+            },
+            {
+                "text": "Precision",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is a stationary GNSS receiver at a known location used to estimate range errors and improve accuracy?",
+        "answers": [
+            {
+                "text": "Base station",
+                "correct": true
+            },
+            {
+                "text": "Rover",
+                "correct": false
+            },
+            {
+                "text": "Benchmark",
+                "correct": false
+            },
+            {
+                "text": "CORS station",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of differential correction requires a communications link between the base station and a roving receiver to apply corrections instantly?",
+        "answers": [
+            {
+                "text": "Real-time differential correction",
+                "correct": true
+            },
+            {
+                "text": "Post-processing differential positioning",
+                "correct": false
+            },
+            {
+                "text": "Satellite-based augmentation",
+                "correct": false
+            },
+            {
+                "text": "Precise point positioning",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is it called when a differential correction base station is on a moving vehicle?",
+        "answers": [
+            {
+                "text": "Mobile RTK",
+                "correct": false
+            },
+            {
+                "text": "Moving base station",
+                "correct": true
+            },
+            {
+                "text": "Roving base station",
+                "correct": false
+            },
+            {
+                "text": "Dynamic positioning",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is NTRIP?",
+        "answers": [
+            {
+                "text": "A type of GNSS satellite",
+                "correct": false
+            },
+            {
+                "text": "A subscription service providing corrective GNSS data over a wireless connection",
+                "correct": true
+            },
+            {
+                "text": "A method for post-processing GPS data",
+                "correct": false
+            },
+            {
+                "text": "A brand of survey-grade GNSS receiver",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is a network of reference stations that monitor GNSS signals, log corrections, and feed data to a control center for corrective calculations?",
+        "answers": [
+            {
+                "text": "Continuously Operating Reference Station (CORS)",
+                "correct": false
+            },
+            {
+                "text": "Wide Area Augmentation System (WAAS)",
+                "correct": false
+            },
+            {
+                "text": "Virtual Reference Station (VRS)",
+                "correct": true
+            },
+            {
+                "text": "NTRIP Network",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of differential positioning improves accuracy after data collection and cannot be used for real-time navigation?",
+        "answers": [
+            {
+                "text": "Post-processing differential positioning",
+                "correct": true
+            },
+            {
+                "text": "Real-Time Kinematic (RTK)",
+                "correct": false
+            },
+            {
+                "text": "Satellite-Based Augmentation System (SBAS)",
+                "correct": false
+            },
+            {
+                "text": "Standard Positioning Service (SPS)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What high-accuracy measurement technique is an alternative to differential correction and requires long observation times of tens of minutes or hours?",
+        "answers": [
+            {
+                "text": "Precise Point Positioning (PPP)",
+                "correct": true
+            },
+            {
+                "text": "Averaging",
+                "correct": false
+            },
+            {
+                "text": "Post-processing",
+                "correct": false
+            },
+            {
+                "text": "Real-Time Kinematic (RTK)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of surveying is done on a planar or flat surface?",
+        "answers": [
+            {
+                "text": "Geodetic surveying",
+                "correct": false
+            },
+            {
+                "text": "Plane surveying",
+                "correct": true
+            },
+            {
+                "text": "Triangulation surveying",
+                "correct": false
+            },
+            {
+                "text": "Topographic surveying",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the basic operation performed in coordinate geometry (COGO), consisting of a series of connected lines starting at a control point?",
+        "answers": [
+            {
+                "text": "Triangulation",
+                "correct": false
+            },
+            {
+                "text": "Baseline",
+                "correct": false
+            },
+            {
+                "text": "Traverse",
+                "correct": true
+            },
+            {
+                "text": "Benchmark",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In surveying, what is an angle measured in a clockwise direction from 0 to 360 degrees relative to grid north?",
+        "answers": [
+            {
+                "text": "Bearing",
+                "correct": false
+            },
+            {
+                "text": "Angle of deflection",
+                "correct": false
+            },
+            {
+                "text": "Azimuth angle",
+                "correct": true
+            },
+            {
+                "text": "Magnetic declination",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In surveying, what specifies an angle from 0 to 90 degrees by stating N or S, a degree measurement, and E or W?",
+        "answers": [
+            {
+                "text": "Bearing",
+                "correct": true
+            },
+            {
+                "text": "Azimuth",
+                "correct": false
+            },
+            {
+                "text": "Deflection",
+                "correct": false
+            },
+            {
+                "text": "Inclination",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What survey instrument is used for measuring horizontal angles and has a telescope that can flip over for back sighting?",
+        "answers": [
+            {
+                "text": "Theodolite",
+                "correct": false
+            },
+            {
+                "text": "Total Station",
+                "correct": false
+            },
+            {
+                "text": "Level",
+                "correct": false
+            },
+            {
+                "text": "Transit",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What survey instrument is used for measuring both horizontal and vertical angles?",
+        "answers": [
+            {
+                "text": "Theodolite",
+                "correct": true
+            },
+            {
+                "text": "Transit",
+                "correct": false
+            },
+            {
+                "text": "Plumb Bob",
+                "correct": false
+            },
+            {
+                "text": "Alidade",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the method of determining the length between two points using electromagnetic waves or lasers, commonly performed by total stations?",
+        "answers": [
+            {
+                "text": "Triangulation",
+                "correct": false
+            },
+            {
+                "text": "Electronic Distance Measurement (EDM)",
+                "correct": true
+            },
+            {
+                "text": "Taping",
+                "correct": false
+            },
+            {
+                "text": "Laser ranging",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the angle between a line and the prolongation of the preceding line, recorded as right or left?",
+        "answers": [
+            {
+                "text": "Interior angle",
+                "correct": false
+            },
+            {
+                "text": "Bearing",
+                "correct": false
+            },
+            {
+                "text": "Azimuth",
+                "correct": false
+            },
+            {
+                "text": "Angle of deflection",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What is the generation and management of digital representations of the physical and functional characteristics of buildings?",
+        "answers": [
+            {
+                "text": "Building Information Modeling (BIM)",
+                "correct": true
+            },
+            {
+                "text": "Computer-Aided Design (CAD)",
+                "correct": false
+            },
+            {
+                "text": "3D Modeling",
+                "correct": false
+            },
+            {
+                "text": "Architecture GIS",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What surveying method, common before the PLSS, describes parcels relative to landscape features, supplemented with angles and distances?",
+        "answers": [
+            {
+                "text": "Triangulation",
+                "correct": false
+            },
+            {
+                "text": "Metes and bounds",
+                "correct": true
+            },
+            {
+                "text": "COGO",
+                "correct": false
+            },
+            {
+                "text": "Plane surveying",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In feature extraction, which method involves human analysts manually identifying and delineating features?",
+        "answers": [
+            {
+                "text": "Automated feature extraction",
+                "correct": false
+            },
+            {
+                "text": "Heads-up digitizing",
+                "correct": false
+            },
+            {
+                "text": "Manual feature extraction",
+                "correct": true
+            },
+            {
+                "text": "Data scraping",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which type of feature extraction uses algorithms and deep learning to automatically detect and extract features?",
+        "answers": [
+            {
+                "text": "Manual feature extraction",
+                "correct": false
+            },
+            {
+                "text": "Automated feature extraction",
+                "correct": true
+            },
+            {
+                "text": "Data scraping",
+                "correct": false
+            },
+            {
+                "text": "Digitizing",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the process of extracting data from sources not intended to be data sources, such as websites?",
+        "answers": [
+            {
+                "text": "Data mining",
+                "correct": false
+            },
+            {
+                "text": "Feature extraction",
+                "correct": false
+            },
+            {
+                "text": "Data scraping",
+                "correct": true
+            },
+            {
+                "text": "Crowdsourcing",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In the ETL process, what stage involves raw data undergoing processing such as cleaning, sanitizing, and aggregating?",
+        "answers": [
+            {
+                "text": "Extract",
+                "correct": false
+            },
+            {
+                "text": "Transform",
+                "correct": true
+            },
+            {
+                "text": "Load",
+                "correct": false
+            },
+            {
+                "text": "Sanitizing",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In the ETL transform stage, what is the process of removing inconsistencies, errors, and duplicates?",
+        "answers": [
+            {
+                "text": "Data cleaning",
+                "correct": true
+            },
+            {
+                "text": "Data sanitizing",
+                "correct": false
+            },
+            {
+                "text": "Aggregating",
+                "correct": false
+            },
+            {
+                "text": "Enriching",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In the ETL transform stage, what is the process of ensuring data quality by standardizing formats?",
+        "answers": [
+            {
+                "text": "Data cleaning",
+                "correct": false
+            },
+            {
+                "text": "Data validation",
+                "correct": false
+            },
+            {
+                "text": "Data sanitizing",
+                "correct": true
+            },
+            {
+                "text": "Aggregating",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In the ETL transform stage, what is the process of combining data from different sources?",
+        "answers": [
+            {
+                "text": "Enriching",
+                "correct": false
+            },
+            {
+                "text": "Aggregating",
+                "correct": true
+            },
+            {
+                "text": "Loading",
+                "correct": false
+            },
+            {
+                "text": "Cleaning",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In the ETL transform stage, what is the process of adding additional information to the data?",
+        "answers": [
+            {
+                "text": "Aggregating",
+                "correct": false
+            },
+            {
+                "text": "Appending",
+                "correct": false
+            },
+            {
+                "text": "Enriching",
+                "correct": true
+            },
+            {
+                "text": "Sanitizing",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In the ETL process, what is the final stage where cleaned and transformed data is moved to a target database?",
+        "answers": [
+            {
+                "text": "Extract",
+                "correct": false
+            },
+            {
+                "text": "Transform",
+                "correct": false
+            },
+            {
+                "text": "Load",
+                "correct": true
+            },
+            {
+                "text": "Store",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What are structured and reliable sources for specific data from online databases, which programs can link to for automatic updates?",
+        "answers": [
+            {
+                "text": "Web services",
+                "correct": false
+            },
+            {
+                "text": "Application Program Interfaces (APIs)",
+                "correct": true
+            },
+            {
+                "text": "Data streams",
+                "correct": false
+            },
+            {
+                "text": "RSS feeds",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of distortion in aerial images is caused by camera tilt, making objects further away appear closer together?",
+        "answers": [
+            {
+                "text": "Relief displacement",
+                "correct": false
+            },
+            {
+                "text": "Perspective distortion",
+                "correct": true
+            },
+            {
+                "text": "Radial lens displacement",
+                "correct": false
+            },
+            {
+                "text": "Atmospheric distortion",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of distortion is caused by the shape of a camera lens?",
+        "answers": [
+            {
+                "text": "Perspective distortion",
+                "correct": false
+            },
+            {
+                "text": "Relief displacement",
+                "correct": false
+            },
+            {
+                "text": "Radial lens displacement",
+                "correct": true
+            },
+            {
+                "text": "Atmospheric bending",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of image view is not orthographic and gives a geometrically distorted image of the Earth's surface?",
+        "answers": [
+            {
+                "text": "Perspective view",
+                "correct": true
+            },
+            {
+                "text": "Nadir view",
+                "correct": false
+            },
+            {
+                "text": "Orthographic view",
+                "correct": false
+            },
+            {
+                "text": "Oblique view",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the term for geometrically precise images where distortion has been removed, resulting in uniform scale and true geometry?",
+        "answers": [
+            {
+                "text": "Georeferenced images",
+                "correct": false
+            },
+            {
+                "text": "Orthographic images (Orthophotographs)",
+                "correct": true
+            },
+            {
+                "text": "Rectified images",
+                "correct": false
+            },
+            {
+                "text": "Perspective images",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is created when sequential photographs in a flight line overlap (end lap) or adjacent flight lines overlap (side lap)?",
+        "answers": [
+            {
+                "text": "A mosaic",
+                "correct": false
+            },
+            {
+                "text": "An orthophoto",
+                "correct": false
+            },
+            {
+                "text": "Stereophotographic coverage",
+                "correct": true
+            },
+            {
+                "text": "A flight plan",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the three-dimensional perception of terrain from viewing an overlapping stereo pair of photographs?",
+        "answers": [
+            {
+                "text": "Stereomodel",
+                "correct": true
+            },
+            {
+                "text": "DEM",
+                "correct": false
+            },
+            {
+                "text": "Hillshade",
+                "correct": false
+            },
+            {
+                "text": "Anaglyph",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What device uses stereo photographs to determine elevations?",
+        "answers": [
+            {
+                "text": "Stereoplotter",
+                "correct": true
+            },
+            {
+                "text": "Total Station",
+                "correct": false
+            },
+            {
+                "text": "GPS receiver",
+                "correct": false
+            },
+            {
+                "text": "Altimeter",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Why do satellite images have significantly less terrain distortion than aerial photography?",
+        "answers": [
+            {
+                "text": "They use better cameras",
+                "correct": false
+            },
+            {
+                "text": "They have a very high perspective (orbit)",
+                "correct": true
+            },
+            {
+                "text": "They are in polar orbits",
+                "correct": false
+            },
+            {
+                "text": "They are automatically orthorectified",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "As a rule of thumb, the pixel size of an aerial or satellite photo should be what size compared to the smallest object you're mapping?",
+        "answers": [
+            {
+                "text": "The same size",
+                "correct": false
+            },
+            {
+                "text": "Twice the size",
+                "correct": false
+            },
+            {
+                "text": "Half the size",
+                "correct": true
+            },
+            {
+                "text": "One-quarter the size",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the range of wavelengths of light energy?",
+        "answers": [
+            {
+                "text": "Electromagnetic spectrum",
+                "correct": true
+            },
+            {
+                "text": "Spectral signature",
+                "correct": false
+            },
+            {
+                "text": "Radiometric resolution",
+                "correct": false
+            },
+            {
+                "text": "Visible light",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of remote sensing senses radiation that is emitted or reflected from objects?",
+        "answers": [
+            {
+                "text": "Active sensing",
+                "correct": false
+            },
+            {
+                "text": "Passive sensing",
+                "correct": true
+            },
+            {
+                "text": "Optical sensing",
+                "correct": false
+            },
+            {
+                "text": "LiDAR",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of raster has only one value for each cell, such as a scanned map?",
+        "answers": [
+            {
+                "text": "Single band raster",
+                "correct": true
+            },
+            {
+                "text": "Greyscale raster",
+                "correct": false
+            },
+            {
+                "text": "Discrete raster",
+                "correct": false
+            },
+            {
+                "text": "Thematic raster",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of raster has several values for each cell, such as satellite images?",
+        "answers": [
+            {
+                "text": "Multi band raster",
+                "correct": true
+            },
+            {
+                "text": "Composite image",
+                "correct": false
+            },
+            {
+                "text": "RGB raster",
+                "correct": false
+            },
+            {
+                "text": "Continuous raster",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is an image made up of the overlay of multiple bands?",
+        "answers": [
+            {
+                "text": "Multi band raster",
+                "correct": false
+            },
+            {
+                "text": "Composite image",
+                "correct": true
+            },
+            {
+                "text": "Spectral signature",
+                "correct": false
+            },
+            {
+                "text": "False-color image",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the term for a low-cost, easily deployed aircraft used to produce large-scale, high-resolution photography?",
+        "answers": [
+            {
+                "text": "Satellite",
+                "correct": false
+            },
+            {
+                "text": "Unmanned Aerial Vehicle (UAV)",
+                "correct": true
+            },
+            {
+                "text": "Helicopter",
+                "correct": false
+            },
+            {
+                "text": "GPS",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the maximum altitude recreational drone pilots are allowed to fly?",
+        "answers": [
+            {
+                "text": "100 feet",
+                "correct": false
+            },
+            {
+                "text": "400 feet",
+                "correct": true
+            },
+            {
+                "text": "1200 feet",
+                "correct": false
+            },
+            {
+                "text": "1000 feet",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of airspace is from the surface to 1200 feet or less and is considered uncontrolled?",
+        "answers": [
+            {
+                "text": "Class A Airspace",
+                "correct": false
+            },
+            {
+                "text": "Class G Airspace",
+                "correct": true
+            },
+            {
+                "text": "Class C Airspace",
+                "correct": false
+            },
+            {
+                "text": "Class E Airspace",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the name of the remote pilot license for commercial drone operation?",
+        "answers": [
+            {
+                "text": "FAA License",
+                "correct": false
+            },
+            {
+                "text": "Part 107 license",
+                "correct": true
+            },
+            {
+                "text": "UAV License",
+                "correct": false
+            },
+            {
+                "text": "Class G License",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the maximum legal weight for a drone to be flown under Part 107 rules?",
+        "answers": [
+            {
+                "text": "25 pounds",
+                "correct": false
+            },
+            {
+                "text": "55 pounds",
+                "correct": true
+            },
+            {
+                "text": "100 pounds",
+                "correct": false
+            },
+            {
+                "text": "10 pounds",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is a rule for flying a drone under Part 107?",
+        "answers": [
+            {
+                "text": "Must fly within line of sight",
+                "correct": true
+            },
+            {
+                "text": "Can fly at night with standard lights",
+                "correct": false
+            },
+            {
+                "text": "Can fly over people if under 100 feet",
+                "correct": false
+            },
+            {
+                "text": "Must always yield to birds",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What determines the quality level (e.g., QL0, QL1, QL2) of a LiDAR dataset?",
+        "answers": [
+            {
+                "text": "Pulse spacing and vertical positional accuracy",
+                "correct": true
+            },
+            {
+                "text": "The number of returns per pulse",
+                "correct": false
+            },
+            {
+                "text": "The altitude of the aircraft",
+                "correct": false
+            },
+            {
+                "text": "The file format (LAS vs LAZ)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of LiDAR collects only a few returns per pulse, typically four?",
+        "answers": [
+            {
+                "text": "Waveform lidar",
+                "correct": false
+            },
+            {
+                "text": "Discrete return lidar",
+                "correct": true
+            },
+            {
+                "text": "Continuous wave lidar",
+                "correct": false
+            },
+            {
+                "text": "Topographic lidar",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of LiDAR collects the full profile of a return signal, not just a few points?",
+        "answers": [
+            {
+                "text": "Discrete return lidar",
+                "correct": false
+            },
+            {
+                "text": "Geiger-mode lidar",
+                "correct": false
+            },
+            {
+                "text": "Waveform lidar",
+                "correct": true
+            },
+            {
+                "text": "Bathymetric lidar",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What organization defines the standard LAS format for LiDAR data?",
+        "answers": [
+            {
+                "text": "Open Geospatial Consortium (OGC)",
+                "correct": false
+            },
+            {
+                "text": "American Society for Photogrammetry and Remote Sensing (ASPRS)",
+                "correct": true
+            },
+            {
+                "text": "US Geological Survey (USGS)",
+                "correct": false
+            },
+            {
+                "text": "Federal Geographic Data Committee (FGDC)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Why does water often show up as red on infrared-sensed images?",
+        "answers": [
+            {
+                "text": "Water absorbs infrared light",
+                "correct": true
+            },
+            {
+                "text": "Water reflects infrared light",
+                "correct": false
+            },
+            {
+                "text": "It is a false-color convention",
+                "correct": false
+            },
+            {
+                "text": "Water is warmer than land",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In a Normalized Difference Vegetation Index (NDVI), what does a value of 1 typically indicate?",
+        "answers": [
+            {
+                "text": "Water",
+                "correct": false
+            },
+            {
+                "text": "Bare soil",
+                "correct": false
+            },
+            {
+                "text": "Healthy vegetation",
+                "correct": true
+            },
+            {
+                "text": "Dead plants",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of aerial imagery is flown at an angle to show the sides of buildings and features?",
+        "answers": [
+            {
+                "text": "Oblique imagery",
+                "correct": true
+            },
+            {
+                "text": "Orthoimagery",
+                "correct": false
+            },
+            {
+                "text": "Nadir imagery",
+                "correct": false
+            },
+            {
+                "text": "Stereo imagery",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of active remote sensing emits a beam of energy, records the reflection, and can penetrate clouds?",
+        "answers": [
+            {
+                "text": "LiDAR",
+                "correct": false
+            },
+            {
+                "text": "Radar (Radio Detection and Ranging)",
+                "correct": true
+            },
+            {
+                "text": "Thermal",
+                "correct": false
+            },
+            {
+                "text": "Sonar",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What was the National Aerial Photography Program (NAPP)?",
+        "answers": [
+            {
+                "text": "A USDA program for current growing season imagery",
+                "correct": false
+            },
+            {
+                "text": "A USGS program for black and white/infrared imagery from 1987-2004",
+                "correct": true
+            },
+            {
+                "text": "A consortium of federal agencies for national orthoimagery",
+                "correct": false
+            },
+            {
+                "text": "A NASA program for satellite orthophotos",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the National Digital Orthophoto Program (NDOP)?",
+        "answers": [
+            {
+                "text": "A consortium of federal agencies to develop and maintain national orthoimagery",
+                "correct": true
+            },
+            {
+                "text": "A USDA program for agricultural imagery",
+                "correct": false
+            },
+            {
+                "text": "A USGS program for retired black and white photos",
+                "correct": false
+            },
+            {
+                "text": "The agency that produces all DOQQs",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which US government agency takes aerial images to classify forest cover?",
+        "answers": [
+            {
+                "text": "NASA",
+                "correct": false
+            },
+            {
+                "text": "US Department of Agriculture (USDA)",
+                "correct": false
+            },
+            {
+                "text": "United States Forest Service (USFS)",
+                "correct": true
+            },
+            {
+                "text": "US Geological Survey (USGS)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is a primary disadvantage of using crowdsourced data?",
+        "answers": [
+            {
+                "text": "High cost",
+                "correct": false
+            },
+            {
+                "text": "Reduced quality and accuracy",
+                "correct": true
+            },
+            {
+                "text": "Slow data collection",
+                "correct": false
+            },
+            {
+                "text": "Lack of skill diversity",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What crowdsourced application, owned by Google, provides satellite navigation software that uses GPS data from users?",
+        "answers": [
+            {
+                "text": "OpenStreetMap",
+                "correct": false
+            },
+            {
+                "text": "Waze",
+                "correct": true
+            },
+            {
+                "text": "Localwiki",
+                "correct": false
+            },
+            {
+                "text": "Google Maps",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What open data source is a public domain map dataset featuring tightly integrated vector and raster data?",
+        "answers": [
+            {
+                "text": "USGS EarthExplorer",
+                "correct": false
+            },
+            {
+                "text": "OpenStreetMap",
+                "correct": false
+            },
+            {
+                "text": "Natural Earth Data",
+                "correct": true
+            },
+            {
+                "text": "SEDAC",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What open data source focuses on datasets related to population, sustainability, and human-environment interactions?",
+        "answers": [
+            {
+                "text": "SEDAC",
+                "correct": true
+            },
+            {
+                "text": "OpenTopography",
+                "correct": false
+            },
+            {
+                "text": "NASA Earth Observations (NEO)",
+                "correct": false
+            },
+            {
+                "text": "Terra Populus",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What open data portal facilitates access to high-resolution topography data, tools, and resources, based at UC San Diego?",
+        "answers": [
+            {
+                "text": "USGS EarthExplorer",
+                "correct": false
+            },
+            {
+                "text": "OpenTopography",
+                "correct": true
+            },
+            {
+                "text": "The National Map",
+                "correct": false
+            },
+            {
+                "text": "SEDAC",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which UN program is a leading global authority on the environment and provides a large portal of data and reports?",
+        "answers": [
+            {
+                "text": "Geonetwork",
+                "correct": false
+            },
+            {
+                "text": "United Nations Environmental Programme (UNEP)",
+                "correct": true
+            },
+            {
+                "text": "Terra Populus",
+                "correct": false
+            },
+            {
+                "text": "ISGCGM",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What NASA portal provides global datasets related to climate and environmental changes?",
+        "answers": [
+            {
+                "text": "USGS EarthExplorer",
+                "correct": false
+            },
+            {
+                "text": "Sentinel Data Hub",
+                "correct": false
+            },
+            {
+                "text": "NASA Earth Observations (NEO)",
+                "correct": true
+            },
+            {
+                "text": "Landsat Global Archive",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What data portal integrates data about population and environment from censuses, surveys, land cover, and climate data?",
+        "answers": [
+            {
+                "text": "SEDAC",
+                "correct": false
+            },
+            {
+                "text": "Terra Populus",
+                "correct": true
+            },
+            {
+                "text": "UNEP",
+                "correct": false
+            },
+            {
+                "text": "Geonetwork",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What UN portal provides free GIS data?",
+        "answers": [
+            {
+                "text": "Geonetwork",
+                "correct": true
+            },
+            {
+                "text": "UNEP",
+                "correct": false
+            },
+            {
+                "text": "SEDAC",
+                "correct": false
+            },
+            {
+                "text": "ISGCGM",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What USGS-coordinated infrastructure attempts to organize the collection and processing of global-level datasets?",
+        "answers": [
+            {
+                "text": "National Spatial Data Infrastructure (NSDI)",
+                "correct": false
+            },
+            {
+                "text": "Global Spatial Dataset Infrastructure (GSDI)",
+                "correct": true
+            },
+            {
+                "text": "The National Map",
+                "correct": false
+            },
+            {
+                "text": "Geospatial Platform",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What satellite instrument provides high-resolution (15-90m) images in 14 different wavelengths, used to map land surface temperature and elevation?",
+        "answers": [
+            {
+                "text": "Landsat ETM+",
+                "correct": false
+            },
+            {
+                "text": "MODIS",
+                "correct": false
+            },
+            {
+                "text": "Advanced Spaceborne Thermal Emission and Reflection Radiometer (ASTER)",
+                "correct": true
+            },
+            {
+                "text": "SRTM",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is a distributed system of agency servers on the Internet that contains metadata for available digital spatial data?",
+        "answers": [
+            {
+                "text": "The National Map",
+                "correct": false
+            },
+            {
+                "text": "Geospatial Platform",
+                "correct": false
+            },
+            {
+                "text": "National Geospatial Data Clearinghouse",
+                "correct": true
+            },
+            {
+                "text": "USGS EarthExplorer",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What collaborative USGS effort provides high-quality online topographic map information for the nation?",
+        "answers": [
+            {
+                "text": "The National Map",
+                "correct": true
+            },
+            {
+                "text": "National Elevation Dataset (NED)",
+                "correct": false
+            },
+            {
+                "text": "National Hydrography Dataset (NHD)",
+                "correct": false
+            },
+            {
+                "text": "Geospatial Platform",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What new program replaces the NHD and Watershed Boundary Dataset with a single product?",
+        "answers": [
+            {
+                "text": "National Elevation Dataset (NED)",
+                "correct": false
+            },
+            {
+                "text": "3D Elevation Program (3DEP)",
+                "correct": false
+            },
+            {
+                "text": "3D Hydrography Program (3DHP)",
+                "correct": true
+            },
+            {
+                "text": "The National Map",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What USDA-administered soil database is a broad-based inventory, cartographically shown at 1:250,000 scale?",
+        "answers": [
+            {
+                "text": "SSURGO",
+                "correct": false
+            },
+            {
+                "text": "GNATSGO",
+                "correct": false
+            },
+            {
+                "text": "STATSGO2",
+                "correct": true
+            },
+            {
+                "text": "NASS",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What composite database provides complete, seamless coverage of the best available soils information for all of the US?",
+        "answers": [
+            {
+                "text": "SSURGO",
+                "correct": false
+            },
+            {
+                "text": "STATSGO2",
+                "correct": false
+            },
+            {
+                "text": "GNATSGO",
+                "correct": true
+            },
+            {
+                "text": "National Soil Survey",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What US agency provides the official public source for flood hazard information in support of the National Flood Insurance Program (NFIP)?",
+        "answers": [
+            {
+                "text": "USGS",
+                "correct": false
+            },
+            {
+                "text": "FEMA",
+                "correct": true
+            },
+            {
+                "text": "NOAA",
+                "correct": false
+            },
+            {
+                "text": "USACE",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What US agency maintains the world's largest climate data archive?",
+        "answers": [
+            {
+                "text": "NASA",
+                "correct": false
+            },
+            {
+                "text": "National Climatic Data Center (NCDC)",
+                "correct": true
+            },
+            {
+                "text": "National Weather Service (NWS)",
+                "correct": false
+            },
+            {
+                "text": "USGS",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which division of NOAA is the country's leading authority on hydrography, shoreline mapping, and nautical charting?",
+        "answers": [
+            {
+                "text": "National Geodetic Survey (NGS)",
+                "correct": false
+            },
+            {
+                "text": "National Weather Service (NWS)",
+                "correct": false
+            },
+            {
+                "text": "National Ocean Service (NOS)",
+                "correct": true
+            },
+            {
+                "text": "National Climatic Data Center (NCDC)",
+                "correct": false
+            }
+        ]
     }
 ]

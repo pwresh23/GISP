@@ -964,5 +964,1013 @@
                 "correct": true
             }
         ]
+    },
+    {
+        "question": "For cartography to be informative, it requires identification of the who, what, where, and...?",
+        "answers": [
+            {
+                "text": "How",
+                "correct": true
+            },
+            {
+                "text": "When",
+                "correct": false
+            },
+            {
+                "text": "Why",
+                "correct": false
+            },
+            {
+                "text": "Scale",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What term describes a lack of transparency, where 0% is fully transparent and 100% is not transparent at all?",
+        "answers": [
+            {
+                "text": "Alpha",
+                "correct": false
+            },
+            {
+                "text": "Opaque",
+                "correct": true
+            },
+            {
+                "text": "Value",
+                "correct": false
+            },
+            {
+                "text": "Saturation",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In the CMYK color model, what does the 'K' stand for?",
+        "answers": [
+            {
+                "text": "Key (Black)",
+                "correct": true
+            },
+            {
+                "text": "Kelvin",
+                "correct": false
+            },
+            {
+                "text": "Khaki",
+                "correct": false
+            },
+            {
+                "text": "Kilobyte",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In the HSV color model, what property represents the dimension of lightness or darkness?",
+        "answers": [
+            {
+                "text": "Hue",
+                "correct": false
+            },
+            {
+                "text": "Saturation",
+                "correct": false
+            },
+            {
+                "text": "Value",
+                "correct": true
+            },
+            {
+                "text": "Alpha",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In the HSV color model, what property is the additive color base, determined by amounts of primary colors?",
+        "answers": [
+            {
+                "text": "Value",
+                "correct": false
+            },
+            {
+                "text": "Hue",
+                "correct": true
+            },
+            {
+                "text": "Saturation",
+                "correct": false
+            },
+            {
+                "text": "Chroma",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of map projection is best for thematic maps, especially for large areas like the US or the world?",
+        "answers": [
+            {
+                "text": "Conformal",
+                "correct": false
+            },
+            {
+                "text": "Mercator",
+                "correct": false
+            },
+            {
+                "text": "Equal-area",
+                "correct": true
+            },
+            {
+                "text": "Equidistant",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of thematic map shows the distribution of a quantitative phenomenon where dots are placed to represent values at specific locations?",
+        "answers": [
+            {
+                "text": "Graduated symbol map",
+                "correct": false
+            },
+            {
+                "text": "Dot density map",
+                "correct": true
+            },
+            {
+                "text": "Proportional symbol map",
+                "correct": false
+            },
+            {
+                "text": "Choropleth map",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of map displays more than two sets of data on a single map?",
+        "answers": [
+            {
+                "text": "Thematic map",
+                "correct": false
+            },
+            {
+                "text": "Multivariate map",
+                "correct": true
+            },
+            {
+                "text": "Composite map",
+                "correct": false
+            },
+            {
+                "text": "Complex map",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "On what type of map does the size of a symbol represent a range of values (e.g., 1-10, 11-20, 21-30)?",
+        "answers": [
+            {
+                "text": "Proportional symbol map",
+                "correct": false
+            },
+            {
+                "text": "Choropleth map",
+                "correct": false
+            },
+            {
+                "text": "Graduated symbol map",
+                "correct": true
+            },
+            {
+                "text": "Dot density map",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of color ramp uses a sequence of colors to indicate which values are smaller or larger than others?",
+        "answers": [
+            {
+                "text": "Divergent color ramp",
+                "correct": false
+            },
+            {
+                "text": "Qualitative color ramp",
+                "correct": false
+            },
+            {
+                "text": "Random color ramp",
+                "correct": false
+            },
+            {
+                "text": "Sequential color map",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What term describes the use of the internet to generate and distribute spatial data and maps, often as a service?",
+        "answers": [
+            {
+                "text": "Cloud GIS",
+                "correct": false
+            },
+            {
+                "text": "Enterprise GIS",
+                "correct": false
+            },
+            {
+                "text": "Web mapping",
+                "correct": true
+            },
+            {
+                "text": "Data distribution",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "A map is described as a model of the earth at a...?",
+        "answers": [
+            {
+                "text": "Reduced scale",
+                "correct": true
+            },
+            {
+                "text": "Fixed projection",
+                "correct": false
+            },
+            {
+                "text": "Set resolution",
+                "correct": false
+            },
+            {
+                "text": "True representation",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which map purpose has a broad goal of showing features on the landscape as accurately as possible?",
+        "answers": [
+            {
+                "text": "Narrative Map",
+                "correct": false
+            },
+            {
+                "text": "Descriptive Map",
+                "correct": true
+            },
+            {
+                "text": "Rhetorical Map",
+                "correct": false
+            },
+            {
+                "text": "Exploratory Map",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of map does not have a particular message to convey and is used to discover patterns?",
+        "answers": [
+            {
+                "text": "Descriptive Map",
+                "correct": false
+            },
+            {
+                "text": "Narrative Map",
+                "correct": false
+            },
+            {
+                "text": "Exploratory Map",
+                "correct": true
+            },
+            {
+                "text": "Rhetorical Map",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the term for how well the layers and themes of a map work together visually?",
+        "answers": [
+            {
+                "text": "Map layout",
+                "correct": false
+            },
+            {
+                "text": "Map composition",
+                "correct": true
+            },
+            {
+                "text": "Map design",
+                "correct": false
+            },
+            {
+                "text": "Map harmony",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which map layout element provides information about the map's data sources, projection, author, and date?",
+        "answers": [
+            {
+                "text": "Legend",
+                "correct": false
+            },
+            {
+                "text": "Scale",
+                "correct": false
+            },
+            {
+                "text": "Metadata (as a layout element)",
+                "correct": true
+            },
+            {
+                "text": "Title",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "When is it appropriate to leave a north arrow off a map or use multiple north arrows?",
+        "answers": [
+            {
+                "text": "When the map is at a very small scale",
+                "correct": false
+            },
+            {
+                "text": "When the map projection causes the direction of north to vary across the map",
+                "correct": true
+            },
+            {
+                "text": "When the map is thematic and not used for navigation",
+                "correct": false
+            },
+            {
+                "text": "When the map is oriented with south at the top",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What map element shows the directions of north, south, east, and west?",
+        "answers": [
+            {
+                "text": "Graticule",
+                "correct": false
+            },
+            {
+                "text": "North Arrow",
+                "correct": false
+            },
+            {
+                "text": "Compass",
+                "correct": true
+            },
+            {
+                "text": "Grid",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What cartographic principle states that large-scale maps generally have less geometric error than small-scale maps?",
+        "answers": [
+            {
+                "text": "Scale factor and error",
+                "correct": true
+            },
+            {
+                "text": "Resolution",
+                "correct": false
+            },
+            {
+                "text": "Projection distortion",
+                "correct": false
+            },
+            {
+                "text": "Generalization",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What are the three main types of scales that can be displayed on a map?",
+        "answers": [
+            {
+                "text": "Large, Medium, Small",
+                "correct": false
+            },
+            {
+                "text": "Metric, Imperial, Nautical",
+                "correct": false
+            },
+            {
+                "text": "Verbal, Fractional, Graphic (Bar)",
+                "correct": true
+            },
+            {
+                "text": "Absolute, Relative, Logarithmic",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of scale begins at zero?",
+        "answers": [
+            {
+                "text": "Fractional scale",
+                "correct": false
+            },
+            {
+                "text": "Absolute scale",
+                "correct": true
+            },
+            {
+                "text": "Relative scale",
+                "correct": false
+            },
+            {
+                "text": "Graphic scale",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of scale begins at a point defined by the author and can progress in both directions?",
+        "answers": [
+            {
+                "text": "Relative scale",
+                "correct": true
+            },
+            {
+                "text": "Divergent scale",
+                "correct": false
+            },
+            {
+                "text": "Absolute scale",
+                "correct": false
+            },
+            {
+                "text": "Verbal scale",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the standard unit of measurement for map symbols and text size in cartography?",
+        "answers": [
+            {
+                "text": "Pixel",
+                "correct": false
+            },
+            {
+                "text": "Inch",
+                "correct": false
+            },
+            {
+                "text": "Point",
+                "correct": true
+            },
+            {
+                "text": "Centimeter",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is a map feature, such as a road or building footprint, that is independent of elevation?",
+        "answers": [
+            {
+                "text": "Planimetric element",
+                "correct": true
+            },
+            {
+                "text": "Topographic element",
+                "correct": false
+            },
+            {
+                "text": "2D Element",
+                "correct": false
+            },
+            {
+                "text": "Vector element",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What map design element refers to the arrangement of elements and whether they appear stable or unsettled?",
+        "answers": [
+            {
+                "text": "Balance",
+                "correct": true
+            },
+            {
+                "text": "Hierarchical organization",
+                "correct": false
+            },
+            {
+                "text": "Figure-ground",
+                "correct": false
+            },
+            {
+                "text": "Visual contrast",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What map design principle refers to the perceived importance of map elements, separating them into visual layers?",
+        "answers": [
+            {
+                "text": "Balance",
+                "correct": false
+            },
+            {
+                "text": "Legibility",
+                "correct": false
+            },
+            {
+                "text": "Visual contrast",
+                "correct": false
+            },
+            {
+                "text": "Hierarchical organization",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What map design element describes the degree to which elements are distinguishable from one another and their background?",
+        "answers": [
+            {
+                "text": "Figure-ground",
+                "correct": false
+            },
+            {
+                "text": "Visual contrast",
+                "correct": true
+            },
+            {
+                "text": "Legibility",
+                "correct": false
+            },
+            {
+                "text": "Balance",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What cartographic concept refers to making symbols the appropriate sizes so they can be easily read and understood?",
+        "answers": [
+            {
+                "text": "Typography",
+                "correct": false
+            },
+            {
+                "text": "Symbolization",
+                "correct": false
+            },
+            {
+                "text": "Legibility",
+                "correct": true
+            },
+            {
+                "text": "Visual hierarchy",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of font has small lines at the end of strokes and is often used for graphic features like mountains or oceans?",
+        "answers": [
+            {
+                "text": "Sans serif fonts",
+                "correct": false
+            },
+            {
+                "text": "Italicized fonts",
+                "correct": false
+            },
+            {
+                "text": "Serif fonts",
+                "correct": true
+            },
+            {
+                "text": "Display fonts",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of font does NOT have extending features (serifs) at the end of strokes and is often used for city names or legends?",
+        "answers": [
+            {
+                "text": "Sans serif fonts",
+                "correct": true
+            },
+            {
+                "text": "Serif fonts",
+                "correct": false
+            },
+            {
+                "text": "Italicized fonts",
+                "correct": false
+            },
+            {
+                "text": "Script fonts",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What typographic adjustment modifies the spacing between specific pairs of characters (e.g., 'A' and 'V')?",
+        "answers": [
+            {
+                "text": "Tracking",
+                "correct": false
+            },
+            {
+                "text": "Leading",
+                "correct": false
+            },
+            {
+                "text": "Kerning",
+                "correct": true
+            },
+            {
+                "text": "Justification",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is a map that has been purposefully distorted for gain or to mislead the reader?",
+        "answers": [
+            {
+                "text": "Propaganda map",
+                "correct": false
+            },
+            {
+                "text": "Rhetorical map",
+                "correct": false
+            },
+            {
+                "text": "Deceptive mapping",
+                "correct": true
+            },
+            {
+                "text": "Cartogram",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the general term for the height or depth of a terrain element with respect to a vertical datum?",
+        "answers": [
+            {
+                "text": "Relief",
+                "correct": false
+            },
+            {
+                "text": "Elevation",
+                "correct": true
+            },
+            {
+                "text": "Z-value",
+                "correct": false
+            },
+            {
+                "text": "Altitude",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What term refers to the changes or variation in elevation across a surface?",
+        "answers": [
+            {
+                "text": "Topography",
+                "correct": false
+            },
+            {
+                "text": "Slope",
+                "correct": false
+            },
+            {
+                "text": "Relief",
+                "correct": true
+            },
+            {
+                "text": "Gradient",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is a map that displays elevation data using lines of equal height?",
+        "answers": [
+            {
+                "text": "Isopleth Map",
+                "correct": false
+            },
+            {
+                "text": "Topographic Map",
+                "correct": false
+            },
+            {
+                "text": "Contour Map",
+                "correct": true
+            },
+            {
+                "text": "DEM",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of isoline connects points of equal thickness, often used in the oil and gas industry?",
+        "answers": [
+            {
+                "text": "Isobath",
+                "correct": false
+            },
+            {
+                "text": "Isopach",
+                "correct": true
+            },
+            {
+                "text": "Isochrone",
+                "correct": false
+            },
+            {
+                "text": "Isobar",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What are the bold or thicker lines on a topographic map that indicate elevation and help visualize contours?",
+        "answers": [
+            {
+                "text": "Supplemental Contours",
+                "correct": false
+            },
+            {
+                "text": "Major Contours",
+                "correct": false
+            },
+            {
+                "text": "Index Contours",
+                "correct": true
+            },
+            {
+                "text": "Primary Contours",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of contours are placed in areas where elevation change is minimal to delineate small features?",
+        "answers": [
+            {
+                "text": "Supplemental contours",
+                "correct": true
+            },
+            {
+                "text": "Index contours",
+                "correct": false
+            },
+            {
+                "text": "Minor contours",
+                "correct": false
+            },
+            {
+                "text": "Intermediate contours",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is a depiction of terrain brightness given a terrain surface and a specified sun location, developed from a DEM?",
+        "answers": [
+            {
+                "text": "Hillshade",
+                "correct": false
+            },
+            {
+                "text": "Shaded relief map",
+                "correct": true
+            },
+            {
+                "text": "Hypsometric tinting",
+                "correct": false
+            },
+            {
+                "text": "Aspect map",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the measure of land elevation relative to sea level?",
+        "answers": [
+            {
+                "text": "Orthometric height",
+                "correct": false
+            },
+            {
+                "text": "Hypsometry",
+                "correct": true
+            },
+            {
+                "text": "Topography",
+                "correct": false
+            },
+            {
+                "text": "Bathymetry",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What 3D model represents an object with lines, showing its structure but not surfaces?",
+        "answers": [
+            {
+                "text": "TIN",
+                "correct": false
+            },
+            {
+                "text": "Block diagram",
+                "correct": false
+            },
+            {
+                "text": "Multipatch",
+                "correct": false
+            },
+            {
+                "text": "Wireframe model",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What GIS objects store collections of 2D shapes (patches) to represent 3D objects?",
+        "answers": [
+            {
+                "text": "Point clouds",
+                "correct": false
+            },
+            {
+                "text": "Multipatch datasets",
+                "correct": true
+            },
+            {
+                "text": "Wireframe models",
+                "correct": false
+            },
+            {
+                "text": "TINs",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is a line perpendicular to the local surface, defined by slope and surface direction?",
+        "answers": [
+            {
+                "text": "Local incidence angle",
+                "correct": false
+            },
+            {
+                "text": "Surface normal",
+                "correct": true
+            },
+            {
+                "text": "Plumb line",
+                "correct": false
+            },
+            {
+                "text": "Zenith",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the angle between north and the sun's position, measured in a clockwise direction?",
+        "answers": [
+            {
+                "text": "Solar zenith angle",
+                "correct": false
+            },
+            {
+                "text": "Local incidence angle",
+                "correct": false
+            },
+            {
+                "text": "Solar azimuth angle",
+                "correct": true
+            },
+            {
+                "text": "Magnetic declination",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What are exact points on a map with their elevation displayed beside them?",
+        "answers": [
+            {
+                "text": "Benchmarks",
+                "correct": false
+            },
+            {
+                "text": "Control points",
+                "correct": false
+            },
+            {
+                "text": "Spot heights",
+                "correct": true
+            },
+            {
+                "text": "Vertices",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is an oblique view of terrain that also includes cutaway views of the subsurface?",
+        "answers": [
+            {
+                "text": "Block diagram",
+                "correct": true
+            },
+            {
+                "text": "Wireframe model",
+                "correct": false
+            },
+            {
+                "text": "Cross-section",
+                "correct": false
+            },
+            {
+                "text": "Shaded relief",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What USGS dataset, retired in 2015 and replaced by 3DEP, produced mosaics of the best available elevation data for the US?",
+        "answers": [
+            {
+                "text": "SRTM",
+                "correct": false
+            },
+            {
+                "text": "National Elevation Dataset (NED)",
+                "correct": true
+            },
+            {
+                "text": "GTOPO30",
+                "correct": false
+            },
+            {
+                "text": "National Land Cover Database (NLCD)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What are highly detailed digital models of physical objects, often developed for planning bridges or buildings?",
+        "answers": [
+            {
+                "text": "Digital Elevation Models (DEMs)",
+                "correct": false
+            },
+            {
+                "text": "Multipatch datasets",
+                "correct": false
+            },
+            {
+                "text": "3D models",
+                "correct": true
+            },
+            {
+                "text": "TINs",
+                "correct": false
+            }
+        ]
     }
 ]

@@ -691,5 +691,971 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "question": "Which term relates to the science of geodesy or the practice of surveying?",
+        "answers": [
+            {
+                "text": "Geocentric",
+                "correct": false
+            },
+            {
+                "text": "Geospatial",
+                "correct": false
+            },
+            {
+                "text": "Geographic",
+                "correct": false
+            },
+            {
+                "text": "Geodetic",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Which common spheroid was an anchor point for Meades Ranch and used for older North American datums like NAD27?",
+        "answers": [
+            {
+                "text": "Clarke 1866",
+                "correct": true
+            },
+            {
+                "text": "WGS 1984",
+                "correct": false
+            },
+            {
+                "text": "GRS 1980",
+                "correct": false
+            },
+            {
+                "text": "NAD 83",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is considered a disadvantage of the vector data model?",
+        "answers": [
+            {
+                "text": "More complex programmatically and computationally intensive",
+                "correct": true
+            },
+            {
+                "text": "Inefficient storage for discrete features",
+                "correct": false
+            },
+            {
+                "text": "Poor representation of boundaries",
+                "correct": false
+            },
+            {
+                "text": "Easy to perform map algebra on",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In a vector model, what feature is a coordinate location described by x, y, and sometimes z?",
+        "answers": [
+            {
+                "text": "Node",
+                "correct": false
+            },
+            {
+                "text": "Point",
+                "correct": true
+            },
+            {
+                "text": "Vertex",
+                "correct": false
+            },
+            {
+                "text": "Centroid",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What vector feature is a set of vertices on a planar surface that begin and end at the same point, forming a bounded area?",
+        "answers": [
+            {
+                "text": "Line",
+                "correct": false
+            },
+            {
+                "text": "Polygon",
+                "correct": true
+            },
+            {
+                "text": "Closed Polyline",
+                "correct": false
+            },
+            {
+                "text": "Network",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In vector topology, what is a point common to multiple lines or surfaces?",
+        "answers": [
+            {
+                "text": "Intersection",
+                "correct": true
+            },
+            {
+                "text": "Vertex",
+                "correct": false
+            },
+            {
+                "text": "Node",
+                "correct": false
+            },
+            {
+                "text": "Pseudonode",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is a node at the end of a line feature that connects to only one other line feature, often indicating a place where two features could be merged?",
+        "answers": [
+            {
+                "text": "Dangling node",
+                "correct": false
+            },
+            {
+                "text": "Orphan node",
+                "correct": false
+            },
+            {
+                "text": "Vertex",
+                "correct": false
+            },
+            {
+                "text": "Pseudonode",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What is the term for a point at the end of a line that has no connections to other features?",
+        "answers": [
+            {
+                "text": "Pseudonode",
+                "correct": false
+            },
+            {
+                "text": "Endpoint",
+                "correct": false
+            },
+            {
+                "text": "Dangling node",
+                "correct": true
+            },
+            {
+                "text": "Isolated node",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "In topology, what is a line that forms a boundary between two features?",
+        "answers": [
+            {
+                "text": "Edge",
+                "correct": true
+            },
+            {
+                "text": "Border",
+                "correct": false
+            },
+            {
+                "text": "Vertices",
+                "correct": false
+            },
+            {
+                "text": "Link",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is a line that is defined mathematically (e.g., a Bézier curve) rather than by a series of connected vertices?",
+        "answers": [
+            {
+                "text": "Spline",
+                "correct": false
+            },
+            {
+                "text": "Vector",
+                "correct": false
+            },
+            {
+                "text": "Arc",
+                "correct": false
+            },
+            {
+                "text": "Curve",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What is the central location of a polygon, which can sometimes be located outside of the polygon itself?",
+        "answers": [
+            {
+                "text": "Centroid",
+                "correct": true
+            },
+            {
+                "text": "Center of Mass",
+                "correct": false
+            },
+            {
+                "text": "Node",
+                "correct": false
+            },
+            {
+                "text": "Median Center",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the term for the amount of space a polygon contains?",
+        "answers": [
+            {
+                "text": "Perimeter",
+                "correct": false
+            },
+            {
+                "text": "Extent",
+                "correct": false
+            },
+            {
+                "text": "Area",
+                "correct": true
+            },
+            {
+                "text": "Boundary",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the total measure of the length of the outside of a polygon?",
+        "answers": [
+            {
+                "text": "Area",
+                "correct": false
+            },
+            {
+                "text": "Circumference",
+                "correct": false
+            },
+            {
+                "text": "Extent",
+                "correct": false
+            },
+            {
+                "text": "Perimeter",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "In a raster data model, what are the 'values per cell' often referred to, especially in multispectral imagery?",
+        "answers": [
+            {
+                "text": "Pixels",
+                "correct": false
+            },
+            {
+                "text": "Raster Bands",
+                "correct": true
+            },
+            {
+                "text": "Attributes",
+                "correct": false
+            },
+            {
+                "text": "Resolutions",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Which of the following is a primary disadvantage of the raster data model?",
+        "answers": [
+            {
+                "text": "Cannot represent continuous surfaces",
+                "correct": false
+            },
+            {
+                "text": "Difficult to perform map algebra",
+                "correct": false
+            },
+            {
+                "text": "Larger file sizes and inefficient compression for variable data",
+                "correct": true
+            },
+            {
+                "text": "Cannot store imagery",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Remote sensed imagery, surfaces, and scanned maps are all examples of what?",
+        "answers": [
+            {
+                "text": "Vector Components",
+                "correct": false
+            },
+            {
+                "text": "Raster Components",
+                "correct": true
+            },
+            {
+                "text": "Thematic Layers",
+                "correct": false
+            },
+            {
+                "text": "Topological Data",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of raster has cells limited to predetermined categorical values, usually integers?",
+        "answers": [
+            {
+                "text": "Continuous Raster",
+                "correct": false
+            },
+            {
+                "text": "Floating-Point Raster",
+                "correct": false
+            },
+            {
+                "text": "Thematic Raster",
+                "correct": false
+            },
+            {
+                "text": "Discrete Raster",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What type of raster has cells with gradually changing values, which can include floating-point numbers?",
+        "answers": [
+            {
+                "text": "Categorical Raster",
+                "correct": false
+            },
+            {
+                "text": "Continuous Raster",
+                "correct": true
+            },
+            {
+                "text": "Integer Raster",
+                "correct": false
+            },
+            {
+                "text": "Discrete Raster",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the smallest unit of resolvable information in a raster, also known as a cell?",
+        "answers": [
+            {
+                "text": "Bit",
+                "correct": false
+            },
+            {
+                "text": "Point",
+                "correct": false
+            },
+            {
+                "text": "Pixel",
+                "correct": true
+            },
+            {
+                "text": "Band",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the condition where more than one category of object (e.g., land and water) is represented in a single grid cell?",
+        "answers": [
+            {
+                "text": "Generalization",
+                "correct": false
+            },
+            {
+                "text": "Mixed Pixel",
+                "correct": true
+            },
+            {
+                "text": "Fuzzy Classification",
+                "correct": false
+            },
+            {
+                "text": "Resampling Error",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the term for the area or distance in real space over which a geographic entity exists, defining the bounds of the dataset?",
+        "answers": [
+            {
+                "text": "Boundary",
+                "correct": false
+            },
+            {
+                "text": "Domain",
+                "correct": false
+            },
+            {
+                "text": "Extent",
+                "correct": true
+            },
+            {
+                "text": "Scale",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the term for a 3D surface where the pull of gravity is a specified constant?",
+        "answers": [
+            {
+                "text": "Equipotential Surface",
+                "correct": true
+            },
+            {
+                "text": "Geoid",
+                "correct": false
+            },
+            {
+                "text": "Ellipsoid",
+                "correct": false
+            },
+            {
+                "text": "Datum",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What vertical reference is determined by measuring ocean water levels using long-term average readings from tide gauges?",
+        "answers": [
+            {
+                "text": "Geoid",
+                "correct": false
+            },
+            {
+                "text": "Mean Sea Level",
+                "correct": true
+            },
+            {
+                "text": "Orthometric Height",
+                "correct": false
+            },
+            {
+                "text": "Vertical Datum",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the mathematically defined surface that approximates the geoid (the truer figure of the Earth)?",
+        "answers": [
+            {
+                "text": "Reference Ellipsoid",
+                "correct": true
+            },
+            {
+                "text": "Geoid",
+                "correct": false
+            },
+            {
+                "text": "Spheroid",
+                "correct": false
+            },
+            {
+                "text": "Equipotential Surface",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the term for a height measured directly from an ellipsoid, not the geoid?",
+        "answers": [
+            {
+                "text": "Orthometric Height",
+                "correct": false
+            },
+            {
+                "text": "Geoidal Height",
+                "correct": false
+            },
+            {
+                "text": "Dynamic Height",
+                "correct": false
+            },
+            {
+                "text": "Ellipsoidal Height",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What type of height is based on an equipotential surface above an ellipsoid and can differ from orthometric heights due to varying gravity?",
+        "answers": [
+            {
+                "text": "Ellipsoidal Height",
+                "correct": false
+            },
+            {
+                "text": "Dynamic Heights",
+                "correct": true
+            },
+            {
+                "text": "Geoidal Height",
+                "correct": false
+            },
+            {
+                "text": "Relative Height",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What device is used to measure gravitational force, often to help determine the location of an equipotential surface?",
+        "answers": [
+            {
+                "text": "GPS",
+                "correct": false
+            },
+            {
+                "text": "Plumb Bob",
+                "correct": false
+            },
+            {
+                "text": "Gravimeter",
+                "correct": true
+            },
+            {
+                "text": "Total Station",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What simple surveying tool, a weight suspended by a string, is used to indicate the direction of gravity?",
+        "answers": [
+            {
+                "text": "Gravimeter",
+                "correct": false
+            },
+            {
+                "text": "Theodolite",
+                "correct": false
+            },
+            {
+                "text": "Plumb Bob",
+                "correct": true
+            },
+            {
+                "text": "Transit",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What pair of satellites measures Earth's gravity by measuring the change in distance between them as they orbit?",
+        "answers": [
+            {
+                "text": "Landsat",
+                "correct": false
+            },
+            {
+                "text": "Grace Satellites",
+                "correct": true
+            },
+            {
+                "text": "GPS Satellites",
+                "correct": false
+            },
+            {
+                "text": "GOES Satellites",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "While appropriate for small-scale maps, what mathematically defined shape is needed for larger-scale maps to approximate the Earth?",
+        "answers": [
+            {
+                "text": "Spheroid or Ellipsoid",
+                "correct": true
+            },
+            {
+                "text": "Geoid",
+                "correct": false
+            },
+            {
+                "text": "Sphere",
+                "correct": false
+            },
+            {
+                "text": "Plane",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "The Earth is best described as what type of spheroid, which is wider at the equator than at the poles?",
+        "answers": [
+            {
+                "text": "Prolate Spheroid",
+                "correct": false
+            },
+            {
+                "text": "Perfect Sphere",
+                "correct": false
+            },
+            {
+                "text": "Geoid",
+                "correct": false
+            },
+            {
+                "text": "Oblate Spheroid",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What is the science of determining the 2D or 3D position of points and the distances and angles between them?",
+        "answers": [
+            {
+                "text": "Cartography",
+                "correct": false
+            },
+            {
+                "text": "Geodesy",
+                "correct": false
+            },
+            {
+                "text": "Surveying",
+                "correct": true
+            },
+            {
+                "text": "Photogrammetry",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the term for collecting data from a distance using technology such as satellites and LiDAR?",
+        "answers": [
+            {
+                "text": "Remote sensing",
+                "correct": true
+            },
+            {
+                "text": "Surveying",
+                "correct": false
+            },
+            {
+                "text": "Geomatics",
+                "correct": false
+            },
+            {
+                "text": "Geodesy",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the art of creating maps and spatial representations?",
+        "answers": [
+            {
+                "text": "Geodesy",
+                "correct": false
+            },
+            {
+                "text": "Cartography",
+                "correct": true
+            },
+            {
+                "text": "Geomatics",
+                "correct": false
+            },
+            {
+                "text": "Surveying",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What are digital tools for analyzing and visualizing geographic data?",
+        "answers": [
+            {
+                "text": "Geographic Information Systems",
+                "correct": true
+            },
+            {
+                "text": "Global Navigation Satellite Systems",
+                "correct": false
+            },
+            {
+                "text": "Remote Sensing Platforms",
+                "correct": false
+            },
+            {
+                "text": "Database Management Systems",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What does the acronym GNSS stand for?",
+        "answers": [
+            {
+                "text": "Geo-Navigational Satellite System",
+                "correct": false
+            },
+            {
+                "text": "Global Navigation Survey System",
+                "correct": false
+            },
+            {
+                "text": "Global Navigation Satellite System",
+                "correct": true
+            },
+            {
+                "text": "Geodetic Navigation Satellite System",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the science of mapping water bodies and their features?",
+        "answers": [
+            {
+                "text": "Hydrology",
+                "correct": false
+            },
+            {
+                "text": "Geodesy",
+                "correct": false
+            },
+            {
+                "text": "Oceanography",
+                "correct": false
+            },
+            {
+                "text": "Hydrography",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What benchmark, the geographic center of the US, was the anchor point for the Clarke Ellipsoid of 1866?",
+        "answers": [
+            {
+                "text": "NGS High Accuracy Reference Network",
+                "correct": false
+            },
+            {
+                "text": "Washington Monument",
+                "correct": false
+            },
+            {
+                "text": "Meades Ranch",
+                "correct": true
+            },
+            {
+                "text": "Four Corners Monument",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What network of survey stations, also known as HARN, was created to upgrade NAD83 using high-precision GPS?",
+        "answers": [
+            {
+                "text": "National Spatial Reference System",
+                "correct": false
+            },
+            {
+                "text": "High Accuracy Reference Network (HARN)",
+                "correct": true
+            },
+            {
+                "text": "Continuously Operating Reference Stations (CORS)",
+                "correct": false
+            },
+            {
+                "text": "State Plane Coordinate System (SPCS)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the length of an arc between two points on a sphere, used for measuring long distances on a 3D Earth surface?",
+        "answers": [
+            {
+                "text": "Geodesic Distance",
+                "correct": false
+            },
+            {
+                "text": "Great Circle Distance",
+                "correct": true
+            },
+            {
+                "text": "Euclidean Distance",
+                "correct": false
+            },
+            {
+                "text": "Loxodromic Distance",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is a geometric space with 2 dimensions, where two numbers are required to determine a point's position?",
+        "answers": [
+            {
+                "text": "Cartesian Coordinate System",
+                "correct": false
+            },
+            {
+                "text": "Geographic Coordinate System",
+                "correct": false
+            },
+            {
+                "text": "Euclidean plane",
+                "correct": true
+            },
+            {
+                "text": "Datum",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is a Euclidean plane that has a Cartesian coordinate system applied to it?",
+        "answers": [
+            {
+                "text": "Cartesian plane",
+                "correct": true
+            },
+            {
+                "text": "Geographic plane",
+                "correct": false
+            },
+            {
+                "text": "Projected plane",
+                "correct": false
+            },
+            {
+                "text": "Datum plane",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What system specifies a point on a plane using a pair of numbers (coordinates) representing distances from two fixed perpendicular lines?",
+        "answers": [
+            {
+                "text": "Geographic Coordinate System",
+                "correct": false
+            },
+            {
+                "text": "Cartesian Coordinate System",
+                "correct": true
+            },
+            {
+                "text": "State Plane Coordinate System",
+                "correct": false
+            },
+            {
+                "text": "Universal Transverse Mercator",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What type of measurement is made on a flat surface and can only be performed on projected maps?",
+        "answers": [
+            {
+                "text": "Geodetic Measure",
+                "correct": false
+            },
+            {
+                "text": "Euclidean Measure",
+                "correct": false
+            },
+            {
+                "text": "Planar Measure",
+                "correct": true
+            },
+            {
+                "text": "Geographic Measure",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "What is the distance between two points measured along allowable routes of travel, also known as 'taxicab geometry'?",
+        "answers": [
+            {
+                "text": "Network Distance",
+                "correct": false
+            },
+            {
+                "text": "Euclidean Distance",
+                "correct": false
+            },
+            {
+                "text": "Geodesic Distance",
+                "correct": false
+            },
+            {
+                "text": "Manhattan Distance",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "What bearing is measured as an angle from the reference meridian (N/S) towards the east or west, (e.g., N45°E)?",
+        "answers": [
+            {
+                "text": "Azimuth",
+                "correct": false
+            },
+            {
+                "text": "True North Bearing",
+                "correct": false
+            },
+            {
+                "text": "Quadrant Bearing",
+                "correct": true
+            },
+            {
+                "text": "Magnetic Bearing",
+                "correct": false
+            }
+        ]
     }
 ]
