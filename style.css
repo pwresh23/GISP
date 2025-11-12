@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #343a40; /* Changed from a light gray to a dark gray */
+    background-color: #343a40;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@ body {
     text-align: center;
 }
 
-/* --- NEW: Styles for the selection menu --- */
+/* --- Styles for the selection menu --- */
 .selection-container {
     width: 90%;
     max-width: 600px;
@@ -19,7 +19,8 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-.selection-container h1 {
+.selection-container h1,
+.selection-container h2 {
     margin-top: 0;
     color: #333;
 }
@@ -38,38 +39,6 @@ body {
     margin-bottom: 20px;
 }
 
-/* === NEW STYLES FOR QUIZ MODE === */
-#quiz-mode-container {
-    margin-top: 15px;
-    text-align: left;
-    max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 15px;
-    border-radius: 8px;
-    background-color: #f8f9fa; /* Light background to group them */
-    border: 1px solid #ddd;
-}
-
-#quiz-mode-container div:first-child {
-    margin-bottom: 10px; /* Adds space between the two radio options */
-}
-
-#quiz-mode-container label {
-    margin-left: 8px;
-    font-size: 0.95em;
-    color: #333;
-    cursor: pointer;
-}
-
-#quiz-mode-container input[type="radio"] {
-    vertical-align: middle; /* Aligns radio button with the label text */
-    margin: 0;
-    cursor: pointer;
-}
-/* === END OF NEW STYLES === */
-
-
 #start-btn {
     width: 100%;
     padding: 15px;
@@ -80,14 +49,61 @@ body {
     color: white;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-top: 20px; /* Moved from inline style */
+    margin-top: 20px;
 }
 
 #start-btn:hover {
     background-color: #0056b3;
 }
+
+/* === NEW STYLES FOR MODE SELECTION SCREEN === */
+#mode-selection-topic {
+    font-size: 1.2em;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.mode-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.btn-mode {
+    padding: 15px;
+    font-size: 1.05em;
+    border-radius: 8px;
+    border: 2px solid #007bff;
+    background-color: #f8f9fa;
+    color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-mode:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+#mode-back-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #6c757d; /* A neutral gray color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+#mode-back-btn:hover {
+    background-color: #5a6268;
+}
 /* ------------------------------------------- */
 
+/* --- QUIZ CONTAINER STYLES --- */
 .quiz-container {
     background-color: #ffffff;
     padding: 30px;
