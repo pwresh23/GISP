@@ -38,6 +38,38 @@ body {
     margin-bottom: 20px;
 }
 
+/* === NEW STYLES FOR QUIZ MODE === */
+#quiz-mode-container {
+    margin-top: 15px;
+    text-align: left;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f8f9fa; /* Light background to group them */
+    border: 1px solid #ddd;
+}
+
+#quiz-mode-container div:first-child {
+    margin-bottom: 10px; /* Adds space between the two radio options */
+}
+
+#quiz-mode-container label {
+    margin-left: 8px;
+    font-size: 0.95em;
+    color: #333;
+    cursor: pointer;
+}
+
+#quiz-mode-container input[type="radio"] {
+    vertical-align: middle; /* Aligns radio button with the label text */
+    margin: 0;
+    cursor: pointer;
+}
+/* === END OF NEW STYLES === */
+
+
 #start-btn {
     width: 100%;
     padding: 15px;
@@ -48,6 +80,7 @@ body {
     color: white;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin-top: 20px; /* Moved from inline style */
 }
 
 #start-btn:hover {

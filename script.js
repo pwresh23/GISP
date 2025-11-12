@@ -9,7 +9,9 @@ const resultsBtn = document.getElementById('results-btn');
 const resultsContainer = document.getElementById('results-container');
 const wrongAnswersList = document.getElementById('wrong-answers-list');
 const backToMenuBtn = document.getElementById('back-to-menu-btn');
-const questionCounterElement = document.getElementById('question-counter'); // New counter element
+const questionCounterElement = document.getElementById('question-counter');
+// === NEW: Get the new quiz mode container ===
+const quizModeContainer = document.getElementById('quiz-mode-container'); 
 
 // --- List of all your JSON files for the 'random' option ---
 const allQuestionFiles = [
@@ -22,14 +24,26 @@ let currentQuizQuestions = [];
 let currentQuestionIndex = 0;
 let wrongAnswers = [];
 
-// --- Event Listener to start the quiz ---
+// === NEW: Show/Hide Quiz Mode based on topic selection ===
+topicSelect.addEventListener('change', () => {
+    if (topicSelect.value === 'random') {
+        quizModeContainer.classList.add('hide');
+    } else {
+        quizModeContainer.classList.remove('hide');
+    }
+});
+
+// --- Event Listener to start the quiz (MODIFIED) ---
 startBtn.addEventListener('click', async () => {
     const selectedTopic = topicSelect.value;
 
     selectionContainer.classList.add('hide');
     quizContainer.classList.remove('hide');
+    // Hide mode container when quiz starts
+    quizModeContainer.classList.add('hide'); 
 
     if (selectedTopic === 'random') {
+        // --- This logic is unchanged ---
         try {
             const fetchPromises = allQuestionFiles.map(file => fetch(file).then(res => res.json()));
             const questionArrays = await Promise.all(fetchPromises);
@@ -41,11 +55,26 @@ startBtn.addEventListener('click', async () => {
             return;
         }
     } else {
+        // === MODIFIED: Logic for specific sections ===
+        // 1. Get the selected quiz mode
+        const selectedMode = document.querySelector('input[name="quiz-mode"]:checked').value;
+
         try {
             const response = await fetch(selectedTopic);
             const questions = await response.json();
-            // Shuffle questions from the selected section
-            currentQuizQuestions = questions.sort(() => 0.5 - Math.random());
+            
+            // 2. Shuffle all questions from that section first
+            const allSectionQuestions = questions.sort(() => 0.5 - Math.random());
+
+            // 3. Assign questions based on the selected mode
+            if (selectedMode === 'random-20') {
+                // Slice to get a max of 20. If less than 20, it will just take all of them.
+                currentQuizQuestions = allSectionQuestions.slice(0, 20);
+            } else {
+                // Use all questions
+                currentQuizQuestions = allSectionQuestions;
+            }
+
         } catch (error) {
             console.error(`Error loading ${selectedTopic}:`, error);
             questionElement.innerText = "Failed to load questions. Please check the selected file.";
@@ -145,8 +174,14 @@ resultsBtn.addEventListener('click', () => {
     }
 });
 
+// === MODIFIED: Hide the quiz mode container when going back ===
 backToMenuBtn.addEventListener('click', () => {
     quizContainer.classList.add('hide');
     questionCounterElement.classList.add('hide'); // Hide counter when going back to menu
     selectionContainer.classList.remove('hide');
+    
+    // Reset the quiz mode to be hidden
+    quizModeContainer.classList.add('hide');
+    // Also reset the dropdown to the 'random' default so the mode container is correctly hidden
+    topicSelect.value = 'random'; 
 });

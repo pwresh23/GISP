@@ -26,6 +26,17 @@
             <option value="questions_11.json">Section 11: Elevation & Remote Sensing</option>
             <option value="questions_12.json">Section 12: Scenario-Based Practice</option>
         </select>
+
+        <div id="quiz-mode-container" class="hide">
+            <div>
+                <input type="radio" id="mode-all" name="quiz-mode" value="all" checked>
+                <label for="mode-all">Study All Questions</label>
+            </div>
+            <div>
+                <input type="radio" id="mode-random" name="quiz-mode" value="random-20">
+                <label for="mode-random">Study Random 20 Questions</label>
+            </div>
+        </div>
         <button id="start-btn">Start Quiz</button>
     </div>
 
@@ -34,7 +45,7 @@
         <div id="card">
             <h2 id="question">Question goes here</h2>
             <div id="answers" class="answer-buttons">
-                </div>
+            </div>
         </div>
         <button id="results-btn" class="hide">Show Results</button>
         <div id="results-container" class="hide">
