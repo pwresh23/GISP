@@ -26,19 +26,19 @@
             <option value="questions_11.json">Section 11: Elevation & Remote Sensing</option>
             <option value="questions_12.json">Section 12: Scenario-Based Practice</option>
         </select>
-
-        <div id="quiz-mode-container" class="hide">
-            <div>
-                <input type="radio" id="mode-all" name="quiz-mode" value="all" checked>
-                <label for="mode-all">Study All Questions</label>
-            </div>
-            <div>
-                <input type="radio" id="mode-random" name="quiz-mode" value="random-20">
-                <label for="mode-random">Study Random 20 Questions</label>
-            </div>
-        </div>
-        <button id="start-btn">Start Quiz</button>
+        <button id="start-btn">Select Mode</button>
     </div>
+
+    <div class="selection-container hide" id="mode-selection-container">
+        <h2 id="mode-selection-topic"></h2>
+        <p>How would you like to study this section?</p>
+        <div class="mode-buttons">
+            <button id="mode-btn-all" class="btn-mode">Study All Questions (Randomized)</button>
+            <button id="mode-btn-random-20" class="btn-mode">Study Random 20 Questions</button>
+        </div>
+        <button id="mode-back-btn">Choose a Different Topic</button>
+    </div>
+
 
     <div class="quiz-container hide" id="quiz-container">
         <div id="question-counter" class="hide"></div>
